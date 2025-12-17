@@ -23,7 +23,11 @@
           <h4 class="footer-heading">Contact</h4>
           <ul class="footer-contact">
             <li>{{ association.getLocation() }}</li>
-            <li>{{ association.getEmail() }}</li>
+            <li>
+              <RouterLink to="/contact" class="footer-contact-link">
+                Nous contacter
+              </RouterLink>
+            </li>
           </ul>
         </div>
       </div>
@@ -120,6 +124,16 @@ const association = associationService
   flex-direction: column;
   gap: 0.5rem;
   color: var(--color-text-soft);
+}
+
+.footer-contact-link {
+  color: var(--color-primary);
+  font-weight: 500;
+  transition: color var(--transition-fast);
+}
+
+.footer-contact-link:hover {
+  color: var(--color-primary-dark);
 }
 
 .footer-bottom {
