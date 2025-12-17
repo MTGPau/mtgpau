@@ -10,21 +10,10 @@
         </div>
 
         <div class="footer-section">
-          <h4 class="footer-heading">Navigation</h4>
-          <ul class="footer-links">
-            <li><RouterLink to="/" class="footer-link">Accueil</RouterLink></li>
-            <li><RouterLink to="/about" class="footer-link">À propos</RouterLink></li>
-            <li><RouterLink to="/events" class="footer-link">Événements</RouterLink></li>
-            <li><RouterLink to="/contact" class="footer-link">Contact</RouterLink></li>
-          </ul>
-        </div>
-
-        <div class="footer-section">
           <h4 class="footer-heading">Contact</h4>
           <ul class="footer-contact">
-            <li>{{ association.getLocation() }}</li>
             <li>
-              <RouterLink to="/contact" class="footer-contact-link">
+              <RouterLink to="/contact" class="footer-link">
                 Nous contacter
               </RouterLink>
             </li>
