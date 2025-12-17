@@ -1,32 +1,94 @@
-import associationData from '@/data/association.json'
+import generalData from '@/data/general.json'
+import contactData from '@/data/contact.json'
+import homeData from '@/data/home.json'
+import aboutData from '@/data/about.json'
+import eventsData from '@/data/events.json'
 
-export interface Contact {
+// General types
+export interface General {
+  name: string
+  fullName: string
+  description: string
+  tagline: string
+  legal: {
+    copyright: string
+    trademark: string
+  }
+}
+
+// Contact types
+export interface ContactData {
   email: string
-  discord: string
+  discord: {
+    url: string
+    label: string
+  }
   location: {
     city: string
     country: string
     fullAddress: string
   }
+  availability: {
+    responseTime: string
+    message: string
+  }
+  benefits: string[]
 }
 
-export interface Social {
-  discord: {
-    url: string
-    label: string
+// Home types
+export interface HomeData {
+  hero: {
+    title: string
+    subtitle: string
+  }
+  features: Array<{
+    title: string
+    description: string
+  }>
+  cta: {
+    title: string
+    description: string
   }
 }
 
-export interface Schedule {
-  responseTime: string
-  availability: string
+// About types
+export interface AboutData {
+  hero: {
+    title: string
+    subtitle: string
+  }
+  history: {
+    title: string
+    paragraphs: string[]
+  }
+  mission: {
+    title: string
+    intro: string
+    items: string[]
+  }
+  formats: {
+    title: string
+    intro: string
+    items: Array<{
+      name: string
+      description: string
+    }>
+  }
+  info: {
+    title: string
+    items: {
+      membership: { title: string; description: string }
+      level: { title: string; description: string }
+      atmosphere: { title: string; description: string }
+    }
+  }
+  joinCta: {
+    title: string
+    description: string
+  }
 }
 
-export interface Format {
-  name: string
-  description: string
-}
-
+// Events types
 export interface Event {
   id: string
   title: string
@@ -36,165 +98,194 @@ export interface Event {
   format: string
   level: string
   registration: string
-  special?: boolean
-  highlight?: boolean
+  badge: string
+  badgeType: 'regular' | 'special' | 'highlight'
 }
 
-export interface Feature {
-  title: string
-  description: string
-}
-
-export interface Info {
-  membership: string
-  level: string
-  atmosphere: string
-}
-
-export interface Legal {
-  copyright: string
-  trademark: string
-}
-
-export interface AssociationData {
-  name: string
-  fullName: string
-  description: string
-  tagline: string
-  contact: Contact
-  social: Social
-  schedule: Schedule
-  mission: string[]
-  formats: Format[]
+export interface EventsData {
+  hero: {
+    title: string
+    subtitle: string
+  }
+  intro: string
   events: Event[]
-  benefits: string[]
-  features: Feature[]
-  info: Info
-  legal: Legal
+  cta: {
+    title: string
+    description: string
+  }
 }
 
 class AssociationService {
-  private data: AssociationData
+  private general: General
+  private contact: ContactData
+  private home: HomeData
+  private about: AboutData
+  private events: EventsData
 
   constructor() {
-    this.data = associationData as AssociationData
+    this.general = generalData as General
+    this.contact = contactData as ContactData
+    this.home = homeData as HomeData
+    this.about = aboutData as AboutData
+    this.events = eventsData as EventsData
   }
 
-  // General info
+  // ========== GENERAL ==========
   getName(): string {
-    return this.data.name
+    return this.general.name
   }
 
   getFullName(): string {
-    return this.data.fullName
+    return this.general.fullName
   }
 
   getDescription(): string {
-    return this.data.description
+    return this.general.description
   }
 
   getTagline(): string {
-    return this.data.tagline
-  }
-
-  // Contact
-  getContact(): Contact {
-    return this.data.contact
-  }
-
-  getEmail(): string {
-    return this.data.contact.email
-  }
-
-  getDiscordUrl(): string {
-    return this.data.contact.discord
-  }
-
-  getLocation(): string {
-    return this.data.contact.location.fullAddress
-  }
-
-  getCity(): string {
-    return this.data.contact.location.city
-  }
-
-  // Social
-  getSocial(): Social {
-    return this.data.social
-  }
-
-  // Schedule
-  getSchedule(): Schedule {
-    return this.data.schedule
-  }
-
-  getAvailability(): string {
-    return this.data.schedule.availability
-  }
-
-  // Mission
-  getMission(): string[] {
-    return this.data.mission
-  }
-
-  // Formats
-  getFormats(): Format[] {
-    return this.data.formats
-  }
-
-  // Events
-  getEvents(): Event[] {
-    return this.data.events
-  }
-
-  getEventById(id: string): Event | undefined {
-    return this.data.events.find((event) => event.id === id)
-  }
-
-  getHighlightedEvents(): Event[] {
-    return this.data.events.filter((event) => event.highlight)
-  }
-
-  getSpecialEvents(): Event[] {
-    return this.data.events.filter((event) => event.special)
-  }
-
-  // Benefits
-  getBenefits(): string[] {
-    return this.data.benefits
-  }
-
-  // Features
-  getFeatures(): Feature[] {
-    return this.data.features
-  }
-
-  // Info
-  getInfo(): Info {
-    return this.data.info
-  }
-
-  // Legal
-  getLegal(): Legal {
-    return this.data.legal
+    return this.general.tagline
   }
 
   getCopyright(): string {
-    return this.data.legal.copyright
+    return this.general.legal.copyright
   }
 
   getTrademark(): string {
-    return this.data.legal.trademark
+    return this.general.legal.trademark
   }
 
-  // Utility methods
+  getCurrentYear(): number {
+    return new Date().getFullYear()
+  }
+
+  // ========== CONTACT ==========
+  getEmail(): string {
+    return this.contact.email
+  }
+
+  getDiscordUrl(): string {
+    return this.contact.discord.url
+  }
+
+  getDiscordLabel(): string {
+    return this.contact.discord.label
+  }
+
+  getLocation(): string {
+    return this.contact.location.fullAddress
+  }
+
+  getCity(): string {
+    return this.contact.location.city
+  }
+
+  getCountry(): string {
+    return this.contact.location.country
+  }
+
+  getAvailability(): string {
+    return this.contact.availability.message
+  }
+
+  getResponseTime(): string {
+    return this.contact.availability.responseTime
+  }
+
+  getBenefits(): string[] {
+    return this.contact.benefits
+  }
+
   getMailtoLink(subject?: string): string {
     const email = this.getEmail()
     return subject ? `mailto:${email}?subject=${encodeURIComponent(subject)}` : `mailto:${email}`
   }
 
-  getCurrentYear(): number {
-    return new Date().getFullYear()
+  getContactData(): ContactData {
+    return this.contact
+  }
+
+  // ========== HOME ==========
+  getHomeHero() {
+    return this.home.hero
+  }
+
+  getFeatures() {
+    return this.home.features
+  }
+
+  getHomeCta() {
+    return this.home.cta
+  }
+
+  getHomeData(): HomeData {
+    return this.home
+  }
+
+  // ========== ABOUT ==========
+  getAboutHero() {
+    return this.about.hero
+  }
+
+  getHistory() {
+    return this.about.history
+  }
+
+  getMission() {
+    return this.about.mission
+  }
+
+  getFormats() {
+    return this.about.formats
+  }
+
+  getAboutInfo() {
+    return this.about.info
+  }
+
+  getJoinCta() {
+    return this.about.joinCta
+  }
+
+  getAboutData(): AboutData {
+    return this.about
+  }
+
+  // ========== EVENTS ==========
+  getEventsHero() {
+    return this.events.hero
+  }
+
+  getEventsIntro(): string {
+    return this.events.intro
+  }
+
+  getEvents(): Event[] {
+    return this.events.events
+  }
+
+  getEventById(id: string): Event | undefined {
+    return this.events.events.find((event) => event.id === id)
+  }
+
+  getEventsByBadgeType(type: 'regular' | 'special' | 'highlight'): Event[] {
+    return this.events.events.filter((event) => event.badgeType === type)
+  }
+
+  getHighlightedEvents(): Event[] {
+    return this.getEventsByBadgeType('highlight')
+  }
+
+  getSpecialEvents(): Event[] {
+    return this.getEventsByBadgeType('special')
+  }
+
+  getEventsCta() {
+    return this.events.cta
+  }
+
+  getEventsData(): EventsData {
+    return this.events
   }
 }
 

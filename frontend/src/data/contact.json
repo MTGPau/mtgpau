@@ -1,0 +1,22 @@
+{
+  "email": "contact@mtgpau.fr",
+  "discord": {
+    "url": "https://discord.gg/2a6ysrqwMD",
+    "label": "Serveur Discord MTG Pau"
+  },
+  "location": {
+    "city": "Pau",
+    "country": "France",
+    "fullAddress": "Pau, France"
+  },
+  "availability": {
+    "responseTime": "24-48h",
+    "message": "Nous répondons généralement sous 24-48h"
+  },
+  "benefits": [
+    "Accès à tous nos événements",
+    "Tarifs préférentiels sur les tournois",
+    "Participation à la vie de l'association",
+    "Échanges et prêts de cartes entre membres"
+  ]
+}
