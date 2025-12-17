@@ -1,0 +1,74 @@
+/* MTG Pau Design System - Elegant Orange/Brown & White */
+:root {
+  /* Primary Colors - Orange/Brown Palette */
+  --color-primary: #D97706;
+  --color-primary-light: #F59E0B;
+  --color-primary-dark: #92400E;
+  --color-accent: #EA580C;
+  --color-brown: #78350F;
+  --color-brown-light: #A16207;
+
+  /* Neutral Colors */
+  --color-white: #FFFFFF;
+  --color-off-white: #FAFAF9;
+  --color-gray-light: #F5F5F4;
+  --color-gray: #A8A29E;
+  --color-gray-dark: #57534E;
+  --color-black: #1C1917;
+
+  /* Background Colors */
+  --color-background: var(--color-white);
+  --color-background-soft: var(--color-off-white);
+  --color-background-mute: var(--color-gray-light);
+  --color-background-accent: var(--color-primary);
+
+  /* Text Colors */
+  --color-text: var(--color-black);
+  --color-text-soft: var(--color-gray-dark);
+  --color-text-light: var(--color-gray);
+  --color-text-on-primary: var(--color-white);
+
+  /* Border Colors */
+  --color-border: rgba(217, 119, 6, 0.2);
+  --color-border-hover: rgba(217, 119, 6, 0.4);
+
+  /* Shadows */
+  --shadow-sm: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
+  --shadow-md: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+  --shadow-lg: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+  --shadow-xl: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);
+
+  /* Spacing */
+  --section-gap: 120px;
+  --content-gap: 60px;
+
+  /* Typography */
+  --font-family-base: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+  --font-family-heading: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+
+  /* Transitions */
+  --transition-fast: 150ms ease-in-out;
+  --transition-base: 250ms ease-in-out;
+  --transition-slow: 350ms ease-in-out;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  font-weight: normal;
+}
+
+body {
+  min-height: 100vh;
+  color: var(--color-text);
+  background: var(--color-background);
+  transition: color 0.3s, background-color 0.3s;
+  line-height: 1.6;
+  font-family: var(--font-family-base);
+  font-size: 16px;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
