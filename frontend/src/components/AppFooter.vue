@@ -3,9 +3,9 @@
     <div class="footer-content">
       <div class="footer-grid">
         <div class="footer-section">
-          <h3 class="footer-title">MTG Pau</h3>
+          <h3 class="footer-title">{{ association.getName() }}</h3>
           <p class="footer-description">
-            Association de joueurs de Magic: The Gathering à Pau
+            {{ association.getDescription() }}
           </p>
         </div>
 
@@ -22,18 +22,18 @@
         <div class="footer-section">
           <h4 class="footer-heading">Contact</h4>
           <ul class="footer-contact">
-            <li>Pau, France</li>
-            <li>contact@mtgpau.fr</li>
+            <li>{{ association.getLocation() }}</li>
+            <li>{{ association.getEmail() }}</li>
           </ul>
         </div>
       </div>
 
       <div class="footer-bottom">
         <p class="footer-copyright">
-          {{ currentYear }} MTG Pau. Tous droits réservés.
+          {{ association.getCurrentYear() }} {{ association.getCopyright() }}
         </p>
         <p class="footer-note">
-          Magic: The Gathering est une marque déposée de Wizards of the Coast
+          {{ association.getTrademark() }}
         </p>
       </div>
     </div>
@@ -41,10 +41,10 @@
 </template>
 
 <script setup lang="ts">
-import { computed } from 'vue'
 import { RouterLink } from 'vue-router'
+import associationService from '@/services/associationService'
 
-const currentYear = computed(() => new Date().getFullYear())
+const association = associationService
 </script>
 
 <style scoped>
