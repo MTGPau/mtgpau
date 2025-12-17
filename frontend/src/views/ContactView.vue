@@ -20,7 +20,7 @@
             </p>
 
             <div class="info-items">
-              <div class="info-item-card">
+              <a href="mailto:contact@mtgpau.fr" class="info-item-card info-item-link">
                 <div class="info-icon">
                   <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor">
                     <path stroke-linecap="round" stroke-linejoin="round" d="M21.75 6.75v10.5a2.25 2.25 0 01-2.25 2.25h-15a2.25 2.25 0 01-2.25-2.25V6.75m19.5 0A2.25 2.25 0 0019.5 4.5h-15a2.25 2.25 0 00-2.25 2.25m19.5 0v.243a2.25 2.25 0 01-1.07 1.916l-7.5 4.615a2.25 2.25 0 01-2.36 0L3.32 8.91a2.25 2.25 0 01-1.07-1.916V6.75" />
@@ -30,7 +30,19 @@
                   <h3>Email</h3>
                   <p>contact@mtgpau.fr</p>
                 </div>
-              </div>
+              </a>
+
+              <a href="https://discord.gg/2a6ysrqwMD" target="_blank" rel="noopener noreferrer" class="info-item-card info-item-link">
+                <div class="info-icon">
+                  <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 24 24">
+                    <path d="M20.317 4.37a19.791 19.791 0 00-4.885-1.515.074.074 0 00-.079.037c-.21.375-.444.864-.608 1.25a18.27 18.27 0 00-5.487 0 12.64 12.64 0 00-.617-1.25.077.077 0 00-.079-.037A19.736 19.736 0 003.677 4.37a.07.07 0 00-.032.027C.533 9.046-.32 13.58.099 18.057a.082.082 0 00.031.057 19.9 19.9 0 005.993 3.03.078.078 0 00.084-.028c.462-.63.874-1.295 1.226-1.994a.076.076 0 00-.041-.106 13.107 13.107 0 01-1.872-.892.077.077 0 01-.008-.128 10.2 10.2 0 00.372-.292.074.074 0 01.077-.01c3.928 1.793 8.18 1.793 12.062 0a.074.074 0 01.078.01c.12.098.246.198.373.292a.077.077 0 01-.006.127 12.299 12.299 0 01-1.873.892.077.077 0 00-.041.107c.36.698.772 1.362 1.225 1.993a.076.076 0 00.084.028 19.839 19.839 0 006.002-3.03.077.077 0 00.032-.054c.5-5.177-.838-9.674-3.549-13.66a.061.061 0 00-.031-.03zM8.02 15.33c-1.183 0-2.157-1.085-2.157-2.419 0-1.333.956-2.419 2.157-2.419 1.21 0 2.176 1.096 2.157 2.42 0 1.333-.956 2.418-2.157 2.418zm7.975 0c-1.183 0-2.157-1.085-2.157-2.419 0-1.333.955-2.419 2.157-2.419 1.21 0 2.176 1.096 2.157 2.42 0 1.333-.946 2.418-2.157 2.418z"/>
+                  </svg>
+                </div>
+                <div>
+                  <h3>Discord</h3>
+                  <p>Rejoignez notre serveur Discord</p>
+                </div>
+              </a>
 
               <div class="info-item-card">
                 <div class="info-icon">
@@ -76,73 +88,51 @@
             </div>
           </div>
 
-          <div class="contact-form-container">
-            <div class="form-card">
-              <h2>Envoyez-nous un message</h2>
-              <form @submit.prevent="handleSubmit" class="contact-form">
-                <div class="form-group">
-                  <label for="name">Nom complet</label>
-                  <input
-                    type="text"
-                    id="name"
-                    v-model="formData.name"
-                    required
-                    class="form-input"
-                    placeholder="Votre nom"
-                  />
-                </div>
+          <div class="contact-actions-container">
+            <div class="action-card">
+              <h2>Comment nous contacter ?</h2>
+              <p class="action-intro">
+                Choisissez le moyen de communication qui vous convient le mieux
+              </p>
 
-                <div class="form-group">
-                  <label for="email">Email</label>
-                  <input
-                    type="email"
-                    id="email"
-                    v-model="formData.email"
-                    required
-                    class="form-input"
-                    placeholder="votre@email.com"
-                  />
-                </div>
+              <div class="actions-grid">
+                <a href="mailto:contact@mtgpau.fr" class="contact-action-card">
+                  <div class="action-icon">
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor">
+                      <path stroke-linecap="round" stroke-linejoin="round" d="M21.75 6.75v10.5a2.25 2.25 0 01-2.25 2.25h-15a2.25 2.25 0 01-2.25-2.25V6.75m19.5 0A2.25 2.25 0 0019.5 4.5h-15a2.25 2.25 0 00-2.25 2.25m19.5 0v.243a2.25 2.25 0 01-1.07 1.916l-7.5 4.615a2.25 2.25 0 01-2.36 0L3.32 8.91a2.25 2.25 0 01-1.07-1.916V6.75" />
+                    </svg>
+                  </div>
+                  <h3>Envoyez un email</h3>
+                  <p>contact@mtgpau.fr</p>
+                  <span class="action-link">Ouvrir l'email →</span>
+                </a>
 
-                <div class="form-group">
-                  <label for="subject">Sujet</label>
-                  <select
-                    id="subject"
-                    v-model="formData.subject"
-                    required
-                    class="form-input"
-                  >
-                    <option value="">Sélectionnez un sujet</option>
-                    <option value="adhesion">Adhésion</option>
-                    <option value="evenements">Événements</option>
-                    <option value="information">Information générale</option>
-                    <option value="autre">Autre</option>
-                  </select>
-                </div>
+                <a href="https://discord.gg/2a6ysrqwMD" target="_blank" rel="noopener noreferrer" class="contact-action-card">
+                  <div class="action-icon">
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 24 24">
+                      <path d="M20.317 4.37a19.791 19.791 0 00-4.885-1.515.074.074 0 00-.079.037c-.21.375-.444.864-.608 1.25a18.27 18.27 0 00-5.487 0 12.64 12.64 0 00-.617-1.25.077.077 0 00-.079-.037A19.736 19.736 0 003.677 4.37a.07.07 0 00-.032.027C.533 9.046-.32 13.58.099 18.057a.082.082 0 00.031.057 19.9 19.9 0 005.993 3.03.078.078 0 00.084-.028c.462-.63.874-1.295 1.226-1.994a.076.076 0 00-.041-.106 13.107 13.107 0 01-1.872-.892.077.077 0 01-.008-.128 10.2 10.2 0 00.372-.292.074.074 0 01.077-.01c3.928 1.793 8.18 1.793 12.062 0a.074.074 0 01.078.01c.12.098.246.198.373.292a.077.077 0 01-.006.127 12.299 12.299 0 01-1.873.892.077.077 0 00-.041.107c.36.698.772 1.362 1.225 1.993a.076.076 0 00.084.028 19.839 19.839 0 006.002-3.03.077.077 0 00.032-.054c.5-5.177-.838-9.674-3.549-13.66a.061.061 0 00-.031-.03zM8.02 15.33c-1.183 0-2.157-1.085-2.157-2.419 0-1.333.956-2.419 2.157-2.419 1.21 0 2.176 1.096 2.157 2.42 0 1.333-.956 2.418-2.157 2.418zm7.975 0c-1.183 0-2.157-1.085-2.157-2.419 0-1.333.955-2.419 2.157-2.419 1.21 0 2.176 1.096 2.157 2.42 0 1.333-.946 2.418-2.157 2.418z"/>
+                    </svg>
+                  </div>
+                  <h3>Rejoignez Discord</h3>
+                  <p>Discutez en temps réel avec la communauté</p>
+                  <span class="action-link">Rejoindre →</span>
+                </a>
+              </div>
 
-                <div class="form-group">
-                  <label for="message">Message</label>
-                  <textarea
-                    id="message"
-                    v-model="formData.message"
-                    required
-                    class="form-input form-textarea"
-                    rows="6"
-                    placeholder="Votre message..."
-                  ></textarea>
+              <div class="quick-contacts">
+                <h3>Contacts rapides</h3>
+                <div class="quick-links">
+                  <a href="mailto:contact@mtgpau.fr?subject=Demande d'adhésion" class="quick-link">
+                    Adhésion
+                  </a>
+                  <a href="mailto:contact@mtgpau.fr?subject=Question sur les événements" class="quick-link">
+                    Événements
+                  </a>
+                  <a href="mailto:contact@mtgpau.fr?subject=Information générale" class="quick-link">
+                    Informations
+                  </a>
                 </div>
-
-                <div class="form-notice">
-                  <p>
-                    Note : Ce formulaire est actuellement en démonstration. Pour nous contacter,
-                    envoyez un email à <strong>contact@mtgpau.fr</strong>
-                  </p>
-                </div>
-
-                <button type="submit" class="btn btn-primary btn-full">
-                  Envoyer le message
-                </button>
-              </form>
+              </div>
             </div>
           </div>
         </div>
@@ -152,18 +142,7 @@
 </template>
 
 <script setup lang="ts">
-import { ref } from 'vue'
-
-const formData = ref({
-  name: '',
-  email: '',
-  subject: '',
-  message: ''
-})
-
-const handleSubmit = () => {
-  alert('Ce formulaire est en démonstration. Veuillez envoyer un email à contact@mtgpau.fr')
-}
+// No need for reactive data or methods with mailto links
 </script>
 
 <style scoped>
@@ -225,6 +204,19 @@ const handleSubmit = () => {
   background-color: var(--color-background-soft);
   border-radius: 0.75rem;
   border: 1px solid var(--color-border);
+  transition: all var(--transition-base);
+}
+
+.info-item-link {
+  cursor: pointer;
+  text-decoration: none;
+  color: inherit;
+}
+
+.info-item-link:hover {
+  transform: translateY(-2px);
+  box-shadow: var(--shadow-md);
+  border-color: var(--color-primary);
 }
 
 .info-icon {
@@ -289,7 +281,7 @@ const handleSubmit = () => {
   font-size: 1.125rem;
 }
 
-.form-card {
+.action-card {
   background-color: var(--color-white);
   padding: 2.5rem;
   border-radius: 1rem;
@@ -298,65 +290,115 @@ const handleSubmit = () => {
   top: 5rem;
 }
 
-.form-card h2 {
+.action-card h2 {
   font-size: 1.75rem;
+  margin-bottom: 1rem;
+  color: var(--color-text);
+}
+
+.action-intro {
+  color: var(--color-text-soft);
   margin-bottom: 2rem;
-  color: var(--color-text);
+  line-height: 1.6;
 }
 
-.contact-form {
-  display: flex;
-  flex-direction: column;
+.actions-grid {
+  display: grid;
   gap: 1.5rem;
+  margin-bottom: 2.5rem;
 }
 
-.form-group {
+.contact-action-card {
+  background-color: var(--color-background-soft);
+  padding: 2rem;
+  border-radius: 0.75rem;
+  border: 2px solid var(--color-border);
+  transition: all var(--transition-base);
+  text-decoration: none;
+  color: inherit;
   display: flex;
   flex-direction: column;
-  gap: 0.5rem;
+  align-items: center;
+  text-align: center;
+  cursor: pointer;
 }
 
-.form-group label {
-  font-weight: 600;
+.contact-action-card:hover {
+  border-color: var(--color-primary);
+  transform: translateY(-4px);
+  box-shadow: var(--shadow-lg);
+}
+
+.action-icon {
+  width: 4rem;
+  height: 4rem;
+  border-radius: 1rem;
+  background-color: var(--color-white);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--color-primary);
+  margin-bottom: 1.25rem;
+}
+
+.action-icon svg {
+  width: 2rem;
+  height: 2rem;
+}
+
+.contact-action-card h3 {
+  font-size: 1.25rem;
+  font-weight: 700;
   color: var(--color-text);
+  margin-bottom: 0.5rem;
+}
+
+.contact-action-card p {
+  color: var(--color-text-soft);
+  font-size: 0.9375rem;
+  margin-bottom: 1rem;
+}
+
+.action-link {
+  color: var(--color-primary);
+  font-weight: 600;
   font-size: 0.9375rem;
 }
 
-.form-input {
-  padding: 0.875rem 1rem;
-  border: 2px solid var(--color-border);
-  border-radius: 0.5rem;
-  font-size: 1rem;
-  transition: all var(--transition-fast);
-  font-family: inherit;
+.quick-contacts {
+  padding-top: 2rem;
+  border-top: 1px solid var(--color-border);
 }
 
-.form-input:focus {
-  outline: none;
-  border-color: var(--color-primary);
-  box-shadow: 0 0 0 3px rgba(217, 119, 6, 0.1);
+.quick-contacts h3 {
+  font-size: 1.125rem;
+  font-weight: 600;
+  color: var(--color-text);
+  margin-bottom: 1rem;
 }
 
-.form-textarea {
-  resize: vertical;
-  min-height: 120px;
+.quick-links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.75rem;
 }
 
-.form-notice {
-  padding: 1rem;
+.quick-link {
+  padding: 0.625rem 1.25rem;
   background-color: var(--color-background-soft);
+  border: 1px solid var(--color-border);
   border-radius: 0.5rem;
-  border-left: 4px solid var(--color-primary);
+  color: var(--color-text);
+  text-decoration: none;
+  font-size: 0.9375rem;
+  font-weight: 500;
+  transition: all var(--transition-fast);
 }
 
-.form-notice p {
-  color: var(--color-text-soft);
-  font-size: 0.875rem;
-  margin: 0;
-}
-
-.btn-full {
-  width: 100%;
+.quick-link:hover {
+  background-color: var(--color-primary);
+  color: var(--color-white);
+  border-color: var(--color-primary);
 }
 
 @media (max-width: 1024px) {
