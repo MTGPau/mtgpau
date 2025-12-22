@@ -72,6 +72,12 @@ export interface SideEvent {
   description: string
 }
 
+export interface Prerequisite {
+  title: string
+  description: string
+  link?: string
+}
+
 export interface Sponsor {
   name: string
   description: string

@@ -219,6 +219,17 @@
       "subtitle": "Championnat Régional - Gagnez des points pour le CDF"
     },
     "intro": "Le Championnat Régional Aquitaine est notre évènement phare annuel, rassemblant les meilleurs joueurs de la région pour une journée de compétition intense en Duel Commander. Gagnez des points précieux pour accéder aux Championnats de France !",
+    "prerequisites": [
+      {
+        "title": "Compte Melee.gg",
+        "description": "Avoir un compte sur Melee.gg",
+        "link": "https://melee.gg/"
+      },
+      {
+        "title": "Decklist",
+        "description": "Decklist à soumettre sur Melee.gg avant le vendredi 6 février à 20h"
+      }
+    ],
     "details": {
       "format": "Duel Commander",
       "dates": "7 février 2026",
@@ -290,6 +301,17 @@
       "subtitle": "Gagnez des points pour accéder aux Championnats de France"
     },
     "intro": "L'Open Qualifier CDF est votre opportunité de gagner des points pour accéder aux Championnats de France de Duel Commander. Une journée de compétition intense où chaque point compte pour atteindre l'événement national.",
+    "prerequisites": [
+      {
+        "title": "Compte Melee.gg",
+        "description": "Avoir un compte sur Melee.gg",
+        "link": "https://melee.gg/"
+      },
+      {
+        "title": "Decklist",
+        "description": "Decklist à soumettre sur Melee.gg avant le vendredi 6 février à 20h"
+      }
+    ],
     "details": {
       "format": "Duel Commander",
       "date": "8 février 2026",

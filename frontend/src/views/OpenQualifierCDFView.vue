@@ -108,6 +108,30 @@
               Inscrivez-vous dès maintenant pour réserver votre place et tenter votre chance de vous
               qualifier pour les Championnats de France !
             </p>
+
+            <div class="cta-prerequisites">
+              <h3>Prérequis (Obligatoire)</h3>
+              <div class="cta-prerequisites-list">
+                <div
+                  v-for="(prereq, index) in prerequisites"
+                  :key="prereq.title"
+                  class="cta-prerequisite-item"
+                >
+                  <span class="prerequisite-title">{{ prereq.title }}:&nbsp;</span>
+                  <span>{{ prereq.description }}</span>
+                  <a
+                    v-if="index === 0"
+                    href="https://melee.gg/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    class="melee-badge"
+                  >
+                    <img src="/images/melee.png" alt="Melee.gg" class="melee-badge-img" />
+                  </a>
+                </div>
+              </div>
+            </div>
+
             <a
               :href="registration"
               target="_blank"
@@ -127,7 +151,7 @@
 import dataService from '@/services/dataService'
 import { useSeo } from '@/composables/useSeo'
 import { useOpenQualifierEventSchema } from '@/composables/useStructuredData'
-import type { Hero, OpenQualifierDetails, SideEvent, Sponsor, PrizePool } from '@/types/data'
+import type { Hero, OpenQualifierDetails, SideEvent, Sponsor, PrizePool, Prerequisite } from '@/types/data'
 
 const hero = dataService.get('openQualifierCDF.hero', { title: '', subtitle: '' }) as Hero
 const intro = dataService.get('openQualifierCDF.intro', '') as string
@@ -137,6 +161,7 @@ const details = dataService.get('openQualifierCDF.details', {
   price: '',
   location: { name: '', fullAddress: '' },
 }) as OpenQualifierDetails
+const prerequisites = dataService.get('openQualifierCDF.prerequisites', []) as Prerequisite[]
 const sideEvents = dataService.get('openQualifierCDF.sideEvents', []) as SideEvent[]
 const sponsors = dataService.get('openQualifierCDF.sponsors', []) as Sponsor[]
 const prizePool = dataService.get('openQualifierCDF.prizePool', []) as PrizePool[]
@@ -528,6 +553,81 @@ a.sponsor-item:hover {
 .cta-box .btn:hover {
   background-color: var(--color-off-white);
   transform: translateY(-2px);
+}
+
+.cta-prerequisites {
+  margin: 2rem 0;
+  text-align: left;
+  max-width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.cta-prerequisites h3 {
+  font-size: 1.125rem;
+  font-weight: 600;
+  color: var(--color-white);
+  margin-bottom: 0.75rem;
+}
+
+.cta-prerequisites-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.cta-prerequisite-item {
+  color: rgba(255, 255, 255, 0.95);
+  line-height: 1.8;
+  margin-bottom: 0.5rem;
+  padding-left: 1.5rem;
+  position: relative;
+}
+
+.cta-prerequisite-item::before {
+  content: '•';
+  position: absolute;
+  left: 0;
+  font-weight: bold;
+  font-size: 1.25rem;
+}
+
+.prerequisite-title {
+  font-weight: 600;
+}
+
+.cta-prerequisite-item a {
+  color: var(--color-white);
+  text-decoration: underline;
+  font-weight: 500;
+  transition: opacity var(--transition-fast);
+}
+
+.cta-prerequisite-item a:hover {
+  opacity: 0.8;
+}
+
+.melee-badge {
+  display: inline-flex;
+  align-items: center;
+  margin-left: 0.5rem;
+  padding: 0.25rem 0.5rem;
+  background-color: var(--color-white);
+  border-radius: 0.375rem;
+  vertical-align: middle;
+  transition: all var(--transition-fast);
+  text-decoration: none;
+}
+
+.melee-badge:hover {
+  transform: translateY(-1px);
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+}
+
+.melee-badge-img {
+  height: 24px;
+  width: auto;
+  display: block;
 }
 
 @media (max-width: 768px) {
