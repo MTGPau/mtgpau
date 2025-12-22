@@ -98,19 +98,20 @@
 import dataService from '@/services/dataService'
 import { useSeo } from '@/composables/useSeo'
 import { useCREventSchema } from '@/composables/useStructuredData'
+import type { Hero, CRDetails, SideEvent, Sponsor, PrizePool } from '@/types/data'
 
-const hero = dataService.get('crAquitaine.hero', { title: '', subtitle: '' })
-const intro = dataService.get('crAquitaine.intro', '')
+const hero = dataService.get('crAquitaine.hero', { title: '', subtitle: '' }) as Hero
+const intro = dataService.get('crAquitaine.intro', '') as string
 const details = dataService.get('crAquitaine.details', {
   format: '',
   dates: '',
   price: '',
   location: { name: '', fullAddress: '' },
-})
-const sideEvents = dataService.get('crAquitaine.sideEvents', [])
-const sponsors = dataService.get('crAquitaine.sponsors', [])
-const prizePool = dataService.get('crAquitaine.prizePool', [])
-const registration = dataService.get('crAquitaine.registration', '')
+}) as CRDetails
+const sideEvents = dataService.get('crAquitaine.sideEvents', []) as SideEvent[]
+const sponsors = dataService.get('crAquitaine.sponsors', []) as Sponsor[]
+const prizePool = dataService.get('crAquitaine.prizePool', []) as PrizePool[]
+const registration = dataService.get('crAquitaine.registration', '') as string
 
 // SEO
 useSeo('cr')

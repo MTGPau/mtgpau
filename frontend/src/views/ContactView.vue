@@ -88,9 +88,9 @@
 import dataService from '@/services/dataService'
 import { useSeo } from '@/composables/useSeo'
 
-const benefits = dataService.get('contact.benefits', [])
-const discordUrl = dataService.get('contact.discord.url', '')
-const email = dataService.get('contact.email', '')
+const benefits = dataService.get('contact.benefits', []) as Array<string>
+const discordUrl = dataService.get('contact.discord.url', '') as string
+const email = dataService.get('contact.email', '') as string
 
 const getMailtoLink = () => `mailto:${email}`
 

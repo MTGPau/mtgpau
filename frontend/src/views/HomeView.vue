@@ -81,10 +81,11 @@ import { RouterLink } from 'vue-router'
 import dataService from '@/services/dataService'
 import { useSeo } from '@/composables/useSeo'
 import { useOrganizationSchema } from '@/composables/useStructuredData'
+import type { Hero, Feature, CTA } from '@/types/data'
 
-const hero = dataService.get('home.hero', { title: '', subtitle: '' })
-const features = dataService.get('features', [])
-const cta = dataService.get('home.cta', { title: '', description: '' })
+const hero = dataService.get('home.hero', { title: '', subtitle: '' }) as Hero
+const features = dataService.get('features', []) as Feature[]
+const cta = dataService.get('home.cta', { title: '', description: '' }) as CTA
 
 // SEO
 useSeo('home')

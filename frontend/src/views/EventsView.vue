@@ -88,11 +88,12 @@ import { RouterLink } from 'vue-router'
 import dataService from '@/services/dataService'
 import { useSeo } from '@/composables/useSeo'
 import { useEventsSchema } from '@/composables/useStructuredData'
+import type { Hero, Event, CTA, UnityLeague } from '@/types/data'
 
-const hero = dataService.get('events.hero', { title: '', subtitle: '' })
-const intro = dataService.get('events.intro', '')
-const rawEventsList = dataService.get('events.list', [])
-const cta = dataService.get('events.cta', { title: '', description: '' })
+const hero = dataService.get('events.hero', { title: '', subtitle: '' }) as Hero
+const intro = dataService.get('events.intro', '') as string
+const rawEventsList = dataService.get('events.list', []) as Event[]
+const cta = dataService.get('events.cta', { title: '', description: '' }) as CTA
 const unityLeague = dataService.get('events.unityLeague', {
   title: '',
   icon: '',
@@ -101,7 +102,7 @@ const unityLeague = dataService.get('events.unityLeague', {
   description: '',
   links: { leagueUrl: '', infoUrl: '', mainUrl: '' },
   buttons: { viewRanking: '', howToRegister: '' },
-})
+}) as UnityLeague
 
 // SEO
 useSeo('events')
@@ -109,9 +110,9 @@ useEventsSchema()
 
 // Parse date format: DD/MM/YYYY HH:MM
 const parseDate = (dateStr: string) => {
-  const [datePart, timePart] = dateStr.split(' ')
-  const [day, month, year] = datePart.split('/')
-  const [hours, minutes] = timePart.split(':')
+  const [datePart = '', timePart = ''] = dateStr.split(' ')
+  const [day = '1', month = '1', year = '2025'] = datePart.split('/')
+  const [hours = '0', minutes = '0'] = timePart.split(':')
   return new Date(
     parseInt(year),
     parseInt(month) - 1,
@@ -160,7 +161,7 @@ const formatDateWithDay = (dateStr: string) => {
 }
 
 const eventsList = computed(() => {
-  return [...rawEventsList].sort((a: any, b: any) => {
+  return [...rawEventsList].sort((a: Event, b: Event) => {
     const dateA = parseDate(a.date)
     const dateB = parseDate(b.date)
     return dateA.getTime() - dateB.getTime() // Ascending order

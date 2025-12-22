@@ -13,15 +13,15 @@ interface SeoConfig {
 export function useSeo(pageName: string, customConfig?: SeoConfig) {
   const updateMetaTags = () => {
     // Get SEO data from data.json
-    const seoData = dataService.get(`seo.${pageName}`, {})
-    const general = dataService.get('general', {})
+    const seoData = dataService.get(`seo.${pageName}`, {}) as Record<string, string | undefined>
+    const general = dataService.get('general', {}) as Record<string, string | undefined>
 
     const config: SeoConfig = {
-      title: customConfig?.title || seoData.title || general.name,
-      description: customConfig?.description || seoData.description || general.description,
-      keywords: customConfig?.keywords || seoData.keywords || general.keywords,
-      image: customConfig?.image || general.image,
-      url: customConfig?.url || general.url,
+      title: customConfig?.title || seoData?.title || general?.name || '',
+      description: customConfig?.description || seoData?.description || general?.description || '',
+      keywords: customConfig?.keywords || seoData?.keywords || general?.keywords || '',
+      image: customConfig?.image || general?.image || '',
+      url: customConfig?.url || general?.url || '',
       type: customConfig?.type || 'website',
     }
 
@@ -36,9 +36,11 @@ export function useSeo(pageName: string, customConfig?: SeoConfig) {
       if (!element) {
         element = document.createElement('meta')
         if (selector.includes('property')) {
-          element.setAttribute('property', selector.split('"')[1])
+          const prop = selector.split('"')[1]
+          if (prop) element.setAttribute('property', prop)
         } else if (selector.includes('name')) {
-          element.setAttribute('name', selector.split('"')[1])
+          const name = selector.split('"')[1]
+          if (name) element.setAttribute('name', name)
         }
         document.head.appendChild(element)
       }
