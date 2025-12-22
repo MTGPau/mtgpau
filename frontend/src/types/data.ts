@@ -68,6 +68,8 @@ export interface SideEvent {
 export interface Sponsor {
   name: string
   description: string
+  logo?: string
+  url?: string
 }
 
 export interface Prize {
