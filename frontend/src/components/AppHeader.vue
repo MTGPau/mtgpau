@@ -3,6 +3,11 @@
     <nav class="nav-container">
       <div class="nav-content">
         <RouterLink to="/" class="logo">
+          <picture>
+            <source media="(min-width: 768px)" srcset="/images/logo128x128.png" />
+            <source media="(min-width: 480px)" srcset="/images/logo64x64.png" />
+            <img src="/images/logo32x32.png" alt="MTG Pau" class="logo-img" />
+          </picture>
           <span class="logo-text">MTG Pau</span>
         </RouterLink>
 
@@ -80,18 +85,35 @@ const closeMobileMenu = () => {
 .logo {
   display: flex;
   align-items: center;
+  gap: 0.75rem;
   font-size: 1.5rem;
   font-weight: 700;
   color: var(--color-primary);
-  transition: color var(--transition-fast);
+  transition: all var(--transition-fast);
 }
 
 .logo:hover {
   color: var(--color-primary-dark);
+  transform: translateY(-1px);
+}
+
+.logo-img {
+  height: 2.5rem;
+  width: auto;
+  object-fit: contain;
+  transition: transform var(--transition-fast);
+  display: block;
+}
+
+.logo:hover .logo-img {
+  transform: scale(1.05);
 }
 
 .logo-text {
   letter-spacing: -0.02em;
+  display: flex;
+  align-items: center;
+  line-height: 1;
 }
 
 .mobile-menu-button {
@@ -150,6 +172,15 @@ const closeMobileMenu = () => {
 }
 
 @media (max-width: 768px) {
+  .logo {
+    font-size: 1.25rem;
+    gap: 0.5rem;
+  }
+
+  .logo-img {
+    height: 2rem;
+  }
+
   .mobile-menu-button {
     display: block;
   }

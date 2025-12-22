@@ -1,0 +1,7 @@
+# This folder contains static images for the website
+#
+# Structure:
+# - /images/logo.png - Main MTG Pau logo
+# - /images/og-image.jpg - Open Graph preview image (1200x630px recommended)
+# - /images/hero-background.jpg - Hero section background image
+# - /images/sponsors/ - Sponsor and partner logos
