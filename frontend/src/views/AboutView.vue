@@ -65,14 +65,15 @@
 import { RouterLink } from 'vue-router'
 import dataService from '@/services/dataService'
 import { useSeo } from '@/composables/useSeo'
+import type { Hero, History, Mission, Formats, Format, Info, CTA } from '@/types/data'
 
-const hero = dataService.get('about.hero', { title: '', subtitle: '' })
-const history = dataService.get('about.history', { title: '', paragraphs: [] })
-const missionData = dataService.get('about.mission', { title: '', intro: '' })
-const missionItems = dataService.get('mission', [])
+const hero = dataService.get('about.hero', { title: '', subtitle: '' }) as Hero
+const history = dataService.get('about.history', { title: '', paragraphs: [] }) as History
+const missionData = dataService.get('about.mission', { title: '', intro: '' }) as Mission
+const missionItems = dataService.get('mission', []) as string[]
 const mission = { ...missionData, items: missionItems }
-const formatsData = dataService.get('about.formats', { title: '', intro: '' })
-const formatsList = dataService.get('formats', [])
+const formatsData = dataService.get('about.formats', { title: '', intro: '' }) as Formats
+const formatsList = dataService.get('formats', []) as Format[]
 const formats = { ...formatsData, items: formatsList }
 const info = dataService.get('about.info', {
   title: '',
@@ -81,8 +82,8 @@ const info = dataService.get('about.info', {
     level: { title: '', description: '' },
     atmosphere: { title: '', description: '' },
   },
-})
-const joinCta = dataService.get('about.joinCta', { title: '', description: '' })
+}) as Info
+const joinCta = dataService.get('about.joinCta', { title: '', description: '' }) as CTA
 
 // SEO
 useSeo('about')

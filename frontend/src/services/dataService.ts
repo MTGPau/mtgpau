@@ -10,8 +10,9 @@ class DataService {
    * @param defaultValue - Optional default value if path is not found
    * @returns The value at the specified path or undefined
    */
-  get<T = any>(path: string, defaultValue?: T): T | undefined {
+  get<T = unknown>(path: string, defaultValue?: T): T | undefined {
     const keys = path.split('.')
+    // eslint-disable-next-line @typescript-eslint/no-explicit-any
     let result: any = data
 
     for (const key of keys) {
