@@ -34,6 +34,9 @@
           <RouterLink to="/" class="nav-link" @click="closeMobileMenu">Accueil</RouterLink>
           <RouterLink to="/about" class="nav-link" @click="closeMobileMenu">À propos</RouterLink>
           <RouterLink to="/cr" class="nav-link" @click="closeMobileMenu">CR Aquitaine</RouterLink>
+          <RouterLink to="/open-qualifier-cdf" class="nav-link" @click="closeMobileMenu"
+            >Open Qualifier CDF</RouterLink
+          >
           <RouterLink to="/events" class="nav-link" @click="closeMobileMenu">Événements</RouterLink>
           <RouterLink to="/contact" class="nav-link" @click="closeMobileMenu">Contact</RouterLink>
         </div>

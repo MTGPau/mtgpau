@@ -35,8 +35,13 @@
     },
     "cr": {
       "title": "CR Aquitaine 2026 - Championnat Régional Duel Commander",
-      "description": "Championnat Régional Aquitaine 2026 à Gelos (64) - 7-8 février. Duel Commander, prize pool jusqu'à 800€, side events. Inscription 30€.",
-      "keywords": "CR Aquitaine, championnat regional magic, duel commander, tournoi MTG aquitaine, MTG Gelos"
+      "description": "Championnat Régional Aquitaine 2026 à Gelos (64) - 7 février. Duel Commander, prize pool jusqu'à 800€, gagnez des points pour le CDF. Inscription 30€.",
+      "keywords": "CR Aquitaine, championnat regional magic, duel commander, tournoi MTG aquitaine, MTG Gelos, points CDF"
+    },
+    "openQualifier": {
+      "title": "Open Qualifier CDF 2026 - Points pour Championnats de France",
+      "description": "Open Qualifier CDF 2026 à Gelos (64) - 8 février. Gagnez des points pour accéder aux Championnats de France de Duel Commander. Inscription 25€.",
+      "keywords": "Open Qualifier CDF, points CDF, championnats de france magic, duel commander, tournoi MTG Gelos, qualifier MTG"
     }
   },
   "contact": {
@@ -211,12 +216,12 @@
   "crAquitaine": {
     "hero": {
       "title": "CR Aquitaine 2026",
-      "subtitle": "Championnat Régional Aquitaine 2026"
+      "subtitle": "Championnat Régional - Gagnez des points pour le CDF"
     },
-    "intro": "Le Championnat Régional Aquitaine est notre évènement phare annuel, rassemblant les meilleurs joueurs de la région pour deux jours de compétition intense en Duel Commander.",
+    "intro": "Le Championnat Régional Aquitaine est notre évènement phare annuel, rassemblant les meilleurs joueurs de la région pour une journée de compétition intense en Duel Commander. Gagnez des points précieux pour accéder aux Championnats de France !",
     "details": {
       "format": "Duel Commander",
-      "dates": "7-8 février 2026",
+      "dates": "7 février 2026",
       "price": "30€",
       "location": {
         "name": "Salle Multi-Activité",
@@ -274,6 +279,77 @@
           { "position": "Top 4", "amount": "80€" },
           { "position": "Top 5-8", "amount": "30€" },
           { "position": "Top 9-16", "amount": "20€" }
+        ]
+      }
+    ],
+    "registration": "https://tinyurl.com/AquitaineCR2026"
+  },
+  "openQualifierCDF": {
+    "hero": {
+      "title": "Open Qualifier CDF 2026",
+      "subtitle": "Gagnez des points pour accéder aux Championnats de France"
+    },
+    "intro": "L'Open Qualifier CDF est votre opportunité de gagner des points pour accéder aux Championnats de France de Duel Commander. Une journée de compétition intense où chaque point compte pour atteindre l'événement national.",
+    "details": {
+      "format": "Duel Commander",
+      "date": "8 février 2026",
+      "price": "25€",
+      "location": {
+        "name": "Salle Multi-Activité",
+        "address": "49 rue Eugene Daure",
+        "postalCode": "64110",
+        "city": "Gelos",
+        "fullAddress": "49 rue Eugene Daure 64110 Gelos"
+      }
+    },
+    "sideEvents": [
+      {
+        "title": "Drafts Lorwyn",
+        "description": "Drafts disponibles toute la journée"
+      },
+      {
+        "title": "Commander Multi",
+        "description": "Parties multijoueur en continu"
+      },
+      {
+        "title": "Tournois à la demande",
+        "description": "Pauper, Modern et autres formats selon les demandes"
+      }
+    ],
+    "sponsors": [
+      {
+        "name": "MTG Prime",
+        "description": "Partenaire principal",
+        "logo": "/mtgpau/images/sponsors/mtgprime128x128.png",
+        "url": "https://www.mtgprime.fr"
+      },
+      {
+        "name": "MTG Pau",
+        "description": "Organisateur",
+        "logo": "/mtgpau/images/logo128x128.png",
+        "url": "/"
+      }
+    ],
+    "prizePool": [
+      {
+        "playerCount": 80,
+        "prizes": [
+          { "position": "Top 1", "amount": "400€" },
+          { "position": "Top 2", "amount": "300€" },
+          { "position": "Top 3", "amount": "140€" },
+          { "position": "Top 4", "amount": "50€" },
+          { "position": "Top 5-8", "amount": "20€" }
+        ]
+      },
+      {
+        "playerCount": 128,
+        "prizes": [
+          { "position": "Top 1", "amount": "620€" },
+          { "position": "Top 2", "amount": "470€" },
+          { "position": "Top 3", "amount": "200€" },
+          { "position": "Top 4", "amount": "60€" },
+          { "position": "Top 5-8", "amount": "25€" },
+          { "position": "Top 9-16", "amount": "15€" }
         ]
       }
     ],

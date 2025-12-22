@@ -60,6 +60,13 @@ export interface CRDetails {
   location: Location
 }
 
+export interface OpenQualifierDetails {
+  format: string
+  date: string
+  price: string
+  location: Location
+}
+
 export interface SideEvent {
   title: string
   description: string
