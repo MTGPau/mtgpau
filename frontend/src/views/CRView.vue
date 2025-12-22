@@ -90,7 +90,7 @@
           <div class="cta-box">
             <h2>Prêt à participer ?</h2>
             <p>
-              Inscrivez-vous dès maintenant sur notre serveur Discord pour réserver votre place !
+              Inscrivez-vous dès maintenant pour réserver votre place !
             </p>
             <a
               :href="registration"
@@ -98,7 +98,7 @@
               rel="noopener noreferrer"
               class="btn btn-primary"
             >
-              S'inscrire sur Discord
+              S'inscrire
             </a>
           </div>
         </div>
