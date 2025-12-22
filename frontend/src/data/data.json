@@ -1,0 +1,277 @@
+{
+  "general": {
+    "name": "MTG Pau",
+    "fullName": "Association MTG Pau",
+    "description": "L'association des joueurs de Magic: The Gathering à Pau",
+    "tagline": "L'association des passionnés de Magic: The Gathering à Pau",
+    "url": "https://mtgpau.github.io/mtgpau",
+    "image": "https://mtgpau.github.io/mtgpau/og-image.jpg",
+    "keywords": "Magic The Gathering, MTG, Pau, association, tournoi, Commander, Modern, Pauper, Duel Commander, évènements, jeu de cartes",
+    "legal": {
+      "copyright": "MTG Pau. Tous droits réservés.",
+      "trademark": "Magic: The Gathering est une marque déposée de Wizards of the Coast"
+    }
+  },
+  "seo": {
+    "home": {
+      "title": "MTG Pau - Association Magic: The Gathering à Pau",
+      "description": "Rejoignez MTG Pau, l'association de référence pour les joueurs de Magic: The Gathering à Pau. Tournois, évènements et communauté pour tous les niveaux.",
+      "keywords": "MTG Pau, Magic The Gathering Pau, association MTG, tournoi magic pau, commander pau"
+    },
+    "about": {
+      "title": "À propos - MTG Pau | Association Magic: The Gathering",
+      "description": "Découvrez MTG Pau, l'association qui rassemble la communauté Magic: The Gathering à Pau. Formats variés, évènements réguliers et ambiance conviviale.",
+      "keywords": "à propos MTG Pau, association magic pau, communauté MTG, formats magic"
+    },
+    "events": {
+      "title": "Événements MTG - Tournois et Drafts à Pau",
+      "description": "Calendrier des évènements MTG Pau : Friday Night Magic, Commander, Modern, Draft et tournois spéciaux. Inscrivez-vous sur Discord.",
+      "keywords": "évènements MTG Pau, tournoi magic pau, FNM pau, draft magic, commander pau"
+    },
+    "contact": {
+      "title": "Contact - MTG Pau | Rejoignez notre communauté",
+      "description": "Contactez MTG Pau pour rejoindre l'association, participer aux évènements ou obtenir plus d'informations. Discord, email et localisation.",
+      "keywords": "contact MTG Pau, rejoindre association magic, discord MTG Pau"
+    },
+    "cr": {
+      "title": "CR Aquitaine 2026 - Championnat Régional Duel Commander",
+      "description": "Championnat Régional Aquitaine 2026 à Gelos (64) - 7-8 février. Duel Commander, prize pool jusqu'à 800€, side events. Inscription 30€.",
+      "keywords": "CR Aquitaine, championnat regional magic, duel commander, tournoi MTG aquitaine, MTG Gelos"
+    }
+  },
+  "contact": {
+    "email": "contact@mtgpau.fr",
+    "discord": {
+      "url": "https://discord.gg/2a6ysrqwMD",
+      "label": "Serveur Discord MTG Pau"
+    },
+    "location": {
+      "city": "Pau",
+      "country": "France",
+      "fullAddress": "Pau, France"
+    },
+    "availability": {
+      "responseTime": "24-48h",
+      "message": "Nous répondons généralement sous 24-48h"
+    },
+    "benefits": [
+      "Accès à tous nos évènements",
+      "Tarifs préférentiels sur les tournois",
+      "Participation à la vie de l'association",
+      "Échanges et prêts de cartes entre membres"
+    ]
+  },
+  "mission": [
+    "Rassembler la communauté des joueurs de Magic: The Gathering à Pau",
+    "Organiser des évènements réguliers adaptés à tous les niveaux de jeu",
+    "Promouvoir le jeu et initier les nouveaux joueurs",
+    "Promouvoir la compétition à travers de nombreux évènements dédiés",
+    "Créer un environnement bienveillant et inclusif",
+    "Favoriser les échanges et le partage d'expériences entre joueurs"
+  ],
+  "formats": [
+    {
+      "name": "Modern",
+      "description": "Un des formats éternel les plus joué en 75 cartes"
+    },
+    {
+      "name": "Duel Commander",
+      "description": "Le format Commander adapté au 1v1 compétitif"
+    },
+    {
+      "name": "Pauper",
+      "description": "Un format accessible mais tout de même puissant composé uniquement des cartes communes"
+    },
+    {
+      "name": "Draft",
+      "description": "Le format limité par excellence pour découvrir les nouvelles extensions"
+    },
+        {
+      "name": "Commander Multi",
+      "description": "Le format le plus populaire de MTG"
+    }
+  ],
+  "features": [
+    {
+      "title": "Communauté active",
+      "description": "Rejoignez une communauté passionnée de joueurs de tous niveaux, du débutant au compétiteur confirmé."
+    },
+    {
+      "title": "Évènements réguliers",
+      "description": "Participez à nos tournois, drafts et soirées jeux organisés chaque semaine dans une ambiance conviviale."
+    },
+    {
+      "title": "Formation et entraide",
+      "description": "Profitez de l'expérience de nos membres pour progresser et découvrir tous les formats de jeu."
+    }
+  ],
+  "home": {
+    "hero": {
+      "title": "Bienvenue à MTG Pau",
+      "subtitle": "L'association des passionnés de Magic: The Gathering à Pau"
+    },
+    "cta": {
+      "title": "Prêt à nous rejoindre ?",
+      "description": "Que vous soyez débutant ou joueur expérimenté, MTG Pau vous accueille dans une ambiance chaleureuse et passionnée. Venez découvrir notre association et partager votre passion du jeu."
+    }
+  },
+  "about": {
+    "hero": {
+      "title": "À propos de MTG Pau",
+      "subtitle": "Une association passionnée au service de la communauté Magic: The Gathering à Pau"
+    },
+    "history": {
+      "title": "Notre histoire",
+      "paragraphs": [
+        "Fondée par des passionnés de Magic: The Gathering, MTG Pau est née de la volonté de créer un espace convivial où les joueurs de tous niveaux peuvent se retrouver, partager leur passion et progresser ensemble.",
+        "Depuis nos débuts, nous avons à cœur de promouvoir le jeu dans notre région et d'offrir à nos membres des évènements de qualité dans une ambiance chaleureuse et bienveillante."
+      ]
+    },
+    "mission": {
+      "title": "Notre mission",
+      "intro": "MTG Pau a pour mission de :"
+    },
+    "formats": {
+      "title": "Les formats de jeu",
+      "intro": "Nous organisons des évènements sur différents formats pour satisfaire tous les styles de jeu :"
+    },
+    "info": {
+      "title": "Informations pratiques",
+      "items": {
+        "membership": {
+          "title": "Adhésion",
+          "description": "L'adhésion à l'association est ouverte à tous"
+        },
+        "level": {
+          "title": "Niveau",
+          "description": "Tous les niveaux sont les bienvenus, du débutant au joueur confirmé"
+        },
+        "atmosphere": {
+          "title": "Ambiance",
+          "description": "Conviviale, compétitive et respectueuse"
+        }
+      }
+    },
+    "joinCta": {
+      "title": "Rejoignez-nous",
+      "description": "Envie de faire partie de l'aventure ?"
+    }
+  },
+  "events": {
+    "hero": {
+      "title": "Nos évènements",
+      "subtitle": "Découvrez tous les évènements organisés par MTG Pau"
+    },
+    "intro": "MTG Pau organise régulièrement des évènements pour tous les niveaux et tous les formats. Que vous soyez débutant ou joueur confirmé, vous trouverez des évènements adaptés à vos envies et à votre niveau.",
+    "list": [
+      {
+        "id": "modern-0000",
+        "title": "Tournoi Modern",
+        "date": "07/01/2026 20:00",
+        "format": "Modern",
+        "registration": "https://discord.gg/2a6ysrqwMD"
+      },
+      {
+        "id": "dc-0000",
+        "title": "Tournoi Duel Commander",
+        "date": "14/01/2026 20:00",
+        "format": "Duel Commander",
+        "registration": "https://discord.gg/2a6ysrqwMD"
+      },
+      {
+        "id": "pauper-0000",
+        "title": "Tournoi Pauper",
+        "date": "28/01/2026 20:00",
+        "format": "Pauper",
+        "registration": "https://discord.gg/2a6ysrqwMD"
+      }
+    ],
+    "cta": {
+      "title": "Intéressé par nos évènements ?",
+      "description": "Pour plus d'informations sur nos évènements ou pour vous inscrire, n'hésitez pas à nous contacter."
+    },
+    "unityLeague": {
+      "title": "Qualification aux Événements Européens",
+      "icon": "🏆",
+      "logo": "https://unityleague.gg/static/unityleague.gg/horizontal.svg",
+      "highlight": "Tous les résultats de nos tournois sont officiellement enregistrés sur Unity League !",
+      "description": "En participant à nos évènements, vous accumulez des points qui peuvent vous qualifier pour des tournois européens prestigieux. Chaque partie compte pour votre progression dans le classement continental. C'est votre chance de briller sur la scène internationale et de représenter MTG Pau au plus haut niveau !",
+      "links": {
+        "leagueUrl": "https://unityleague.gg/organizer/355/league",
+        "infoUrl": "https://unityleague.gg/info/player",
+        "mainUrl": "https://unityleague.gg/"
+      },
+      "buttons": {
+        "viewRanking": "Voir le classement",
+        "howToRegister": "Comment s'inscrire ?"
+      }
+    }
+  },
+  "crAquitaine": {
+    "hero": {
+      "title": "CR Aquitaine 2026",
+      "subtitle": "Championnat Régional Aquitaine 2026"
+    },
+    "intro": "Le Championnat Régional Aquitaine est notre évènement phare annuel, rassemblant les meilleurs joueurs de la région pour deux jours de compétition intense en Duel Commander.",
+    "details": {
+      "format": "Duel Commander",
+      "dates": "7-8 février 2026",
+      "price": "30€",
+      "location": {
+        "name": "Salle Multi-Activité",
+        "address": "49 rue Eugene Daure",
+        "postalCode": "64110",
+        "city": "Gelos",
+        "fullAddress": "49 rue Eugene Daure 64110 Gelos"
+      }
+    },
+    "sideEvents": [
+      {
+        "title": "Drafts Lorwyn",
+        "description": "Drafts disponibles toute la journée"
+      },
+      {
+        "title": "Commander Multi",
+        "description": "Parties multijoueur en continu"
+      },
+      {
+        "title": "Tournois à la demande",
+        "description": "Pauper, Modern et autres formats selon les demandes"
+      }
+    ],
+    "sponsors": [
+      {
+        "name": "MTG Prime",
+        "description": "Partenaire principal"
+      },
+      {
+        "name": "MTG Pau",
+        "description": "Organisateur"
+      }
+    ],
+    "prizePool": [
+      {
+        "playerCount": 80,
+        "prizes": [
+          { "position": "Top 1", "amount": "520€" },
+          { "position": "Top 2", "amount": "400€" },
+          { "position": "Top 3", "amount": "180€" },
+          { "position": "Top 4", "amount": "60€" },
+          { "position": "Top 5-8", "amount": "25€" }
+        ]
+      },
+      {
+        "playerCount": 128,
+        "prizes": [
+          { "position": "Top 1", "amount": "800€" },
+          { "position": "Top 2", "amount": "600€" },
+          { "position": "Top 3", "amount": "250€" },
+          { "position": "Top 4", "amount": "80€" },
+          { "position": "Top 5-8", "amount": "30€" },
+          { "position": "Top 9-16", "amount": "20€" }
+        ]
+      }
+    ],
+    "registration": "https://discord.gg/2a6ysrqwMD"
+  }
+}

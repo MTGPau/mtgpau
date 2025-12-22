@@ -2,121 +2,78 @@
   <div class="events">
     <section class="page-hero">
       <div class="container">
-        <h1 class="page-title">Nos événements</h1>
-        <p class="page-subtitle">
-          Découvrez tous les événements organisés par MTG Pau
-        </p>
+        <h1 class="page-title">{{ hero.title }}</h1>
+        <p class="page-subtitle">{{ hero.subtitle }}</p>
       </div>
     </section>
 
     <section class="section">
       <div class="container">
         <div class="events-intro">
-          <p>
-            MTG Pau organise régulièrement des événements pour tous les niveaux et tous les formats.
-            Que vous soyez débutant ou joueur confirmé, vous trouverez des événements adaptés à
-            vos envies et à votre niveau.
-          </p>
+          <p>{{ intro }}</p>
         </div>
 
         <div class="events-grid">
-          <div class="event-card">
-            <div class="event-badge">Hebdomadaire</div>
-            <h3 class="event-title">Soirée Commander</h3>
-            <p class="event-time">Tous les mercredis, 19h00</p>
-            <p class="event-description">
-              Venez jouer au format Commander dans une ambiance détendue et conviviale.
-              Tous les niveaux sont les bienvenus.
-            </p>
-            <ul class="event-details">
-              <li>Format : Commander / EDH</li>
-              <li>Niveau : Tous niveaux</li>
-              <li>Inscription : Libre</li>
-            </ul>
+          <div v-for="event in eventsList" :key="event.id" class="event-card">
+            <h3 class="event-title">{{ event.title }}</h3>
+            <p class="event-date">{{ formatDateWithDay(event.date) }}</p>
+            <p class="event-format">Format : {{ event.format }}</p>
+            <a
+              :href="event.registration"
+              target="_blank"
+              rel="noopener noreferrer"
+              class="event-registration-btn"
+            >
+              S'inscrire sur Discord
+            </a>
           </div>
+        </div>
 
-          <div class="event-card">
-            <div class="event-badge">Hebdomadaire</div>
-            <h3 class="event-title">Friday Night Magic</h3>
-            <p class="event-time">Tous les vendredis, 20h00</p>
-            <p class="event-description">
-              Le rendez-vous incontournable des joueurs ! Tournois Standard ou Modern selon
-              les semaines.
+        <div class="unity-league-section">
+          <div class="unity-league-card">
+            <div class="unity-league-logo-container">
+              <img :src="unityLeague.logo" alt="Unity League" class="unity-league-logo" />
+            </div>
+            <h2>{{ unityLeague.title }}</h2>
+            <p class="unity-league-highlight">
+              {{ unityLeague.highlight.split('Unity League')[0] }}
+              <a
+                :href="unityLeague.links.mainUrl"
+                target="_blank"
+                rel="noopener noreferrer"
+                class="unity-league-link"
+                >Unity League</a
+              >
+              !
             </p>
-            <ul class="event-details">
-              <li>Format : Standard / Modern</li>
-              <li>Niveau : Intermédiaire à confirmé</li>
-              <li>Inscription : Obligatoire</li>
-            </ul>
-          </div>
-
-          <div class="event-card">
-            <div class="event-badge event-badge-special">Mensuel</div>
-            <h3 class="event-title">Draft du samedi</h3>
-            <p class="event-time">Un samedi par mois, 14h00</p>
-            <p class="event-description">
-              Participez à un draft de la dernière extension et testez vos talents en format
-              limité.
+            <p class="unity-league-description">
+              {{ unityLeague.description }}
             </p>
-            <ul class="event-details">
-              <li>Format : Draft</li>
-              <li>Niveau : Tous niveaux</li>
-              <li>Inscription : Obligatoire (places limitées)</li>
-            </ul>
-          </div>
-
-          <div class="event-card">
-            <div class="event-badge event-badge-special">Occasionnel</div>
-            <h3 class="event-title">Tournois spéciaux</h3>
-            <p class="event-time">Dates variables</p>
-            <p class="event-description">
-              Tournois thématiques, pré-releases, et événements spéciaux tout au long de l'année.
-            </p>
-            <ul class="event-details">
-              <li>Format : Variable</li>
-              <li>Niveau : Tous niveaux</li>
-              <li>Inscription : Selon événement</li>
-            </ul>
-          </div>
-
-          <div class="event-card">
-            <div class="event-badge">Hebdomadaire</div>
-            <h3 class="event-title">Initiation débutants</h3>
-            <p class="event-time">Tous les samedis, 15h00</p>
-            <p class="event-description">
-              Vous débutez à Magic ? Rejoignez nos sessions d'initiation pour apprendre les
-              bases du jeu.
-            </p>
-            <ul class="event-details">
-              <li>Format : Découverte</li>
-              <li>Niveau : Débutant</li>
-              <li>Inscription : Recommandée</li>
-            </ul>
-          </div>
-
-          <div class="event-card event-card-highlight">
-            <div class="event-badge event-badge-highlight">Nouveau</div>
-            <h3 class="event-title">League Modern</h3>
-            <p class="event-time">Saison en cours</p>
-            <p class="event-description">
-              Participez à notre league Modern ! Accumulez des points sur plusieurs semaines
-              et gagnez des prix.
-            </p>
-            <ul class="event-details">
-              <li>Format : Modern</li>
-              <li>Niveau : Intermédiaire à confirmé</li>
-              <li>Inscription : Ouverte</li>
-            </ul>
+            <div class="unity-league-buttons">
+              <a
+                :href="unityLeague.links.leagueUrl"
+                target="_blank"
+                rel="noopener noreferrer"
+                class="btn btn-outline-primary"
+              >
+                {{ unityLeague.buttons.viewRanking }}
+              </a>
+              <a
+                :href="unityLeague.links.infoUrl"
+                target="_blank"
+                rel="noopener noreferrer"
+                class="btn btn-secondary"
+              >
+                {{ unityLeague.buttons.howToRegister }}
+              </a>
+            </div>
           </div>
         </div>
 
         <div class="events-cta">
           <div class="cta-box">
-            <h2>Intéressé par nos événements ?</h2>
-            <p>
-              Pour plus d'informations sur nos événements ou pour vous inscrire, n'hésitez pas
-              à nous contacter.
-            </p>
+            <h2>{{ cta.title }}</h2>
+            <p>{{ cta.description }}</p>
             <RouterLink to="/contact" class="btn btn-primary">Nous contacter</RouterLink>
           </div>
         </div>
@@ -126,7 +83,89 @@
 </template>
 
 <script setup lang="ts">
+import { computed } from 'vue'
 import { RouterLink } from 'vue-router'
+import dataService from '@/services/dataService'
+import { useSeo } from '@/composables/useSeo'
+import { useEventsSchema } from '@/composables/useStructuredData'
+
+const hero = dataService.get('events.hero', { title: '', subtitle: '' })
+const intro = dataService.get('events.intro', '')
+const rawEventsList = dataService.get('events.list', [])
+const cta = dataService.get('events.cta', { title: '', description: '' })
+const unityLeague = dataService.get('events.unityLeague', {
+  title: '',
+  icon: '',
+  logo: '',
+  highlight: '',
+  description: '',
+  links: { leagueUrl: '', infoUrl: '', mainUrl: '' },
+  buttons: { viewRanking: '', howToRegister: '' },
+})
+
+// SEO
+useSeo('events')
+useEventsSchema()
+
+// Parse date format: DD/MM/YYYY HH:MM
+const parseDate = (dateStr: string) => {
+  const [datePart, timePart] = dateStr.split(' ')
+  const [day, month, year] = datePart.split('/')
+  const [hours, minutes] = timePart.split(':')
+  return new Date(
+    parseInt(year),
+    parseInt(month) - 1,
+    parseInt(day),
+    parseInt(hours),
+    parseInt(minutes),
+  )
+}
+
+// Get French day name
+const getFrenchDayName = (date: Date) => {
+  const days = ['Dimanche', 'Lundi', 'Mardi', 'Mercredi', 'Jeudi', 'Vendredi', 'Samedi']
+  return days[date.getDay()]
+}
+
+// Get French month name
+const getFrenchMonthName = (monthIndex: number) => {
+  const months = [
+    'janvier',
+    'février',
+    'mars',
+    'avril',
+    'mai',
+    'juin',
+    'juillet',
+    'août',
+    'septembre',
+    'octobre',
+    'novembre',
+    'décembre',
+  ]
+  return months[monthIndex]
+}
+
+// Format date with French day and month names
+const formatDateWithDay = (dateStr: string) => {
+  const date = parseDate(dateStr)
+  const dayName = getFrenchDayName(date)
+  const day = date.getDate()
+  const monthName = getFrenchMonthName(date.getMonth())
+  const year = date.getFullYear()
+  const hours = String(date.getHours()).padStart(2, '0')
+  const minutes = String(date.getMinutes()).padStart(2, '0')
+
+  return `${dayName} ${day} ${monthName} ${year} - ${hours}:${minutes}`
+}
+
+const eventsList = computed(() => {
+  return [...rawEventsList].sort((a: any, b: any) => {
+    const dateA = parseDate(a.date)
+    const dateB = parseDate(b.date)
+    return dateA.getTime() - dateB.getTime() // Ascending order
+  })
+})
 </script>
 
 <style scoped>
@@ -190,32 +229,6 @@ import { RouterLink } from 'vue-router'
   box-shadow: var(--shadow-xl);
 }
 
-.event-card-highlight {
-  border: 2px solid var(--color-primary);
-}
-
-.event-badge {
-  display: inline-block;
-  padding: 0.375rem 0.875rem;
-  background-color: var(--color-primary);
-  color: var(--color-white);
-  font-size: 0.75rem;
-  font-weight: 700;
-  text-transform: uppercase;
-  letter-spacing: 0.05em;
-  border-radius: 0.5rem;
-  margin-bottom: 1rem;
-  align-self: flex-start;
-}
-
-.event-badge-special {
-  background-color: var(--color-brown);
-}
-
-.event-badge-highlight {
-  background-color: var(--color-accent);
-}
-
 .event-title {
   font-size: 1.5rem;
   font-weight: 700;
@@ -223,45 +236,169 @@ import { RouterLink } from 'vue-router'
   margin-bottom: 0.5rem;
 }
 
-.event-time {
+.event-date {
   font-size: 0.9375rem;
   color: var(--color-primary);
   font-weight: 600;
   margin-bottom: 1rem;
 }
 
-.event-description {
-  color: var(--color-text-soft);
-  line-height: 1.6;
-  margin-bottom: 1.5rem;
-  flex-grow: 1;
-}
-
-.event-details {
-  list-style: none;
-  padding: 1.5rem 0 0;
-  margin: 0;
-  border-top: 1px solid var(--color-border);
-}
-
-.event-details li {
-  padding: 0.5rem 0;
+.event-format {
   color: var(--color-text-soft);
   font-size: 0.9375rem;
-  display: flex;
-  align-items: center;
+  margin-bottom: 1.5rem;
 }
 
-.event-details li::before {
-  content: '•';
-  color: var(--color-primary);
+.event-registration-btn {
+  display: inline-block;
+  padding: 0.75rem 1.5rem;
+  background-color: var(--color-primary);
+  color: var(--color-white);
+  text-decoration: none;
+  border-radius: 0.5rem;
+  font-weight: 600;
+  font-size: 0.9375rem;
+  text-align: center;
+  transition: all var(--transition-base);
+}
+
+.event-registration-btn:hover {
+  background-color: var(--color-primary-dark);
+  transform: translateY(-2px);
+  box-shadow: var(--shadow-md);
+}
+
+.unity-league-section {
+  margin-top: 4rem;
+  margin-bottom: 2rem;
+}
+
+.unity-league-card {
+  background: linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%);
+  border: 2px solid var(--color-primary);
+  border-radius: 1rem;
+  padding: 3rem;
+  text-align: center;
+  box-shadow: var(--shadow-lg);
+}
+
+.unity-league-logo-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 2rem;
+  background: linear-gradient(135deg, #2c3e50 0%, #34495e 100%);
+  padding: 2rem 3rem;
+  border-radius: 1rem;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.25);
+  max-width: fit-content;
+  margin-left: auto;
+  margin-right: auto;
+  border: 2px solid rgba(255, 255, 255, 0.2);
+  transition: all var(--transition-base);
+}
+
+.unity-league-logo-container:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.35);
+  border-color: rgba(255, 255, 255, 0.3);
+}
+
+.unity-league-logo {
+  width: 280px;
+  height: auto;
+  display: block;
+  filter: brightness(1) contrast(1.1);
+}
+
+.unity-league-card h2 {
+  font-size: 2rem;
   font-weight: 700;
-  margin-right: 0.75rem;
+  color: var(--color-text);
+  margin-bottom: 1.5rem;
+}
+
+.unity-league-highlight {
   font-size: 1.25rem;
+  font-weight: 600;
+  color: var(--color-text);
+  margin-bottom: 1.5rem;
+  line-height: 1.6;
+}
+
+.unity-league-link {
+  color: var(--color-primary);
+  text-decoration: none;
+  font-weight: 700;
+  border-bottom: 2px solid var(--color-primary);
+  transition: all var(--transition-fast);
+}
+
+.unity-league-link:hover {
+  color: var(--color-primary-dark);
+  border-bottom-color: var(--color-primary-dark);
+}
+
+.unity-league-description {
+  font-size: 1.0625rem;
+  color: var(--color-text-soft);
+  line-height: 1.8;
+  margin-bottom: 2rem;
+  max-width: 700px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.unity-league-buttons {
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.btn-outline-primary {
+  display: inline-block;
+  padding: 0.875rem 2rem;
+  background-color: transparent;
+  color: var(--color-primary);
+  border: 2px solid var(--color-primary);
+  border-radius: 0.5rem;
+  font-weight: 600;
+  font-size: 1rem;
+  text-decoration: none;
+  transition: all var(--transition-base);
+}
+
+.btn-outline-primary:hover {
+  background-color: var(--color-primary);
+  color: var(--color-white);
+  transform: translateY(-2px);
+  box-shadow: var(--shadow-md);
+}
+
+.btn-secondary {
+  display: inline-block;
+  padding: 0.875rem 2rem;
+  background-color: var(--color-background-soft);
+  color: var(--color-text);
+  border: 2px solid var(--color-border);
+  border-radius: 0.5rem;
+  font-weight: 600;
+  font-size: 1rem;
+  text-decoration: none;
+  transition: all var(--transition-base);
+}
+
+.btn-secondary:hover {
+  background-color: var(--color-white);
+  border-color: var(--color-primary);
+  color: var(--color-primary);
+  transform: translateY(-2px);
+  box-shadow: var(--shadow-md);
 }
 
 .events-cta {
-  margin-top: 4rem;
+  margin-top: 2rem;
 }
 
 .cta-box {
@@ -312,6 +449,30 @@ import { RouterLink } from 'vue-router'
 
   .events-grid {
     grid-template-columns: 1fr;
+  }
+
+  .unity-league-card {
+    padding: 2rem 1.5rem;
+  }
+
+  .unity-league-logo-container {
+    padding: 1.5rem 2rem;
+  }
+
+  .unity-league-logo {
+    width: 180px;
+  }
+
+  .unity-league-card h2 {
+    font-size: 1.5rem;
+  }
+
+  .unity-league-highlight {
+    font-size: 1.125rem;
+  }
+
+  .unity-league-description {
+    font-size: 1rem;
   }
 
   .cta-box {

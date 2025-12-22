@@ -1,20 +1,20 @@
 /* MTG Pau Design System - Elegant Orange/Brown & White */
 :root {
   /* Primary Colors - Orange/Brown Palette */
-  --color-primary: #D97706;
-  --color-primary-light: #F59E0B;
-  --color-primary-dark: #92400E;
-  --color-accent: #EA580C;
-  --color-brown: #78350F;
-  --color-brown-light: #A16207;
+  --color-primary: #d97706;
+  --color-primary-light: #f59e0b;
+  --color-primary-dark: #92400e;
+  --color-accent: #ea580c;
+  --color-brown: #78350f;
+  --color-brown-light: #a16207;
 
   /* Neutral Colors */
-  --color-white: #FFFFFF;
-  --color-off-white: #FAFAF9;
-  --color-gray-light: #F5F5F4;
-  --color-gray: #A8A29E;
-  --color-gray-dark: #57534E;
-  --color-black: #1C1917;
+  --color-white: #ffffff;
+  --color-off-white: #fafaf9;
+  --color-gray-light: #f5f5f4;
+  --color-gray: #a8a29e;
+  --color-gray-dark: #57534e;
+  --color-black: #1c1917;
 
   /* Background Colors */
   --color-background: var(--color-white);
@@ -43,8 +43,10 @@
   --content-gap: 60px;
 
   /* Typography */
-  --font-family-base: 'Roboto', -apple-system, BlinkMacSystemFont, 'Segoe UI', Oxygen, Ubuntu, Cantarell, sans-serif;
-  --font-family-heading: 'Roboto', -apple-system, BlinkMacSystemFont, 'Segoe UI', Oxygen, Ubuntu, Cantarell, sans-serif;
+  --font-family-base:
+    'Roboto', -apple-system, BlinkMacSystemFont, 'Segoe UI', Oxygen, Ubuntu, Cantarell, sans-serif;
+  --font-family-heading:
+    'Roboto', -apple-system, BlinkMacSystemFont, 'Segoe UI', Oxygen, Ubuntu, Cantarell, sans-serif;
 
   /* Transitions */
   --transition-fast: 150ms ease-in-out;
@@ -64,7 +66,9 @@ body {
   min-height: 100vh;
   color: var(--color-text);
   background: var(--color-background);
-  transition: color 0.3s, background-color 0.3s;
+  transition:
+    color 0.3s,
+    background-color 0.3s;
   line-height: 1.6;
   font-family: var(--font-family-base);
   font-size: 16px;
