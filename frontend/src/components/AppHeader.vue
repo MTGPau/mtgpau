@@ -6,17 +6,8 @@
           <span class="logo-text">MTG Pau</span>
         </RouterLink>
 
-        <button
-          class="mobile-menu-button"
-          @click="toggleMobileMenu"
-          aria-label="Toggle menu"
-        >
-          <svg
-            class="menu-icon"
-            fill="none"
-            stroke="currentColor"
-            viewBox="0 0 24 24"
-          >
+        <button class="mobile-menu-button" @click="toggleMobileMenu" aria-label="Toggle menu">
+          <svg class="menu-icon" fill="none" stroke="currentColor" viewBox="0 0 24 24">
             <path
               v-if="!isMobileMenuOpen"
               stroke-linecap="round"
@@ -37,6 +28,7 @@
         <div class="nav-links" :class="{ 'mobile-open': isMobileMenuOpen }">
           <RouterLink to="/" class="nav-link" @click="closeMobileMenu">Accueil</RouterLink>
           <RouterLink to="/about" class="nav-link" @click="closeMobileMenu">À propos</RouterLink>
+          <RouterLink to="/cr" class="nav-link" @click="closeMobileMenu">CR Aquitaine</RouterLink>
           <RouterLink to="/events" class="nav-link" @click="closeMobileMenu">Événements</RouterLink>
           <RouterLink to="/contact" class="nav-link" @click="closeMobileMenu">Contact</RouterLink>
         </div>

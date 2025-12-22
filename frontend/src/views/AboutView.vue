@@ -2,10 +2,8 @@
   <div class="about">
     <section class="page-hero">
       <div class="container">
-        <h1 class="page-title">À propos de MTG Pau</h1>
-        <p class="page-subtitle">
-          Une association passionnée au service de la communauté Magic: The Gathering à Pau
-        </p>
+        <h1 class="page-title">{{ hero.title }}</h1>
+        <p class="page-subtitle">{{ hero.subtitle }}</p>
       </div>
     </section>
 
@@ -13,75 +11,47 @@
       <div class="container">
         <div class="content-layout">
           <div class="content-main">
-            <h2>Notre histoire</h2>
-            <p>
-              Fondée par des passionnés de Magic: The Gathering, MTG Pau est née de la volonté
-              de créer un espace convivial où les joueurs de tous niveaux peuvent se retrouver,
-              partager leur passion et progresser ensemble.
-            </p>
-            <p>
-              Depuis nos débuts, nous avons à cœur de promouvoir le jeu dans notre région et
-              d'offrir à nos membres des événements de qualité dans une ambiance chaleureuse et
-              bienveillante.
+            <h2>{{ history.title }}</h2>
+            <p v-for="(paragraph, index) in history.paragraphs" :key="index">
+              {{ paragraph }}
             </p>
 
-            <h2>Notre mission</h2>
-            <p>
-              MTG Pau a pour mission de :
-            </p>
+            <h2>{{ mission.title }}</h2>
+            <p>{{ mission.intro }}</p>
             <ul class="mission-list">
-              <li>Rassembler la communauté des joueurs de Magic: The Gathering à Pau</li>
-              <li>Organiser des événements réguliers adaptés à tous les niveaux de jeu</li>
-              <li>Promouvoir le jeu et accueillir les nouveaux joueurs</li>
-              <li>Créer un environnement bienveillant et inclusif</li>
-              <li>Favoriser les échanges et le partage d'expériences entre joueurs</li>
+              <li v-for="(item, index) in mission.items" :key="index">{{ item }}</li>
             </ul>
 
-            <h2>Les formats de jeu</h2>
-            <p>
-              Nous organisons des événements sur différents formats pour satisfaire tous les
-              styles de jeu :
-            </p>
+            <h2>{{ formats.title }}</h2>
+            <p>{{ formats.intro }}</p>
             <div class="format-grid">
-              <div class="format-card">
-                <h3>Standard</h3>
-                <p>Le format compétitif avec les extensions les plus récentes</p>
-              </div>
-              <div class="format-card">
-                <h3>Modern</h3>
-                <p>Un format étendu avec un vaste pool de cartes</p>
-              </div>
-              <div class="format-card">
-                <h3>Commander</h3>
-                <p>Le format multijoueur le plus populaire</p>
-              </div>
-              <div class="format-card">
-                <h3>Draft & Sealed</h3>
-                <p>Formats limités pour découvrir les nouvelles extensions</p>
+              <div v-for="format in formats.items" :key="format.name" class="format-card">
+                <h3>{{ format.name }}</h3>
+                <p>{{ format.description }}</p>
               </div>
             </div>
           </div>
 
           <aside class="content-sidebar">
             <div class="info-card">
-              <h3>Informations pratiques</h3>
+              <h3>{{ info.title }}</h3>
               <div class="info-item">
-                <h4>Adhésion</h4>
-                <p>L'adhésion à l'association est ouverte à tous</p>
+                <h4>{{ info.items.membership.title }}</h4>
+                <p>{{ info.items.membership.description }}</p>
               </div>
               <div class="info-item">
-                <h4>Niveau</h4>
-                <p>Tous les niveaux sont les bienvenus, du débutant au joueur confirmé</p>
+                <h4>{{ info.items.level.title }}</h4>
+                <p>{{ info.items.level.description }}</p>
               </div>
               <div class="info-item">
-                <h4>Ambiance</h4>
-                <p>Conviviale, compétitive et respectueuse</p>
+                <h4>{{ info.items.atmosphere.title }}</h4>
+                <p>{{ info.items.atmosphere.description }}</p>
               </div>
             </div>
 
             <div class="cta-card">
-              <h3>Rejoignez-nous</h3>
-              <p>Envie de faire partie de l'aventure ?</p>
+              <h3>{{ joinCta.title }}</h3>
+              <p>{{ joinCta.description }}</p>
               <RouterLink to="/contact" class="btn btn-primary">Nous contacter</RouterLink>
             </div>
           </aside>
@@ -93,6 +63,29 @@
 
 <script setup lang="ts">
 import { RouterLink } from 'vue-router'
+import dataService from '@/services/dataService'
+import { useSeo } from '@/composables/useSeo'
+
+const hero = dataService.get('about.hero', { title: '', subtitle: '' })
+const history = dataService.get('about.history', { title: '', paragraphs: [] })
+const missionData = dataService.get('about.mission', { title: '', intro: '' })
+const missionItems = dataService.get('mission', [])
+const mission = { ...missionData, items: missionItems }
+const formatsData = dataService.get('about.formats', { title: '', intro: '' })
+const formatsList = dataService.get('formats', [])
+const formats = { ...formatsData, items: formatsList }
+const info = dataService.get('about.info', {
+  title: '',
+  items: {
+    membership: { title: '', description: '' },
+    level: { title: '', description: '' },
+    atmosphere: { title: '', description: '' },
+  },
+})
+const joinCta = dataService.get('about.joinCta', { title: '', description: '' })
+
+// SEO
+useSeo('about')
 </script>
 
 <style scoped>

@@ -32,6 +32,14 @@ format:
 type-check:
     cd frontend && npm run type-check
 
+# Generate SEO files (robots.txt and sitemap.xml) with current domain
+generate-seo:
+    cd frontend && npm run generate-seo
+
+# Generate SEO files with custom domain (e.g., just generate-seo:custom https://www.mtgpau.fr)
+generate-seo-custom DOMAIN:
+    cd frontend && DOMAIN={{DOMAIN}} npm run generate-seo
+
 # Clean build artifacts
 clean:
     rm -rf frontend/dist frontend/node_modules

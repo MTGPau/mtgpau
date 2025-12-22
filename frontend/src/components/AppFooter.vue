@@ -3,31 +3,23 @@
     <div class="footer-content">
       <div class="footer-grid">
         <div class="footer-section">
-          <h3 class="footer-title">{{ association.getName() }}</h3>
-          <p class="footer-description">
-            {{ association.getDescription() }}
-          </p>
+          <h3 class="footer-title">{{ name }}</h3>
+          <p class="footer-description">{{ description }}</p>
         </div>
 
         <div class="footer-section">
           <h4 class="footer-heading">Contact</h4>
           <ul class="footer-contact">
             <li>
-              <RouterLink to="/contact" class="footer-link">
-                Nous contacter
-              </RouterLink>
+              <RouterLink to="/contact" class="footer-link"> Nous contacter </RouterLink>
             </li>
           </ul>
         </div>
       </div>
 
       <div class="footer-bottom">
-        <p class="footer-copyright">
-          {{ association.getCurrentYear() }} {{ association.getCopyright() }}
-        </p>
-        <p class="footer-note">
-          {{ association.getTrademark() }}
-        </p>
+        <p class="footer-copyright">{{ currentYear }} {{ copyright }}</p>
+        <p class="footer-note">{{ trademark }}</p>
       </div>
     </div>
   </footer>
@@ -35,9 +27,13 @@
 
 <script setup lang="ts">
 import { RouterLink } from 'vue-router'
-import associationService from '@/services/associationService'
+import dataService from '@/services/dataService'
 
-const association = associationService
+const name = dataService.get('general.name', '')
+const description = dataService.get('general.description', '')
+const copyright = dataService.get('general.legal.copyright', '')
+const trademark = dataService.get('general.legal.trademark', '')
+const currentYear = new Date().getFullYear()
 </script>
 
 <style scoped>
