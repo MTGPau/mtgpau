@@ -33,10 +33,23 @@
 
           <div class="sponsors-card">
             <h2>Sponsors & Partenaires</h2>
-            <div v-for="sponsor in sponsors" :key="sponsor.name" class="sponsor-item">
-              <h3>{{ sponsor.name }}</h3>
-              <p>{{ sponsor.description }}</p>
-            </div>
+            <component
+              :is="sponsor.url ? 'a' : 'div'"
+              v-for="sponsor in sponsors"
+              :key="sponsor.name"
+              :href="sponsor.url"
+              :target="sponsor.url ? '_blank' : undefined"
+              :rel="sponsor.url ? 'noopener noreferrer' : undefined"
+              class="sponsor-item"
+            >
+              <div v-if="sponsor.logo" class="sponsor-logo-container">
+                <img :src="sponsor.logo" :alt="sponsor.name" class="sponsor-logo" />
+              </div>
+              <div class="sponsor-info">
+                <h3>{{ sponsor.name }}</h3>
+                <p>{{ sponsor.description }}</p>
+              </div>
+            </component>
           </div>
         </div>
 
@@ -249,8 +262,55 @@ useCREventSchema()
   margin-bottom: 0;
 }
 
+.sponsor-item {
+  display: flex;
+  align-items: center;
+  gap: 1.5rem;
+  padding: 1rem;
+  background-color: var(--color-background-soft);
+  border-radius: 0.75rem;
+  border: 2px solid transparent;
+  transition: all var(--transition-base);
+  text-decoration: none;
+  color: inherit;
+}
+
+a.sponsor-item {
+  cursor: pointer;
+}
+
+a.sponsor-item:hover {
+  border-color: var(--color-primary);
+  background-color: var(--color-white);
+}
+
+.sponsor-logo-container {
+  flex-shrink: 0;
+  width: 80px;
+  height: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--color-white);
+  border-radius: 0.5rem;
+  padding: 0.5rem;
+}
+
+.sponsor-logo {
+  max-width: 100%;
+  max-height: 100%;
+  width: auto;
+  height: auto;
+  object-fit: contain;
+  display: block;
+}
+
+.sponsor-info {
+  flex: 1;
+}
+
 .detail-item h3,
-.sponsor-item h3 {
+.sponsor-info h3 {
   font-size: 1rem;
   font-weight: 600;
   color: var(--color-primary);
@@ -258,7 +318,7 @@ useCREventSchema()
 }
 
 .detail-item p,
-.sponsor-item p {
+.sponsor-info p {
   color: var(--color-text-soft);
   margin: 0;
 }
@@ -431,6 +491,17 @@ useCREventSchema()
   .content-grid,
   .prize-pool-grid {
     grid-template-columns: 1fr;
+  }
+
+  .sponsor-item {
+    flex-direction: column;
+    text-align: center;
+    gap: 1rem;
+  }
+
+  .sponsor-logo-container {
+    width: 100px;
+    height: 100px;
   }
 
   .cta-box {

@@ -91,8 +91,9 @@ import { useSeo } from '@/composables/useSeo'
 const benefits = dataService.get('contact.benefits', []) as Array<string>
 const discordUrl = dataService.get('contact.discord.url', '') as string
 const email = dataService.get('contact.email', '') as string
+const subject = dataService.get('contact.subject', '') as string
 
-const getMailtoLink = () => `mailto:${email}`
+const getMailtoLink = () => `mailto:${email}?subject=${subject}`
 
 // SEO
 useSeo('contact')

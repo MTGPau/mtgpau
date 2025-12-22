@@ -40,7 +40,8 @@
     }
   },
   "contact": {
-    "email": "contact@mtgpau.fr",
+    "email": "mtgpau64@gmail.com",
+    "subject": "[MTG Pau] Contact",
     "discord": {
       "url": "https://discord.gg/2a6ysrqwMD",
       "label": "Serveur Discord MTG Pau"
@@ -242,11 +243,15 @@
     "sponsors": [
       {
         "name": "MTG Prime",
-        "description": "Partenaire principal"
+        "description": "Partenaire principal",
+        "logo": "/mtgpau/images/sponsors/mtgprime128x128.png",
+        "url": "https://www.mtgprime.fr"
       },
       {
         "name": "MTG Pau",
-        "description": "Organisateur"
+        "description": "Organisateur",
+        "logo": "/mtgpau/images/logo128x128.png",
+        "url": "/"
       }
     ],
     "prizePool": [
