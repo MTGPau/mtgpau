@@ -1,4 +1,4 @@
-import { writeFileSync } from 'fs'
+import { writeFileSync, readFileSync } from 'fs'
 import { resolve, dirname } from 'path'
 import { fileURLToPath } from 'url'
 
@@ -10,34 +10,45 @@ const DOMAIN = process.env.DOMAIN || 'https://mtgpau.github.io/mtgpau'
 // Remove trailing slash if present
 const baseDomain = DOMAIN.replace(/\/$/, '')
 
-// Routes configuration
-const routes = [
-  {
-    path: '/',
-    priority: '1.0',
-    changefreq: 'weekly',
-  },
-  {
-    path: '/about',
-    priority: '0.8',
-    changefreq: 'monthly',
-  },
-  {
-    path: '/events',
-    priority: '0.9',
-    changefreq: 'weekly',
-  },
-  {
-    path: '/contact',
-    priority: '0.7',
-    changefreq: 'monthly',
-  },
-  {
-    path: '/cr',
-    priority: '0.9',
-    changefreq: 'monthly',
-  },
-]
+// Read routes from router configuration
+const getRoutesFromRouter = () => {
+  const routerPath = resolve(__dirname, '../src/router/index.ts')
+  const routerContent = readFileSync(routerPath, 'utf-8')
+
+  // Extract routes from the router file
+  const routeRegex = /path:\s*['"]([^'"]+)['"]/g
+  const paths = []
+  let match
+
+  while ((match = routeRegex.exec(routerContent)) !== null) {
+    paths.push(match[1])
+  }
+
+  // Define priority and changefreq based on route type
+  const getRouteConfig = (path) => {
+    if (path === '/') {
+      return { priority: '1.0', changefreq: 'weekly' }
+    } else if (path === '/events') {
+      return { priority: '0.9', changefreq: 'weekly' }
+    } else if (path.startsWith('/cr') || path.includes('qualifier')) {
+      return { priority: '0.9', changefreq: 'monthly' }
+    } else if (path === '/about') {
+      return { priority: '0.8', changefreq: 'monthly' }
+    } else if (path === '/contact') {
+      return { priority: '0.7', changefreq: 'monthly' }
+    } else {
+      return { priority: '0.8', changefreq: 'monthly' }
+    }
+  }
+
+  return paths.map((path) => ({
+    path,
+    ...getRouteConfig(path),
+  }))
+}
+
+// Routes configuration - dynamically loaded from router
+const routes = getRoutesFromRouter()
 
 // Get current date in YYYY-MM-DD format
 const getCurrentDate = () => {
@@ -96,7 +107,10 @@ try {
   console.log('✅ SEO files generated successfully!')
   console.log(`📍 Domain: ${baseDomain}`)
   console.log(`📄 robots.txt created`)
-  console.log(`📄 sitemap.xml created`)
+  console.log(`📄 sitemap.xml created with ${routes.length} routes:`)
+  routes.forEach((route) => {
+    console.log(`   - ${route.path} (priority: ${route.priority}, changefreq: ${route.changefreq})`)
+  })
   console.log(`📅 Last modified: ${getCurrentDate()}`)
 } catch (error) {
   console.error('❌ Error generating SEO files:', error)

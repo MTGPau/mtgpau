@@ -1,5 +1,5 @@
 <template>
-  <div class="cr-aquitaine">
+  <div class="open-qualifier-cdf">
     <section class="page-hero">
       <div class="container">
         <h1 class="page-title">{{ hero.title }}</h1>
@@ -21,8 +21,8 @@
               <p>{{ details.format }}</p>
             </div>
             <div class="detail-item">
-              <h3>Dates</h3>
-              <p>{{ details.dates }}</p>
+              <h3>Date</h3>
+              <p>{{ details.date }}</p>
             </div>
             <div class="detail-item">
               <h3>Lieu</h3>
@@ -83,9 +83,9 @@
             <div class="qualification-content">
               <h3>Championnats de France</h3>
               <p>
-                En participant au Championnat Régional, vous gagnez des points précieux qui vous
-                permettront d'accéder aux Championnats de France de Duel Commander. Plus vous
-                performez bien, plus vous accumulez de points pour atteindre l'événement national !
+                Participez à l'Open Qualifier pour gagner des points précieux qui vous permettront
+                d'accéder aux Championnats de France de Duel Commander. Chaque point compte pour
+                atteindre l'événement national et représenter la région Aquitaine !
               </p>
             </div>
           </div>
@@ -104,7 +104,10 @@
         <div class="registration-cta">
           <div class="cta-box">
             <h2>Prêt à participer ?</h2>
-            <p>Inscrivez-vous dès maintenant pour réserver votre place !</p>
+            <p>
+              Inscrivez-vous dès maintenant pour réserver votre place et tenter votre chance de vous
+              qualifier pour les Championnats de France !
+            </p>
             <a
               :href="registration"
               target="_blank"
@@ -123,29 +126,29 @@
 <script setup lang="ts">
 import dataService from '@/services/dataService'
 import { useSeo } from '@/composables/useSeo'
-import { useCREventSchema } from '@/composables/useStructuredData'
-import type { Hero, CRDetails, SideEvent, Sponsor, PrizePool } from '@/types/data'
+import { useOpenQualifierEventSchema } from '@/composables/useStructuredData'
+import type { Hero, OpenQualifierDetails, SideEvent, Sponsor, PrizePool } from '@/types/data'
 
-const hero = dataService.get('crAquitaine.hero', { title: '', subtitle: '' }) as Hero
-const intro = dataService.get('crAquitaine.intro', '') as string
-const details = dataService.get('crAquitaine.details', {
+const hero = dataService.get('openQualifierCDF.hero', { title: '', subtitle: '' }) as Hero
+const intro = dataService.get('openQualifierCDF.intro', '') as string
+const details = dataService.get('openQualifierCDF.details', {
   format: '',
-  dates: '',
+  date: '',
   price: '',
   location: { name: '', fullAddress: '' },
-}) as CRDetails
-const sideEvents = dataService.get('crAquitaine.sideEvents', []) as SideEvent[]
-const sponsors = dataService.get('crAquitaine.sponsors', []) as Sponsor[]
-const prizePool = dataService.get('crAquitaine.prizePool', []) as PrizePool[]
-const registration = dataService.get('crAquitaine.registration', '') as string
+}) as OpenQualifierDetails
+const sideEvents = dataService.get('openQualifierCDF.sideEvents', []) as SideEvent[]
+const sponsors = dataService.get('openQualifierCDF.sponsors', []) as Sponsor[]
+const prizePool = dataService.get('openQualifierCDF.prizePool', []) as PrizePool[]
+const registration = dataService.get('openQualifierCDF.registration', '') as string
 
 // SEO
-useSeo('cr')
-useCREventSchema()
+useSeo('openQualifier')
+useOpenQualifierEventSchema()
 </script>
 
 <style scoped>
-.cr-aquitaine {
+.open-qualifier-cdf {
   width: 100%;
 }
 
@@ -360,49 +363,6 @@ a.sponsor-item:hover {
   font-style: italic;
 }
 
-.side-events-section {
-  margin-bottom: 4rem;
-}
-
-.side-events-section h2 {
-  font-size: 2rem;
-  text-align: center;
-  margin-bottom: 2rem;
-  color: var(--color-text);
-}
-
-.side-events-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
-  gap: 2rem;
-}
-
-.side-event-card {
-  background-color: var(--color-background-soft);
-  padding: 1.5rem;
-  border-radius: 1rem;
-  border: 2px solid var(--color-border);
-  transition: all var(--transition-base);
-}
-
-.side-event-card:hover {
-  border-color: var(--color-primary);
-  transform: translateY(-2px);
-}
-
-.side-event-card h3 {
-  font-size: 1.125rem;
-  font-weight: 600;
-  color: var(--color-primary);
-  margin-bottom: 0.5rem;
-}
-
-.side-event-card p {
-  color: var(--color-text-soft);
-  margin: 0;
-  font-size: 0.9375rem;
-}
-
 .prize-pool-grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
@@ -488,6 +448,49 @@ a.sponsor-item:hover {
   line-height: 1.8;
   color: rgba(255, 255, 255, 0.95);
   margin: 0;
+}
+
+.side-events-section {
+  margin-bottom: 4rem;
+}
+
+.side-events-section h2 {
+  font-size: 2rem;
+  text-align: center;
+  margin-bottom: 2rem;
+  color: var(--color-text);
+}
+
+.side-events-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 2rem;
+}
+
+.side-event-card {
+  background-color: var(--color-background-soft);
+  padding: 1.5rem;
+  border-radius: 1rem;
+  border: 2px solid var(--color-border);
+  transition: all var(--transition-base);
+}
+
+.side-event-card:hover {
+  border-color: var(--color-primary);
+  transform: translateY(-2px);
+}
+
+.side-event-card h3 {
+  font-size: 1.125rem;
+  font-weight: 600;
+  color: var(--color-primary);
+  margin-bottom: 0.5rem;
+}
+
+.side-event-card p {
+  color: var(--color-text-soft);
+  margin: 0;
+  font-size: 0.9375rem;
 }
 
 .registration-cta {

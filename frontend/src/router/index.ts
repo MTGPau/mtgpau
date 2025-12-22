@@ -34,6 +34,12 @@ const router = createRouter({
       component: () => import('../views/CRView.vue'),
       meta: { title: 'CR Aquitaine - MTG Pau' },
     },
+    {
+      path: '/open-qualifier-cdf',
+      name: 'openQualifier',
+      component: () => import('../views/OpenQualifierCDFView.vue'),
+      meta: { title: 'Open Qualifier CDF - MTG Pau' },
+    },
   ],
   scrollBehavior(_to, _from, savedPosition) {
     if (savedPosition) {

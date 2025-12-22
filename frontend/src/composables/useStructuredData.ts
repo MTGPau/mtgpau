@@ -168,3 +168,64 @@ export function useCREventSchema() {
     }
   })
 }
+
+export function useOpenQualifierEventSchema() {
+  let script: HTMLScriptElement | null = null
+
+  const addSchema = () => {
+    // eslint-disable-next-line @typescript-eslint/no-explicit-any
+    const qualifierData = dataService.get('openQualifierCDF', {}) as any
+    const general = dataService.get('general', {}) as Partial<General>
+
+    const schema = {
+      '@context': 'https://schema.org',
+      '@type': 'SportsEvent',
+      name: qualifierData?.hero?.title || 'Open Qualifier CDF 2026',
+      description: qualifierData?.intro || '',
+      startDate: '2026-02-08T09:00:00+01:00',
+      endDate: '2026-02-08T18:00:00+01:00',
+      location: {
+        '@type': 'Place',
+        name: qualifierData?.details?.location?.name || '',
+        address: {
+          '@type': 'PostalAddress',
+          streetAddress: qualifierData?.details?.location?.address || '',
+          addressLocality: qualifierData?.details?.location?.city || '',
+          postalCode: qualifierData?.details?.location?.postalCode || '',
+          addressCountry: 'FR',
+        },
+      },
+      organizer: {
+        '@type': 'Organization',
+        name: general?.fullName || general?.name || '',
+        url: general?.url || '',
+      },
+      eventStatus: 'https://schema.org/EventScheduled',
+      eventAttendanceMode: 'https://schema.org/OfflineEventAttendanceMode',
+      offers: {
+        '@type': 'Offer',
+        price: '25',
+        priceCurrency: 'EUR',
+        availability: 'https://schema.org/InStock',
+        url: qualifierData?.registration || '',
+      },
+      sport: 'Trading Card Game',
+      url: `${general?.url || ''}/open-qualifier-cdf`,
+    }
+
+    script = document.createElement('script')
+    script.type = 'application/ld+json'
+    script.text = JSON.stringify(schema)
+    document.head.appendChild(script)
+  }
+
+  onMounted(() => {
+    addSchema()
+  })
+
+  onUnmounted(() => {
+    if (script) {
+      document.head.removeChild(script)
+    }
+  })
+}
