@@ -21,7 +21,7 @@
               <p>{{ details.format }}</p>
             </div>
             <div class="detail-item">
-              <h3>Dates</h3>
+              <h3>Date</h3>
               <p>{{ details.dates }}</p>
             </div>
             <div class="detail-item">
