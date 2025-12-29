@@ -107,17 +107,16 @@
             <p>Inscrivez-vous dès maintenant pour réserver votre place !</p>
 
             <div class="cta-prerequisites">
-              <h3>Prérequis (Obligatoire)</h3>
+              <h3>Prérequis</h3>
               <div class="cta-prerequisites-list">
                 <div
                   v-for="(prereq, index) in prerequisites"
                   :key="prereq.title"
                   class="cta-prerequisite-item"
                 >
-                  <span class="prerequisite-title">{{ prereq.title }}:&nbsp;</span>
                   <span>{{ prereq.description }}</span>
                   <a
-                    v-if="index === 0"
+                    v-if="index === 1"
                     href="https://melee.gg/"
                     target="_blank"
                     rel="noopener noreferrer"
@@ -555,7 +554,7 @@ a.sponsor-item:hover {
 .cta-prerequisites {
   margin: 2rem 0;
   text-align: left;
-  max-width: 600px;
+  max-width: 800px;
   margin-left: auto;
   margin-right: auto;
 }
@@ -579,12 +578,18 @@ a.sponsor-item:hover {
   margin-bottom: 0.5rem;
   padding-left: 1.5rem;
   position: relative;
+  display: flex;
+  align-items: center;
+  flex-wrap: nowrap;
+  gap: 0.5rem;
 }
 
 .cta-prerequisite-item::before {
   content: '•';
   position: absolute;
   left: 0;
+  top: 50%;
+  transform: translateY(-50%);
   font-weight: bold;
   font-size: 1.25rem;
 }
@@ -607,13 +612,12 @@ a.sponsor-item:hover {
 .melee-badge {
   display: inline-flex;
   align-items: center;
-  margin-left: 0.5rem;
   padding: 0.25rem 0.5rem;
   background-color: var(--color-white);
   border-radius: 0.375rem;
-  vertical-align: middle;
   transition: all var(--transition-fast);
   text-decoration: none;
+  flex-shrink: 0;
 }
 
 .melee-badge:hover {

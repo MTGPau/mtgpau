@@ -20,6 +20,17 @@
       <div class="footer-bottom">
         <p class="footer-copyright">{{ currentYear }} {{ copyright }}</p>
         <p class="footer-note">{{ trademark }}</p>
+        <p class="footer-creator">
+          Créé avec ❤️ par
+          <a
+            href="https://github.com/LPauzies"
+            target="_blank"
+            rel="noopener noreferrer"
+            class="footer-creator-link"
+          >
+            Lucas Pauzies
+          </a>
+        </p>
       </div>
     </div>
   </footer>
@@ -131,10 +142,23 @@ const currentYear = new Date().getFullYear()
 }
 
 .footer-copyright,
-.footer-note {
+.footer-note,
+.footer-creator {
   color: var(--color-text-light);
   font-size: 0.875rem;
   margin: 0;
+}
+
+.footer-creator-link {
+  color: var(--color-primary);
+  font-weight: 500;
+  transition: color var(--transition-fast);
+  text-decoration: none;
+}
+
+.footer-creator-link:hover {
+  color: var(--color-primary-dark);
+  text-decoration: underline;
 }
 
 @media (max-width: 768px) {
