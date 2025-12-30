@@ -1,0 +1,26 @@
+{
+  "photos": {
+    "2025": [
+      {
+        "filename": "collage.jpg",
+        "alt": "Résumé du tournoi 2025",
+        "thumbnail": "https://media.joomeo.com/medium/695400b34cb68.jpg",
+        "fullSize": "https://media.joomeo.com/large/695400b34cb68.jpg"
+      },
+      {
+        "filename": "dzo.jpg",
+        "alt": "DZO était présent avec nous !",
+        "thumbnail": "https://media.joomeo.com/medium/6954011f0f6b2.jpg",
+        "fullSize": "https://media.joomeo.com/large/6954011f0f6b2.jpg"
+      },
+      {
+        "filename": "panorama.jpg",
+        "alt": "Vue panoramique de l'événement 2025",
+        "thumbnail": "https://media.joomeo.com/medium/69540135b77bf.jpg",
+        "fullSize": "https://media.joomeo.com/large/69540135b77bf.jpg"
+      }
+    ],
+    "2024": [],
+    "2023": []
+  }
+}

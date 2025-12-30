@@ -13,6 +13,11 @@
           <p>{{ intro }}</p>
         </div>
 
+        <div class="gallery-section">
+          <h2>Galerie photo</h2>
+          <PhotoGallery />
+        </div>
+
         <div class="content-grid">
           <div class="details-card">
             <h2>Informations pratiques</h2>
@@ -147,6 +152,7 @@
 import dataService from '@/services/dataService'
 import { useSeo } from '@/composables/useSeo'
 import { useCREventSchema } from '@/composables/useStructuredData'
+import PhotoGallery from '@/components/PhotoGallery.vue'
 import type { Hero, CRDetails, SideEvent, Sponsor, PrizePool, Prerequisite } from '@/types/data'
 
 const hero = dataService.get('crAquitaine.hero', { title: '', subtitle: '' }) as Hero
@@ -234,6 +240,17 @@ useCREventSchema()
   font-size: 1.125rem;
   color: var(--color-text-soft);
   line-height: 1.8;
+}
+
+.gallery-section {
+  margin-bottom: 4rem;
+}
+
+.gallery-section h2 {
+  font-size: 2rem;
+  text-align: center;
+  margin-bottom: 2rem;
+  color: var(--color-text);
 }
 
 .price-highlight {
