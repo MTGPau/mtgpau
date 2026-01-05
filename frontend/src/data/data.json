@@ -262,6 +262,12 @@
         "url": "https://www.mtgprime.fr"
       },
       {
+        "name": "CDF",
+        "description": "Partenaire",
+        "logo": "/mtgpau/images/sponsors/cdf.png",
+        "url": "https://www.mtgprime.fr/fr/events/mtg/season/duel-commander-national-championship-2025-2026"
+      },
+      {
         "name": "MTG Pau",
         "description": "Organisateur",
         "logo": "/mtgpau/images/logo128x128.png",
@@ -346,6 +352,12 @@
         "description": "Partenaire",
         "logo": "/mtgpau/images/sponsors/mtgprime128x128.png",
         "url": "https://www.mtgprime.fr"
+      },
+      {
+        "name": "CDF",
+        "description": "Partenaire",
+        "logo": "/mtgpau/images/sponsors/cdf.png",
+        "url": "https://www.mtgprime.fr/fr/events/mtg/season/duel-commander-national-championship-2025-2026"
       },
       {
         "name": "MTG Pau",
