@@ -1,6 +1,6 @@
 <template>
   <div class="contact">
-    <section class="page-hero">
+    <section id="hero" class="page-hero">
       <div class="container">
         <h1 class="page-title">Nous contacter</h1>
         <p class="page-subtitle">
@@ -12,7 +12,7 @@
     <section class="section">
       <div class="container">
         <div class="contact-layout">
-          <div class="contact-info">
+          <div id="info" class="contact-info">
             <h2>Rejoignez MTG Pau</h2>
             <p>
               Devenez membre de notre association et profitez d'une communauté passionnée de Magic:
@@ -31,7 +31,7 @@
             </div>
           </div>
 
-          <div class="contact-actions-container">
+          <div id="contact-methods" class="contact-actions-container">
             <h2>Comment nous contacter ?</h2>
             <p class="action-intro">
               Choisissez le moyen de communication qui vous convient le mieux

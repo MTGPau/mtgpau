@@ -1,6 +1,6 @@
 <template>
   <div class="events">
-    <section class="page-hero">
+    <section id="hero" class="page-hero">
       <div class="container">
         <h1 class="page-title">{{ hero.title }}</h1>
         <p class="page-subtitle">{{ hero.subtitle }}</p>
@@ -9,11 +9,11 @@
 
     <section class="section">
       <div class="container">
-        <div class="events-intro">
+        <div id="intro" class="events-intro">
           <p>{{ intro }}</p>
         </div>
 
-        <div class="events-grid">
+        <div id="events-list" class="events-grid">
           <div v-for="event in eventsList" :key="event.id" class="event-card">
             <h3 class="event-title">{{ event.title }}</h3>
             <p class="event-date">{{ formatDateWithDay(event.date) }}</p>
@@ -29,12 +29,12 @@
           </div>
         </div>
 
-        <div class="unity-league-section">
+        <div id="unity-league" class="unity-league-section">
           <div class="unity-league-card">
             <div class="unity-league-logo-container">
               <img :src="unityLeague.logo" alt="Unity League" class="unity-league-logo" />
             </div>
-            <h2>{{ unityLeague.title }}</h2>
+            <SectionHeading anchor="unity-league">{{ unityLeague.title }}</SectionHeading>
             <p class="unity-league-highlight">
               {{ unityLeague.highlight.split('Unity League')[0] }}
               <a
@@ -70,7 +70,7 @@
           </div>
         </div>
 
-        <div class="events-cta">
+        <div id="contact" class="events-cta">
           <div class="cta-box">
             <h2>{{ cta.title }}</h2>
             <p>{{ cta.description }}</p>
@@ -88,6 +88,7 @@ import { RouterLink } from 'vue-router'
 import dataService from '@/services/dataService'
 import { useSeo } from '@/composables/useSeo'
 import { useEventsSchema } from '@/composables/useStructuredData'
+import SectionHeading from '@/components/SectionHeading.vue'
 import type { Hero, Event, CTA, UnityLeague } from '@/types/data'
 
 const hero = dataService.get('events.hero', { title: '', subtitle: '' }) as Hero
@@ -340,6 +341,13 @@ const eventsList = computed(() => {
   height: auto;
   display: block;
   filter: brightness(1) contrast(1.1);
+}
+
+.unity-league-card :deep(.section-heading) {
+  font-size: 2rem;
+  font-weight: 700;
+  color: var(--color-text);
+  margin-bottom: 1.5rem;
 }
 
 .unity-league-card h2 {

@@ -1,6 +1,6 @@
 <template>
   <div class="cr-aquitaine">
-    <section class="page-hero">
+    <section id="hero" class="page-hero">
       <div class="container">
         <h1 class="page-title">{{ hero.title }}</h1>
         <p class="page-subtitle">{{ hero.subtitle }}</p>
@@ -9,16 +9,16 @@
 
     <section class="section">
       <div class="container">
-        <div class="intro-text">
+        <div id="intro" class="intro-text">
           <p>{{ intro }}</p>
         </div>
 
-        <div class="gallery-section">
-          <h2>Galerie photo</h2>
+        <div id="gallery" class="gallery-section">
+          <SectionHeading anchor="gallery">Galerie photo</SectionHeading>
           <PhotoGallery />
         </div>
 
-        <div class="content-grid">
+        <div id="details" class="content-grid">
           <div class="details-card">
             <h2>Informations pratiques</h2>
             <div class="detail-item">
@@ -58,15 +58,15 @@
           </div>
         </div>
 
-        <div class="price-highlight">
+        <div id="price" class="price-highlight">
           <div class="price-box">
             <span class="price-label">Participation</span>
             <span class="price-value">{{ details.price }}</span>
           </div>
         </div>
 
-        <div class="prize-pool-section">
-          <h2>Prize Pool</h2>
+        <div id="prizes" class="prize-pool-section">
+          <SectionHeading anchor="prizes">Prize Pool</SectionHeading>
           <p class="prize-pool-subtitle">(Dépendant du nombre de joueurs)</p>
           <div class="prize-pool-grid">
             <div v-for="pool in prizePool" :key="pool.playerCount" class="prize-pool-card">
@@ -81,8 +81,8 @@
           </div>
         </div>
 
-        <div class="qualification-section">
-          <h2>Points pour le CDF</h2>
+        <div id="qualification" class="qualification-section">
+          <SectionHeading anchor="qualification">Points pour le CDF</SectionHeading>
           <div class="qualification-card">
             <div class="qualification-icon">🏆</div>
             <div class="qualification-content">
@@ -96,8 +96,8 @@
           </div>
         </div>
 
-        <div class="side-events-section">
-          <h2>Événements parallèles</h2>
+        <div id="side-events" class="side-events-section">
+          <SectionHeading anchor="side-events">Événements parallèles</SectionHeading>
           <div class="side-events-grid">
             <div v-for="event in sideEvents" :key="event.title" class="side-event-card">
               <h3>{{ event.title }}</h3>
@@ -106,7 +106,7 @@
           </div>
         </div>
 
-        <div class="registration-cta">
+        <div id="registration" class="registration-cta">
           <div class="cta-box">
             <h2>Prêt à participer ?</h2>
             <p>Inscrivez-vous dès maintenant pour réserver votre place !</p>
@@ -153,6 +153,7 @@ import dataService from '@/services/dataService'
 import { useSeo } from '@/composables/useSeo'
 import { useCREventSchema } from '@/composables/useStructuredData'
 import PhotoGallery from '@/components/PhotoGallery.vue'
+import SectionHeading from '@/components/SectionHeading.vue'
 import type { Hero, CRDetails, SideEvent, Sponsor, PrizePool, Prerequisite } from '@/types/data'
 
 const hero = dataService.get('crAquitaine.hero', { title: '', subtitle: '' }) as Hero
@@ -244,6 +245,13 @@ useCREventSchema()
 
 .gallery-section {
   margin-bottom: 4rem;
+  text-align: center;
+}
+
+.gallery-section :deep(.section-heading) {
+  font-size: 2rem;
+  margin-bottom: 2rem;
+  color: var(--color-text);
 }
 
 .gallery-section h2 {
@@ -384,6 +392,13 @@ a.sponsor-item:hover {
 
 .prize-pool-section {
   margin-bottom: 4rem;
+  text-align: center;
+}
+
+.prize-pool-section :deep(.section-heading) {
+  font-size: 2rem;
+  margin-bottom: 0.5rem;
+  color: var(--color-text);
 }
 
 .prize-pool-section h2 {
@@ -403,6 +418,13 @@ a.sponsor-item:hover {
 
 .side-events-section {
   margin-bottom: 4rem;
+  text-align: center;
+}
+
+.side-events-section :deep(.section-heading) {
+  font-size: 2rem;
+  margin-bottom: 2rem;
+  color: var(--color-text);
 }
 
 .side-events-section h2 {
@@ -493,6 +515,13 @@ a.sponsor-item:hover {
 
 .qualification-section {
   margin-bottom: 4rem;
+  text-align: center;
+}
+
+.qualification-section :deep(.section-heading) {
+  font-size: 2rem;
+  margin-bottom: 2rem;
+  color: var(--color-text);
 }
 
 .qualification-section h2 {

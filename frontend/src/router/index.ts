@@ -1,6 +1,18 @@
 import { createRouter, createWebHistory } from 'vue-router'
 import HomeView from '../views/HomeView.vue'
 
+function getScrollOffset(): number {
+  const width = window.innerWidth
+
+  if (width < 768) {
+    return 80
+  } else if (width < 1024) {
+    return 100
+  } else {
+    return 120
+  }
+}
+
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
   routes: [
@@ -41,9 +53,15 @@ const router = createRouter({
       meta: { title: 'Open Qualifier CDF - MTG Pau' },
     },
   ],
-  scrollBehavior(_to, _from, savedPosition) {
+  scrollBehavior(to, _from, savedPosition) {
     if (savedPosition) {
       return savedPosition
+    } else if (to.hash) {
+      return {
+        el: to.hash,
+        behavior: 'smooth',
+        top: getScrollOffset(),
+      }
     } else {
       return { top: 0 }
     }

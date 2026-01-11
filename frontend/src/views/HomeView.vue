@@ -1,13 +1,13 @@
 <template>
   <div class="home">
-    <section class="hero">
+    <section id="hero" class="hero">
       <div class="hero-content">
         <h1 class="hero-title">{{ hero.title }}</h1>
         <p class="hero-subtitle">{{ hero.subtitle }}</p>
       </div>
     </section>
 
-    <section class="section">
+    <section id="features" class="section">
       <div class="container">
         <div class="intro-grid">
           <div v-for="feature in features" :key="feature.title" class="intro-card">
@@ -62,7 +62,7 @@
       </div>
     </section>
 
-    <section class="section">
+    <section id="contact" class="section">
       <div class="container">
         <div class="cta-section">
           <div class="cta-box">

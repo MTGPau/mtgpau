@@ -1,6 +1,6 @@
 <template>
   <div class="about">
-    <section class="page-hero">
+    <section id="hero" class="page-hero">
       <div class="container">
         <h1 class="page-title">{{ hero.title }}</h1>
         <p class="page-subtitle">{{ hero.subtitle }}</p>
@@ -11,29 +11,35 @@
       <div class="container">
         <div class="content-layout">
           <div class="content-main">
-            <h2>{{ history.title }}</h2>
-            <p v-for="(paragraph, index) in history.paragraphs" :key="index">
-              {{ paragraph }}
-            </p>
+            <div id="history">
+              <SectionHeading anchor="history">{{ history.title }}</SectionHeading>
+              <p v-for="(paragraph, index) in history.paragraphs" :key="index">
+                {{ paragraph }}
+              </p>
+            </div>
 
-            <h2>{{ mission.title }}</h2>
-            <p>{{ mission.intro }}</p>
-            <ul class="mission-list">
-              <li v-for="(item, index) in mission.items" :key="index">{{ item }}</li>
-            </ul>
+            <div id="mission">
+              <SectionHeading anchor="mission">{{ mission.title }}</SectionHeading>
+              <p>{{ mission.intro }}</p>
+              <ul class="mission-list">
+                <li v-for="(item, index) in mission.items" :key="index">{{ item }}</li>
+              </ul>
+            </div>
 
-            <h2>{{ formats.title }}</h2>
-            <p>{{ formats.intro }}</p>
-            <div class="format-grid">
-              <div v-for="format in formats.items" :key="format.name" class="format-card">
-                <h3>{{ format.name }}</h3>
-                <p>{{ format.description }}</p>
+            <div id="formats">
+              <SectionHeading anchor="formats">{{ formats.title }}</SectionHeading>
+              <p>{{ formats.intro }}</p>
+              <div class="format-grid">
+                <div v-for="format in formats.items" :key="format.name" class="format-card">
+                  <h3>{{ format.name }}</h3>
+                  <p>{{ format.description }}</p>
+                </div>
               </div>
             </div>
           </div>
 
           <aside class="content-sidebar">
-            <div class="info-card">
+            <div id="info" class="info-card">
               <h3>{{ info.title }}</h3>
               <div class="info-item">
                 <h4>{{ info.items.membership.title }}</h4>
@@ -49,7 +55,7 @@
               </div>
             </div>
 
-            <div class="cta-card">
+            <div id="contact" class="cta-card">
               <h3>{{ joinCta.title }}</h3>
               <p>{{ joinCta.description }}</p>
               <RouterLink to="/contact" class="btn btn-primary">Nous contacter</RouterLink>
@@ -65,6 +71,7 @@
 import { RouterLink } from 'vue-router'
 import dataService from '@/services/dataService'
 import { useSeo } from '@/composables/useSeo'
+import SectionHeading from '@/components/SectionHeading.vue'
 import type { Hero, History, Mission, Formats, Format, Info, CTA } from '@/types/data'
 
 const hero = dataService.get('about.hero', { title: '', subtitle: '' }) as Hero
@@ -159,6 +166,17 @@ useSeo('about')
 }
 
 .content-main h2:first-child {
+  margin-top: 0;
+}
+
+.content-main :deep(.section-heading) {
+  margin-top: 2.5rem;
+  margin-bottom: 1rem;
+  color: var(--color-text);
+  display: flex;
+}
+
+.content-main div:first-child :deep(.section-heading) {
   margin-top: 0;
 }
 
