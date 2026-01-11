@@ -91,8 +91,22 @@ export interface Prize {
 }
 
 export interface PrizePool {
-  playerCount: number
+  playerCount: number | string
   prizes: Prize[]
+}
+
+export interface ExtraTournamentDetails {
+  price: string
+  startTime: string
+  location: Location
+}
+
+export interface ExtraTournament {
+  title: string
+  date: string
+  details: ExtraTournamentDetails
+  prizePool: PrizePool[]
+  registration: string
 }
 
 export interface History {

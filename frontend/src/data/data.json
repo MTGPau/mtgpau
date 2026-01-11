@@ -395,6 +395,41 @@
         ]
       }
     ],
-    "registration": "https://www.helloasso.com/associations/mtg-pau/evenements/open-qualifier-cdf-2026"
+    "registration": "https://www.helloasso.com/associations/mtg-pau/evenements/open-qualifier-cdf-2026",
+    "extraTournaments": [
+      {
+        "title": "Tournoi Pauper",
+        "date": "8 Février 2026",
+        "details": {
+          "price": "15€",
+          "startTime": "10h00",
+          "location": {
+            "name": "Salle Multi-Activité",
+            "address": "49 rue Eugène Daure 64110 Gelos"
+          }
+        },
+        "prizePool": [
+          {
+            "playerCount": "24 joueurs",
+            "prizes": [
+              { "position": "Top 1", "amount": "90€" },
+              { "position": "Top 2", "amount": "60€" },
+              { "position": "Top 3-4", "amount": "30€" },
+              { "position": "Top 5-8", "amount": "10€" }
+            ]
+          },
+          {
+            "playerCount": "40 joueurs",
+            "prizes": [
+              { "position": "Top 1", "amount": "160€" },
+              { "position": "Top 2", "amount": "100€" },
+              { "position": "Top 3-4", "amount": "50€" },
+              { "position": "Top 5-8", "amount": "15€" }
+            ]
+          }
+        ],
+        "registration": "https://www.helloasso.com/associations/mtg-pau/evenements/tournoi-pauper"
+      }
+    ]
   }
 }
