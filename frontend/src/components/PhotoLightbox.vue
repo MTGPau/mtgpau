@@ -118,12 +118,14 @@ const currentIndex = ref(props.initialIndex)
 
 const currentPhoto = computed(() => {
   const photo = props.photos[currentIndex.value] || props.photos[0]
-  return photo || {
-    filename: '',
-    alt: '',
-    thumbnail: '',
-    fullSize: '',
-  }
+  return (
+    photo || {
+      filename: '',
+      alt: '',
+      thumbnail: '',
+      fullSize: '',
+    }
+  )
 })
 
 const close = () => {
@@ -180,7 +182,7 @@ watch(
     } else {
       document.body.style.overflow = ''
     }
-  }
+  },
 )
 
 // Keyboard event listeners

@@ -33,12 +33,7 @@
                 role="button"
                 :aria-label="`Voir ${photo.alt}`"
               >
-                <img
-                  :src="photo.thumbnail"
-                  :alt="photo.alt"
-                  class="photo-image"
-                  loading="lazy"
-                />
+                <img :src="photo.thumbnail" :alt="photo.alt" class="photo-image" loading="lazy" />
               </div>
             </div>
           </Transition>
@@ -67,7 +62,10 @@
             </button>
 
             <span class="carousel-indicator">
-              {{ currentStartIndex + 1 }}-{{ Math.min(currentStartIndex + photosPerPage, currentPhotos.length) }} sur {{ currentPhotos.length }}
+              {{ currentStartIndex + 1 }}-{{
+                Math.min(currentStartIndex + photosPerPage, currentPhotos.length)
+              }}
+              sur {{ currentPhotos.length }}
             </span>
 
             <button
@@ -113,7 +111,7 @@
 import { ref, computed, watch, onMounted, onUnmounted } from 'vue'
 import PhotoLightbox from './PhotoLightbox.vue'
 import photosData from '@/data/photos.json'
-import type { Photo, PhotoManifest } from '@/types/photo'
+import type { PhotoManifest } from '@/types/photo'
 
 const manifest = photosData as PhotoManifest
 
@@ -141,10 +139,7 @@ const currentStartIndex = ref(0)
 
 // Get visible photos for the current page
 const visiblePhotos = computed(() => {
-  return currentPhotos.value.slice(
-    currentStartIndex.value,
-    currentStartIndex.value + photosPerPage
-  )
+  return currentPhotos.value.slice(currentStartIndex.value, currentStartIndex.value + photosPerPage)
 })
 
 // Reset carousel when year changes
@@ -162,7 +157,7 @@ const nextPage = () => {
   if (currentStartIndex.value + photosPerPage < currentPhotos.value.length) {
     currentStartIndex.value = Math.min(
       currentPhotos.value.length - photosPerPage,
-      currentStartIndex.value + photosPerPage
+      currentStartIndex.value + photosPerPage,
     )
   }
 }
@@ -378,7 +373,9 @@ const openLightbox = (index: number) => {
 /* Transition animations */
 .gallery-fade-enter-active,
 .gallery-fade-leave-active {
-  transition: opacity 0.4s ease, transform 0.4s ease;
+  transition:
+    opacity 0.4s ease,
+    transform 0.4s ease;
 }
 
 .gallery-fade-enter-from {

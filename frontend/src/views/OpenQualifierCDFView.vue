@@ -106,6 +106,12 @@
           </div>
         </div>
 
+        <SecondaryTournament
+          v-for="tournament in extraTournaments"
+          :key="tournament.title"
+          :tournament="tournament"
+        />
+
         <div class="registration-cta">
           <div class="cta-box">
             <h2>Prêt à participer ?</h2>
@@ -156,7 +162,16 @@ import dataService from '@/services/dataService'
 import { useSeo } from '@/composables/useSeo'
 import { useOpenQualifierEventSchema } from '@/composables/useStructuredData'
 import PhotoGallery from '@/components/PhotoGallery.vue'
-import type { Hero, OpenQualifierDetails, SideEvent, Sponsor, PrizePool, Prerequisite } from '@/types/data'
+import SecondaryTournament from '@/components/SecondaryTournament.vue'
+import type {
+  Hero,
+  OpenQualifierDetails,
+  SideEvent,
+  Sponsor,
+  PrizePool,
+  Prerequisite,
+  ExtraTournament,
+} from '@/types/data'
 
 const hero = dataService.get('openQualifierCDF.hero', { title: '', subtitle: '' }) as Hero
 const intro = dataService.get('openQualifierCDF.intro', '') as string
@@ -171,6 +186,12 @@ const sideEvents = dataService.get('openQualifierCDF.sideEvents', []) as SideEve
 const sponsors = dataService.get('openQualifierCDF.sponsors', []) as Sponsor[]
 const prizePool = dataService.get('openQualifierCDF.prizePool', []) as PrizePool[]
 const registration = dataService.get('openQualifierCDF.registration', '') as string
+
+// Extra Tournaments (e.g., Pauper, Modern, etc.)
+const extraTournaments = dataService.get(
+  'openQualifierCDF.extraTournaments',
+  [],
+) as ExtraTournament[]
 
 // SEO
 useSeo('openQualifier')
