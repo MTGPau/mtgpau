@@ -107,6 +107,7 @@ export interface ExtraTournament {
   details: ExtraTournamentDetails
   prizePool: PrizePool[]
   registration: string
+  image?: string
 }
 
 export interface History {

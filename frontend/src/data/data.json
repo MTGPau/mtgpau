@@ -303,7 +303,32 @@
         ]
       }
     ],
-    "registration": "https://www.helloasso.com/associations/mtg-pau/evenements/championnat-regional-dc-1"
+    "registration": "https://www.helloasso.com/associations/mtg-pau/evenements/championnat-regional-dc-1",
+    "extraTournaments": [
+      {
+        "title": "Draft Lorwyn Eclipse",
+        "date": "7 Février 2026",
+        "details": {
+          "price": "18€",
+          "startTime": "14h30 (VF), 16h00 (VO), 19h00 (VO)",
+          "location": {
+            "name": "Salle Multi-Activité",
+            "address": "49 rue Eugène Daure 64110 Gelos"
+          }
+        },
+        "prizePool": [
+          {
+            "playerCount": "8 joueurs",
+            "prizes": [
+              { "position": "Top 1", "amount": "4 boosters" },
+              { "position": "Top 2", "amount": "2 boosters" }
+            ]
+          }
+        ],
+        "registration": "https://www.helloasso.com/associations/mtg-pau/evenements/draft-lorwyn-eclipse",
+        "image": "/mtgpau/images/extensions/lorwyn_eclipsed.png"
+      }
+    ]
   },
   "openQualifierCDF": {
     "hero": {

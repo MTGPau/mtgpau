@@ -106,6 +106,14 @@
           </div>
         </div>
 
+        <div id="extra-tournaments">
+          <SecondaryTournament
+            v-for="tournament in extraTournaments"
+            :key="tournament.title"
+            :tournament="tournament"
+          />
+        </div>
+
         <div id="registration" class="registration-cta">
           <div class="cta-box">
             <h2>Prêt à participer ?</h2>
@@ -153,8 +161,17 @@ import dataService from '@/services/dataService'
 import { useSeo } from '@/composables/useSeo'
 import { useCREventSchema } from '@/composables/useStructuredData'
 import PhotoGallery from '@/components/PhotoGallery.vue'
+import SecondaryTournament from '@/components/SecondaryTournament.vue'
 import SectionHeading from '@/components/SectionHeading.vue'
-import type { Hero, CRDetails, SideEvent, Sponsor, PrizePool, Prerequisite } from '@/types/data'
+import type {
+  Hero,
+  CRDetails,
+  SideEvent,
+  Sponsor,
+  PrizePool,
+  Prerequisite,
+  ExtraTournament,
+} from '@/types/data'
 
 const hero = dataService.get('crAquitaine.hero', { title: '', subtitle: '' }) as Hero
 const intro = dataService.get('crAquitaine.intro', '') as string
@@ -169,6 +186,9 @@ const sideEvents = dataService.get('crAquitaine.sideEvents', []) as SideEvent[]
 const sponsors = dataService.get('crAquitaine.sponsors', []) as Sponsor[]
 const prizePool = dataService.get('crAquitaine.prizePool', []) as PrizePool[]
 const registration = dataService.get('crAquitaine.registration', '') as string
+
+// Extra Tournaments (e.g., Draft Lorwyn)
+const extraTournaments = dataService.get('crAquitaine.extraTournaments', []) as ExtraTournament[]
 
 // SEO
 useSeo('cr')
