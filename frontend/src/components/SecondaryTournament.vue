@@ -3,6 +3,7 @@
     <div class="secondary-tournament-card">
       <div class="tournament-header">
         <h3>{{ tournament.title }}</h3>
+        <img v-if="tournament.image" :src="tournament.image" :alt="tournament.title" class="tournament-image" />
       </div>
       <div class="tournament-content">
         <div class="tournament-details">
@@ -79,7 +80,10 @@ defineProps<{
 }
 
 .tournament-header {
-  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
   margin-bottom: 1.5rem;
   padding-bottom: 1rem;
   border-bottom: 2px solid var(--color-border);
@@ -90,6 +94,13 @@ defineProps<{
   color: var(--color-text);
   margin-bottom: 0;
   font-weight: 700;
+}
+
+.tournament-image {
+  height: 2rem;
+  width: auto;
+  border-radius: 0.25rem;
+  box-shadow: var(--shadow-sm);
 }
 
 .tournament-content {
@@ -136,8 +147,11 @@ defineProps<{
 
 .tournament-prizes-grid {
   display: grid;
-  grid-template-columns: repeat(2, 1fr);
+  grid-template-columns: repeat(auto-fit, minmax(min(100%, 250px), 1fr));
   gap: 1rem;
+  justify-content: center;
+  max-width: 750px;
+  margin: 0 auto;
 }
 
 .tournament-prize-column {
