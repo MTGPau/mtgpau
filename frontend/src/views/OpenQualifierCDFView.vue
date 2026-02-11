@@ -18,6 +18,18 @@
           <PhotoGallery />
         </div>
 
+        <!-- Tournament Results Section -->
+        <div v-if="tournamentResults" id="results" class="results-section">
+          <SectionHeading anchor="results">Résultats du tournoi</SectionHeading>
+          <TournamentResults :results="tournamentResults" />
+        </div>
+
+        <!-- Metagame Breakdown Section -->
+        <div v-if="metagameData" id="metagame" class="metagame-section">
+          <SectionHeading anchor="metagame">Analyse du Métagame</SectionHeading>
+          <MetagameBreakdown :metagame="metagameData" />
+        </div>
+
         <div id="details" class="content-grid">
           <div class="details-card">
             <h2>Informations pratiques</h2>
@@ -160,12 +172,15 @@
 </template>
 
 <script setup lang="ts">
+import { ref } from 'vue'
 import dataService from '@/services/dataService'
 import { useSeo } from '@/composables/useSeo'
 import { useOpenQualifierEventSchema } from '@/composables/useStructuredData'
 import PhotoGallery from '@/components/PhotoGallery.vue'
 import SecondaryTournament from '@/components/SecondaryTournament.vue'
 import SectionHeading from '@/components/SectionHeading.vue'
+import TournamentResults from '@/components/TournamentResults.vue'
+import MetagameBreakdown from '@/components/MetagameBreakdown.vue'
 import type {
   Hero,
   OpenQualifierDetails,
@@ -174,7 +189,13 @@ import type {
   PrizePool,
   Prerequisite,
   ExtraTournament,
+  TournamentResults as TournamentResultsType,
+  MetagameData,
 } from '@/types/data'
+
+// Import JSON data
+import resultsData from '@/data/results-open-qualifier.json'
+import metagameDataJson from '@/data/metagame-open-qualifier.json'
 
 const hero = dataService.get('openQualifierCDF.hero', { title: '', subtitle: '' }) as Hero
 const intro = dataService.get('openQualifierCDF.intro', '') as string
@@ -195,6 +216,17 @@ const extraTournaments = dataService.get(
   'openQualifierCDF.extraTournaments',
   [],
 ) as ExtraTournament[]
+
+// Tournament Results and Metagame Data
+// If the JSON files are empty or not available, these will be null and the sections won't be displayed
+const tournamentResults = ref<TournamentResultsType | null>(
+  resultsData && Object.keys(resultsData).length > 0 ? (resultsData as TournamentResultsType) : null,
+)
+const metagameData = ref<MetagameData | null>(
+  metagameDataJson && Object.keys(metagameDataJson).length > 0
+    ? (metagameDataJson as MetagameData)
+    : null,
+)
 
 // SEO
 useSeo('openQualifier')
@@ -275,6 +307,26 @@ useOpenQualifierEventSchema()
 }
 
 .gallery-section :deep(.section-heading) {
+  font-size: 2rem;
+  margin-bottom: 2rem;
+  color: var(--color-text);
+}
+
+.results-section {
+  margin-bottom: 4rem;
+}
+
+.results-section :deep(.section-heading) {
+  font-size: 2rem;
+  margin-bottom: 2rem;
+  color: var(--color-text);
+}
+
+.metagame-section {
+  margin-bottom: 4rem;
+}
+
+.metagame-section :deep(.section-heading) {
   font-size: 2rem;
   margin-bottom: 2rem;
   color: var(--color-text);

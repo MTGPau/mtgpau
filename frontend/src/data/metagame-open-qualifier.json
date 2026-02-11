@@ -1,0 +1,389 @@
+{
+  "eventName": "Open Qualifier CDF 2026",
+  "date": "8 Février 2026",
+  "stats": {
+    "totalPlayers": 70,
+    "totalCommanders": 42,
+    "maxCopies": 9,
+    "singletons": 31
+  },
+  "colorDistribution": {
+    "mono": 18,
+    "bicolor": 16,
+    "tricolor": 30,
+    "fourPlus": 6
+  },
+  "colorPresence": [
+    { "color": "R", "name": "Rouge", "count": 35, "percentage": 50 },
+    { "color": "B", "name": "Noir", "count": 33, "percentage": 47.1 },
+    { "color": "U", "name": "Bleu", "count": 32, "percentage": 45.7 },
+    { "color": "W", "name": "Blanc", "count": 28, "percentage": 40 },
+    { "color": "G", "name": "Vert", "count": 26, "percentage": 37.1 }
+  ],
+  "guildDistribution": [
+    { "name": "Izzet", "count": 9, "percentage": 12.9 },
+    { "name": "Mono-W", "count": 8, "percentage": 11.4 },
+    { "name": "Jund", "count": 7, "percentage": 10.0 },
+    { "name": "Mono-G", "count": 6, "percentage": 8.6 },
+    { "name": "Rakdos", "count": 4, "percentage": 5.7 },
+    { "name": "Esper", "count": 3, "percentage": 4.3 },
+    { "name": "Sultai", "count": 3, "percentage": 4.3 },
+    { "name": "Mono-R", "count": 4, "percentage": 5.7 },
+    { "name": "Mono-U", "count": 3, "percentage": 4.3 },
+    { "name": "Golgari", "count": 3, "percentage": 4.3 },
+    { "name": "Jeskai", "count": 3, "percentage": 4.3 },
+    { "name": "Orzhov", "count": 3, "percentage": 4.3 },
+    { "name": "Mardu", "count": 2, "percentage": 2.9 },
+    { "name": "Dimir", "count": 2, "percentage": 2.9 },
+    { "name": "Naya", "count": 2, "percentage": 2.9 },
+    { "name": "Gruul", "count": 2, "percentage": 2.9 },
+    { "name": "Boros", "count": 1, "percentage": 1.4 },
+    { "name": "Azorius", "count": 1, "percentage": 1.4 },
+    { "name": "Grixis", "count": 1, "percentage": 1.4 },
+    { "name": "Temur", "count": 1, "percentage": 1.4 },
+    { "name": "Sans-Rouge", "count": 1, "percentage": 1.4 },
+    { "name": "5C", "count": 1, "percentage": 1.4 },
+    { "name": "Selesnya", "count": 1, "percentage": 1.4 }
+  ],
+  "commanders": [
+    {
+      "name": "Spider-Man 2099",
+      "colors": ["U", "R"],
+      "colorIdentity": "Izzet",
+      "count": 9,
+      "percentage": 12.9,
+      "scryfallQuery": "!\"Spider-Man 2099\"",
+      "isTopCommander": true
+    },
+    {
+      "name": "Phelia, Exuberant Shepherd",
+      "colors": ["W"],
+      "colorIdentity": "Mono-W",
+      "count": 6,
+      "percentage": 8.6,
+      "scryfallQuery": "!\"Phelia, Exuberant Shepherd\"",
+      "isTopCommander": true
+    },
+    {
+      "name": "Lumra, Bellow of the Woods",
+      "colors": ["G"],
+      "colorIdentity": "Mono-G",
+      "count": 5,
+      "percentage": 7.1,
+      "scryfallQuery": "!\"Lumra, Bellow of the Woods\"",
+      "isTopCommander": true
+    },
+    {
+      "name": "Deadpool, Trading Card",
+      "colors": ["B", "R"],
+      "colorIdentity": "Rakdos",
+      "count": 3,
+      "percentage": 4.3,
+      "scryfallQuery": "!\"Deadpool, Trading Card\""
+    },
+    {
+      "name": "Tivit, Seller of Secrets",
+      "colors": ["W", "U", "B"],
+      "colorIdentity": "Esper",
+      "count": 3,
+      "percentage": 4.3,
+      "scryfallQuery": "!\"Tivit, Seller of Secrets\""
+    },
+    {
+      "name": "Slimefoot and Squee",
+      "colors": ["B", "R", "G"],
+      "colorIdentity": "Jund",
+      "count": 3,
+      "percentage": 4.3,
+      "scryfallQuery": "!\"Slimefoot and Squee\""
+    },
+    {
+      "name": "Light-Paws, Emperor's Voice",
+      "colors": ["W"],
+      "colorIdentity": "Mono-W",
+      "count": 2,
+      "percentage": 2.9,
+      "scryfallQuery": "!\"Light-Paws, Emperor's Voice\""
+    },
+    {
+      "name": "Grist, the Hunger Tide",
+      "colors": ["B", "G"],
+      "colorIdentity": "Golgari",
+      "count": 2,
+      "percentage": 2.9,
+      "scryfallQuery": "!\"Grist, the Hunger Tide\""
+    },
+    {
+      "name": "Tasigur, the Golden Fang",
+      "colors": ["U", "B", "G"],
+      "colorIdentity": "Sultai",
+      "count": 2,
+      "percentage": 2.9,
+      "scryfallQuery": "!\"Tasigur, the Golden Fang\""
+    },
+    {
+      "name": "The Reaper, King No More",
+      "colors": ["B", "R", "G"],
+      "colorIdentity": "Jund",
+      "count": 2,
+      "percentage": 2.9,
+      "scryfallQuery": "!\"The Reaper, King No More\""
+    },
+    {
+      "name": "Lier, Disciple of the Drowned",
+      "colors": ["U"],
+      "colorIdentity": "Mono-U",
+      "count": 2,
+      "percentage": 2.9,
+      "scryfallQuery": "!\"Lier, Disciple of the Drowned\""
+    },
+    {
+      "name": "Sheoldred, the Apocalypse",
+      "colors": ["B"],
+      "colorIdentity": "Mono-B",
+      "count": 1,
+      "percentage": 1.4,
+      "scryfallQuery": "!\"Sheoldred, the Apocalypse\""
+    },
+    {
+      "name": "The Gitrog Monster",
+      "colors": ["B", "G"],
+      "colorIdentity": "Golgari",
+      "count": 1,
+      "percentage": 1.4,
+      "scryfallQuery": "!\"The Gitrog Monster\""
+    },
+    {
+      "name": "Toph, Greatest Earthbender",
+      "colors": ["R", "G"],
+      "colorIdentity": "Gruul",
+      "count": 1,
+      "percentage": 1.4,
+      "scryfallQuery": "!\"Toph, Greatest Earthbender\""
+    },
+    {
+      "name": "Tifa Lockhart",
+      "colors": ["G"],
+      "colorIdentity": "Mono-G",
+      "count": 1,
+      "percentage": 1.4,
+      "scryfallQuery": "!\"Tifa Lockhart\""
+    },
+    {
+      "name": "Marath, Will of the Wild",
+      "colors": ["W", "R", "G"],
+      "colorIdentity": "Naya",
+      "count": 1,
+      "percentage": 1.4,
+      "scryfallQuery": "!\"Marath, Will of the Wild\""
+    },
+    {
+      "name": "Xenagos, God of Revels",
+      "colors": ["R", "G"],
+      "colorIdentity": "Gruul",
+      "count": 1,
+      "percentage": 1.4,
+      "scryfallQuery": "!\"Xenagos, God of Revels\""
+    },
+    {
+      "name": "Soul of Windgrace",
+      "colors": ["B", "R", "G"],
+      "colorIdentity": "Jund",
+      "count": 1,
+      "percentage": 1.4,
+      "scryfallQuery": "!\"Soul of Windgrace\""
+    },
+    {
+      "name": "Phlage, Titan of Fire's Fury",
+      "colors": ["W", "R"],
+      "colorIdentity": "Boros",
+      "count": 1,
+      "percentage": 1.4,
+      "scryfallQuery": "!\"Phlage, Titan of Fire's Fury\""
+    },
+    {
+      "name": "Urabrask // The Great Work",
+      "colors": ["R"],
+      "colorIdentity": "Mono-R",
+      "count": 1,
+      "percentage": 1.4,
+      "scryfallQuery": "!\"Urabrask\" OR !\"The Great Work\""
+    },
+    {
+      "name": "Glarb, Calamity's Augur",
+      "colors": ["U", "B", "G"],
+      "colorIdentity": "Sultai",
+      "count": 1,
+      "percentage": 1.4,
+      "scryfallQuery": "!\"Glarb, Calamity's Augur\""
+    },
+    {
+      "name": "Flamewar, Brash Veteran // Flamewar, Streetwise Operative",
+      "colors": ["B", "R"],
+      "colorIdentity": "Rakdos",
+      "count": 1,
+      "percentage": 1.4,
+      "scryfallQuery": "!\"Flamewar, Brash Veteran\" OR !\"Flamewar, Streetwise Operative\""
+    },
+    {
+      "name": "Hidetsugu and Kairi",
+      "colors": ["U", "B"],
+      "colorIdentity": "Dimir",
+      "count": 1,
+      "percentage": 1.4,
+      "scryfallQuery": "!\"Hidetsugu and Kairi\""
+    },
+    {
+      "name": "Cloud, Midgar Mercenary",
+      "colors": ["W"],
+      "colorIdentity": "Mono-W",
+      "count": 1,
+      "percentage": 1.4,
+      "scryfallQuery": "!\"Cloud, Midgar Mercenary\""
+    },
+    {
+      "name": "Prossh, Skyraider of Kher",
+      "colors": ["B", "R", "G"],
+      "colorIdentity": "Jund",
+      "count": 1,
+      "percentage": 1.4,
+      "scryfallQuery": "!\"Prossh, Skyraider of Kher\""
+    },
+    {
+      "name": "Voja, Jaws of the Conclave",
+      "colors": ["W", "R", "G"],
+      "colorIdentity": "Naya",
+      "count": 1,
+      "percentage": 1.4,
+      "scryfallQuery": "!\"Voja, Jaws of the Conclave\""
+    },
+    {
+      "name": "Davros, Dalek Creator",
+      "colors": ["U", "B", "R"],
+      "colorIdentity": "Grixis",
+      "count": 1,
+      "percentage": 1.4,
+      "scryfallQuery": "!\"Davros, Dalek Creator\""
+    },
+    {
+      "name": "Zurgo Bellstriker",
+      "colors": ["R"],
+      "colorIdentity": "Mono-R",
+      "count": 1,
+      "percentage": 1.4,
+      "scryfallQuery": "!\"Zurgo Bellstriker\""
+    },
+    {
+      "name": "Kelsien, the Plague",
+      "colors": ["W", "B", "R"],
+      "colorIdentity": "Mardu",
+      "count": 1,
+      "percentage": 1.4,
+      "scryfallQuery": "!\"Kelsien, the Plague\""
+    },
+    {
+      "name": "Maelstrom Wanderer",
+      "colors": ["U", "R", "G"],
+      "colorIdentity": "Temur",
+      "count": 1,
+      "percentage": 1.4,
+      "scryfallQuery": "!\"Maelstrom Wanderer\""
+    },
+    {
+      "name": "Atraxa, Grand Unifier",
+      "colors": ["W", "U", "B", "G"],
+      "colorIdentity": "Sans-Rouge",
+      "count": 1,
+      "percentage": 1.4,
+      "scryfallQuery": "!\"Atraxa, Grand Unifier\""
+    },
+    {
+      "name": "Wan Shi Tong, Librarian",
+      "colors": ["U"],
+      "colorIdentity": "Mono-U",
+      "count": 1,
+      "percentage": 1.4,
+      "scryfallQuery": "!\"Wan Shi Tong, Librarian\""
+    },
+    {
+      "name": "Ketramose, the New Dawn",
+      "colors": ["W", "B"],
+      "colorIdentity": "Orzhov",
+      "count": 1,
+      "percentage": 1.4,
+      "scryfallQuery": "!\"Ketramose, the New Dawn\""
+    },
+    {
+      "name": "Aragorn, King of Gondor",
+      "colors": ["W", "U", "R"],
+      "colorIdentity": "Jeskai",
+      "count": 1,
+      "percentage": 1.4,
+      "scryfallQuery": "!\"Aragorn, King of Gondor\""
+    },
+    {
+      "name": "Cecil, Dark Knight // Cecil, Redeemed Paladin",
+      "colors": ["W", "B"],
+      "colorIdentity": "Orzhov",
+      "count": 1,
+      "percentage": 1.4,
+      "scryfallQuery": "!\"Cecil, Dark Knight\" OR !\"Cecil, Redeemed Paladin\""
+    },
+    {
+      "name": "Aang, Swift Savior // Aang and La, Ocean's Fury",
+      "colors": ["W", "U"],
+      "colorIdentity": "Azorius",
+      "count": 1,
+      "percentage": 1.4,
+      "scryfallQuery": "!\"Aang, Swift Savior\" OR !\"Aang and La, Ocean's Fury\""
+    },
+    {
+      "name": "Terra, Herald of Hope",
+      "colors": ["W", "B", "R"],
+      "colorIdentity": "Mardu",
+      "count": 1,
+      "percentage": 1.4,
+      "scryfallQuery": "!\"Terra, Herald of Hope\""
+    },
+    {
+      "name": "Hei Bai, Forest Guardian",
+      "colors": ["W", "U", "B", "R", "G"],
+      "colorIdentity": "5C",
+      "count": 1,
+      "percentage": 1.4,
+      "scryfallQuery": "!\"Hei Bai, Forest Guardian\""
+    },
+    {
+      "name": "Yoshimaru, Ever Faithful & Kraum, Ludevic's Opus",
+      "colors": ["W", "U", "R"],
+      "colorIdentity": "Jeskai",
+      "count": 1,
+      "percentage": 1.4,
+      "scryfallQuery": "!\"Yoshimaru, Ever Faithful\" OR !\"Kraum, Ludevic's Opus\""
+    },
+    {
+      "name": "Emmara, Soul of the Accord",
+      "colors": ["W", "G"],
+      "colorIdentity": "Selesnya",
+      "count": 1,
+      "percentage": 1.4,
+      "scryfallQuery": "!\"Emmara, Soul of the Accord\""
+    },
+    {
+      "name": "Torbran, Thane of Red Fell",
+      "colors": ["R"],
+      "colorIdentity": "Mono-R",
+      "count": 1,
+      "percentage": 1.4,
+      "scryfallQuery": "!\"Torbran, Thane of Red Fell\""
+    },
+    {
+      "name": "Satya, Aetherflux Genius",
+      "colors": ["W", "U", "R"],
+      "colorIdentity": "Jeskai",
+      "count": 1,
+      "percentage": 1.4,
+      "scryfallQuery": "!\"Satya, Aetherflux Genius\""
+    }
+  ]
+}

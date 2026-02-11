@@ -160,3 +160,74 @@ export interface Contact {
     fullAddress: string
   }
 }
+
+// Tournament Results Types
+export interface TournamentPlayer {
+  rank: number
+  name: string
+  commander: string
+  colors: string[] // Array of color codes: W, U, B, R, G
+  colorIdentity: string // e.g., "Izzet", "Mono-W", "Jund"
+  decklistUrl?: string
+}
+
+export interface TournamentResults {
+  eventName: string
+  date: string
+  playerCount: number
+  top8?: TournamentPlayer[]
+  top16?: TournamentPlayer[]
+  externalLinks?: {
+    mtgtop8?: string
+    melee?: string
+  }
+}
+
+// Metagame Types
+export interface MetagameStats {
+  totalPlayers: number
+  totalCommanders: number
+  maxCopies: number
+  singletons: number
+}
+
+export interface ColorDistribution {
+  mono: number
+  bicolor: number
+  tricolor: number
+  fourPlus: number
+  other?: number
+}
+
+export interface ColorPresence {
+  color: string // W, U, B, R, G
+  name: string // Blanc, Bleu, Noir, Rouge, Vert
+  count: number
+  percentage: number
+}
+
+export interface GuildDistribution {
+  name: string
+  count: number
+  percentage: number
+}
+
+export interface CommanderEntry {
+  name: string
+  colors: string[]
+  colorIdentity: string
+  count: number
+  percentage: number
+  scryfallQuery: string
+  isTopCommander?: boolean
+}
+
+export interface MetagameData {
+  eventName: string
+  date: string
+  stats: MetagameStats
+  colorDistribution: ColorDistribution
+  colorPresence: ColorPresence[]
+  guildDistribution: GuildDistribution[]
+  commanders: CommanderEntry[]
+}

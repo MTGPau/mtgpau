@@ -1,0 +1,381 @@
+{
+  "eventName": "CR Aquitaine",
+  "date": "7-8 Février 2026",
+  "stats": {
+    "totalPlayers": 88,
+    "totalCommanders": 41,
+    "maxCopies": 12,
+    "singletons": 24
+  },
+  "colorDistribution": {
+    "mono": 27,
+    "bicolor": 32,
+    "tricolor": 27,
+    "fourPlus": 1,
+    "other": 1
+  },
+  "colorPresence": [
+    { "color": "R", "name": "Rouge", "count": 40, "percentage": 45 },
+    { "color": "U", "name": "Bleu", "count": 39, "percentage": 44 },
+    { "color": "W", "name": "Blanc", "count": 37, "percentage": 42 },
+    { "color": "B", "name": "Noir", "count": 37, "percentage": 42 },
+    { "color": "G", "name": "Vert", "count": 23, "percentage": 26 }
+  ],
+  "guildDistribution": [
+    { "name": "Izzet", "count": 12, "percentage": 13.6 },
+    { "name": "Mono-W", "count": 12, "percentage": 13.6 },
+    { "name": "Jund", "count": 9, "percentage": 10.2 },
+    { "name": "Mono-G", "count": 7, "percentage": 8.0 },
+    { "name": "Jeskai", "count": 6, "percentage": 6.8 },
+    { "name": "Esper", "count": 6, "percentage": 6.8 },
+    { "name": "Dimir", "count": 4, "percentage": 4.5 },
+    { "name": "Orzhov", "count": 4, "percentage": 4.5 },
+    { "name": "Rakdos", "count": 4, "percentage": 4.5 },
+    { "name": "Mono-R", "count": 3, "percentage": 3.4 },
+    { "name": "Azorius", "count": 3, "percentage": 3.4 },
+    { "name": "Mono-U", "count": 3, "percentage": 3.4 },
+    { "name": "Mardu", "count": 2, "percentage": 2.3 },
+    { "name": "Sultai", "count": 2, "percentage": 2.3 },
+    { "name": "Mono-B", "count": 2, "percentage": 2.3 },
+    { "name": "Golgari", "count": 2, "percentage": 2.3 },
+    { "name": "Boros", "count": 2, "percentage": 2.3 },
+    { "name": "Naya", "count": 1, "percentage": 1.1 },
+    { "name": "Simic", "count": 1, "percentage": 1.1 },
+    { "name": "Grixis", "count": 1, "percentage": 1.1 },
+    { "name": "Sans-Rouge", "count": 1, "percentage": 1.1 },
+    { "name": "Other", "count": 1, "percentage": 1.1 }
+  ],
+  "commanders": [
+    {
+      "name": "Spider-Man 2099",
+      "colors": ["U", "R"],
+      "colorIdentity": "Izzet",
+      "count": 12,
+      "percentage": 13.6,
+      "scryfallQuery": "!\"Spider-Man 2099\"",
+      "isTopCommander": true
+    },
+    {
+      "name": "Phelia, Exuberant Shepherd",
+      "colors": ["W"],
+      "colorIdentity": "Mono-W",
+      "count": 7,
+      "percentage": 8.0,
+      "scryfallQuery": "!\"Phelia, Exuberant Shepherd\"",
+      "isTopCommander": true
+    },
+    {
+      "name": "Lumra, Bellow of the Woods",
+      "colors": ["G"],
+      "colorIdentity": "Mono-G",
+      "count": 6,
+      "percentage": 6.8,
+      "scryfallQuery": "!\"Lumra, Bellow of the Woods\"",
+      "isTopCommander": true
+    },
+    {
+      "name": "Slimefoot and Squee",
+      "colors": ["B", "R", "G"],
+      "colorIdentity": "Jund",
+      "count": 4,
+      "percentage": 4.5,
+      "scryfallQuery": "!\"Slimefoot and Squee\""
+    },
+    {
+      "name": "Tivit, Seller of Secrets",
+      "colors": ["W", "U", "B"],
+      "colorIdentity": "Esper",
+      "count": 4,
+      "percentage": 4.5,
+      "scryfallQuery": "!\"Tivit, Seller of Secrets\""
+    },
+    {
+      "name": "Deadpool, Trading Card",
+      "colors": ["B", "R"],
+      "colorIdentity": "Rakdos",
+      "count": 4,
+      "percentage": 4.5,
+      "scryfallQuery": "!\"Deadpool, Trading Card\""
+    },
+    {
+      "name": "Aragorn, King of Gondor",
+      "colors": ["W", "U", "R"],
+      "colorIdentity": "Jeskai",
+      "count": 3,
+      "percentage": 3.4,
+      "scryfallQuery": "!\"Aragorn, King of Gondor\""
+    },
+    {
+      "name": "Cloud, Midgar Mercenary",
+      "colors": ["W"],
+      "colorIdentity": "Mono-W",
+      "count": 3,
+      "percentage": 3.4,
+      "scryfallQuery": "!\"Cloud, Midgar Mercenary\""
+    },
+    {
+      "name": "Yoshimaru, Ever Faithful & Kraum, Ludevic's Opus",
+      "colors": ["W", "U", "R"],
+      "colorIdentity": "Jeskai",
+      "count": 3,
+      "percentage": 3.4,
+      "scryfallQuery": "!\"Yoshimaru, Ever Faithful\" OR !\"Kraum, Ludevic's Opus\""
+    },
+    {
+      "name": "Wan Shi Tong, Librarian",
+      "colors": ["U"],
+      "colorIdentity": "Mono-U",
+      "count": 3,
+      "percentage": 3.4,
+      "scryfallQuery": "!\"Wan Shi Tong, Librarian\""
+    },
+    {
+      "name": "Ertai Resurrected",
+      "colors": ["U", "B"],
+      "colorIdentity": "Dimir",
+      "count": 2,
+      "percentage": 2.3,
+      "scryfallQuery": "!\"Ertai Resurrected\""
+    },
+    {
+      "name": "Aang, Swift Savior",
+      "colors": ["W", "U"],
+      "colorIdentity": "Azorius",
+      "count": 2,
+      "percentage": 2.3,
+      "scryfallQuery": "!\"Aang, Swift Savior\""
+    },
+    {
+      "name": "Ketramose, the New Dawn",
+      "colors": ["W", "B"],
+      "colorIdentity": "Orzhov",
+      "count": 2,
+      "percentage": 2.3,
+      "scryfallQuery": "!\"Ketramose, the New Dawn\""
+    },
+    {
+      "name": "Aminatou, the Fateshifter",
+      "colors": ["W", "U", "B"],
+      "colorIdentity": "Esper",
+      "count": 2,
+      "percentage": 2.3,
+      "scryfallQuery": "!\"Aminatou, the Fateshifter\""
+    },
+    {
+      "name": "Phlage, Titan of Fire's Fury",
+      "colors": ["W", "R"],
+      "colorIdentity": "Boros",
+      "count": 2,
+      "percentage": 2.3,
+      "scryfallQuery": "!\"Phlage, Titan of Fire's Fury\""
+    },
+    {
+      "name": "Hidetsugu and Kairi",
+      "colors": ["U", "B"],
+      "colorIdentity": "Dimir",
+      "count": 2,
+      "percentage": 2.3,
+      "scryfallQuery": "!\"Hidetsugu and Kairi\""
+    },
+    {
+      "name": "Soul of Windgrace",
+      "colors": ["B", "R", "G"],
+      "colorIdentity": "Jund",
+      "count": 2,
+      "percentage": 2.3,
+      "scryfallQuery": "!\"Soul of Windgrace\""
+    },
+    {
+      "name": "Prossh, Skyraider of Kher",
+      "colors": ["B", "R", "G"],
+      "colorIdentity": "Jund",
+      "count": 1,
+      "percentage": 1.1,
+      "scryfallQuery": "!\"Prossh, Skyraider of Kher\""
+    },
+    {
+      "name": "Jan Jansen, Chaos Crafter",
+      "colors": ["W", "B", "R"],
+      "colorIdentity": "Mardu",
+      "count": 1,
+      "percentage": 1.1,
+      "scryfallQuery": "!\"Jan Jansen, Chaos Crafter\""
+    },
+    {
+      "name": "Voja, Jaws of the Conclave",
+      "colors": ["W", "R", "G"],
+      "colorIdentity": "Naya",
+      "count": 1,
+      "percentage": 1.1,
+      "scryfallQuery": "!\"Voja, Jaws of the Conclave\""
+    },
+    {
+      "name": "Lonis, Cryptozoologist",
+      "colors": ["U", "G"],
+      "colorIdentity": "Simic",
+      "count": 1,
+      "percentage": 1.1,
+      "scryfallQuery": "!\"Lonis, Cryptozoologist\""
+    },
+    {
+      "name": "Tasigur, the Golden Fang",
+      "colors": ["U", "B", "G"],
+      "colorIdentity": "Sultai",
+      "count": 1,
+      "percentage": 1.1,
+      "scryfallQuery": "!\"Tasigur, the Golden Fang\""
+    },
+    {
+      "name": "Zhao, the Moon Slayer",
+      "colors": ["R"],
+      "colorIdentity": "Mono-R",
+      "count": 1,
+      "percentage": 1.1,
+      "scryfallQuery": "!\"Zhao, the Moon Slayer\""
+    },
+    {
+      "name": "Sheoldred, the Apocalypse",
+      "colors": ["B"],
+      "colorIdentity": "Mono-B",
+      "count": 1,
+      "percentage": 1.1,
+      "scryfallQuery": "!\"Sheoldred, the Apocalypse\""
+    },
+    {
+      "name": "Kefka, Court Mage",
+      "colors": ["U", "B", "R"],
+      "colorIdentity": "Grixis",
+      "count": 1,
+      "percentage": 1.1,
+      "scryfallQuery": "!\"Kefka, Court Mage\""
+    },
+    {
+      "name": "The Reaper, King No More",
+      "colors": ["B", "R", "G"],
+      "colorIdentity": "Jund",
+      "count": 1,
+      "percentage": 1.1,
+      "scryfallQuery": "!\"The Reaper, King No More\""
+    },
+    {
+      "name": "Abby, Merciless Soldier & Ellie, Vengeful Hunter",
+      "colors": ["B", "R", "G"],
+      "colorIdentity": "Jund",
+      "count": 1,
+      "percentage": 1.1,
+      "scryfallQuery": "!\"Abby, Merciless Soldier\" OR !\"Ellie, Vengeful Hunter\""
+    },
+    {
+      "name": "Atraxa, Grand Unifier",
+      "colors": ["W", "U", "B", "G"],
+      "colorIdentity": "Sans-Rouge",
+      "count": 1,
+      "percentage": 1.1,
+      "scryfallQuery": "!\"Atraxa, Grand Unifier\""
+    },
+    {
+      "name": "Grist, the Hunger Tide",
+      "colors": ["B", "G"],
+      "colorIdentity": "Golgari",
+      "count": 1,
+      "percentage": 1.1,
+      "scryfallQuery": "!\"Grist, the Hunger Tide\""
+    },
+    {
+      "name": "Cecil, Dark Knight",
+      "colors": ["W", "B"],
+      "colorIdentity": "Orzhov",
+      "count": 1,
+      "percentage": 1.1,
+      "scryfallQuery": "!\"Cecil, Dark Knight\""
+    },
+    {
+      "name": "Terra, Herald of Hope",
+      "colors": ["W", "B", "R"],
+      "colorIdentity": "Mardu",
+      "count": 1,
+      "percentage": 1.1,
+      "scryfallQuery": "!\"Terra, Herald of Hope\""
+    },
+    {
+      "name": "Plagon, Lord of the Beach",
+      "colors": ["W", "U"],
+      "colorIdentity": "Azorius",
+      "count": 1,
+      "percentage": 1.1,
+      "scryfallQuery": "!\"Plagon, Lord of the Beach\""
+    },
+    {
+      "name": "Amalia Benavides Aguirre",
+      "colors": ["W", "B"],
+      "colorIdentity": "Orzhov",
+      "count": 1,
+      "percentage": 1.1,
+      "scryfallQuery": "!\"Amalia Benavides Aguirre\""
+    },
+    {
+      "name": "Fynn, the Fangbearer",
+      "colors": ["G"],
+      "colorIdentity": "Mono-G",
+      "count": 1,
+      "percentage": 1.1,
+      "scryfallQuery": "!\"Fynn, the Fangbearer\""
+    },
+    {
+      "name": "Tourach, Dread Cantor",
+      "colors": ["B"],
+      "colorIdentity": "Mono-B",
+      "count": 1,
+      "percentage": 1.1,
+      "scryfallQuery": "!\"Tourach, Dread Cantor\""
+    },
+    {
+      "name": "Magda, the Hoardmaster",
+      "colors": ["R"],
+      "colorIdentity": "Mono-R",
+      "count": 1,
+      "percentage": 1.1,
+      "scryfallQuery": "!\"Magda, the Hoardmaster\""
+    },
+    {
+      "name": "Oswald Fiddlebender",
+      "colors": ["W"],
+      "colorIdentity": "Mono-W",
+      "count": 1,
+      "percentage": 1.1,
+      "scryfallQuery": "!\"Oswald Fiddlebender\""
+    },
+    {
+      "name": "The Gitrog Monster",
+      "colors": ["B", "G"],
+      "colorIdentity": "Golgari",
+      "count": 1,
+      "percentage": 1.1,
+      "scryfallQuery": "!\"The Gitrog Monster\""
+    },
+    {
+      "name": "Light-Paws, Emperor's Voice",
+      "colors": ["W"],
+      "colorIdentity": "Mono-W",
+      "count": 1,
+      "percentage": 1.1,
+      "scryfallQuery": "!\"Light-Paws, Emperor's Voice\""
+    },
+    {
+      "name": "Zurgo Bellstriker",
+      "colors": ["R"],
+      "colorIdentity": "Mono-R",
+      "count": 1,
+      "percentage": 1.1,
+      "scryfallQuery": "!\"Zurgo Bellstriker\""
+    },
+    {
+      "name": "Glarb, Calamity's Augur",
+      "colors": ["U", "B", "G"],
+      "colorIdentity": "Sultai",
+      "count": 1,
+      "percentage": 1.1,
+      "scryfallQuery": "!\"Glarb, Calamity's Augur\""
+    }
+  ]
+}

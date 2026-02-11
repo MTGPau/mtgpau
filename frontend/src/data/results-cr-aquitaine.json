@@ -1,0 +1,125 @@
+{
+  "eventName": "CR Aquitaine 2026 - Résultats",
+  "date": "7-8 Février 2026",
+  "playerCount": 88,
+  "externalLinks": {
+    "mtgtop8": "https://mtgtop8.com/event?e=80040&f=EDH",
+    "melee": "https://melee.gg/Tournament/View/401539"
+  },
+  "top8": [
+    {
+      "rank": 1,
+      "name": "Paulma",
+      "commander": "Phelia, Exuberant Shepherd",
+      "colors": ["W"],
+      "colorIdentity": "Mono-W"
+    },
+    {
+      "rank": 2,
+      "name": "Paul Séronie-vivien",
+      "commander": "Aang, Swift Savior",
+      "colors": ["W", "U"],
+      "colorIdentity": "Azorius"
+    },
+    {
+      "rank": 3,
+      "name": "Julien Rouar",
+      "commander": "Spider-Man 2099",
+      "colors": ["U", "R"],
+      "colorIdentity": "Izzet"
+    },
+    {
+      "rank": 4,
+      "name": "Eliott_dragon",
+      "commander": "Tasigur, the Golden Fang",
+      "colors": ["U", "B", "G"],
+      "colorIdentity": "Sultai"
+    },
+    {
+      "rank": 5,
+      "name": "Titouan Le Berre",
+      "commander": "Aragorn, King of Gondor",
+      "colors": ["W", "U", "R"],
+      "colorIdentity": "Jeskai"
+    },
+    {
+      "rank": 6,
+      "name": "Ilab1",
+      "commander": "Spider-Man 2099",
+      "colors": ["U", "R"],
+      "colorIdentity": "Izzet"
+    },
+    {
+      "rank": 7,
+      "name": "Fizban87",
+      "commander": "Wan Shi Tong, Librarian",
+      "colors": ["U"],
+      "colorIdentity": "Mono-U"
+    },
+    {
+      "rank": 8,
+      "name": "Yasos",
+      "commander": "Yoshimaru, Ever Faithful & Kraum, Ludevic's Opus",
+      "colors": ["W", "U", "R"],
+      "colorIdentity": "Jeskai"
+    }
+  ],
+  "top16": [
+    {
+      "rank": 9,
+      "name": "Axeb3",
+      "commander": "Atraxa, Grand Unifier",
+      "colors": ["W", "U", "B", "G"],
+      "colorIdentity": "Sans-Rouge"
+    },
+    {
+      "rank": 10,
+      "name": "Jeremy Saboureau",
+      "commander": "Cloud, Midgar Mercenary",
+      "colors": ["W"],
+      "colorIdentity": "Mono-W"
+    },
+    {
+      "rank": 11,
+      "name": "Julienjoie",
+      "commander": "Ertai Resurrected",
+      "colors": ["U", "B"],
+      "colorIdentity": "Dimir"
+    },
+    {
+      "rank": 12,
+      "name": "Steyn",
+      "commander": "Lumra, Bellow of the Woods",
+      "colors": ["G"],
+      "colorIdentity": "Mono-G"
+    },
+    {
+      "rank": 13,
+      "name": "Keligteampilouface",
+      "commander": "Phelia, Exuberant Shepherd",
+      "colors": ["W"],
+      "colorIdentity": "Mono-W"
+    },
+    {
+      "rank": 14,
+      "name": "Achardclement",
+      "commander": "Slimefoot and Squee",
+      "colors": ["B", "R", "G"],
+      "colorIdentity": "Jund"
+    },
+    {
+      "rank": 15,
+      "name": "Hippolytor",
+      "commander": "Slimefoot and Squee",
+      "colors": ["B", "R", "G"],
+      "colorIdentity": "Jund"
+    },
+    {
+      "rank": 16,
+      "name": "Macp6",
+      "commander": "Spider-Man 2099",
+      "colors": ["U", "R"],
+      "colorIdentity": "Izzet"
+    }
+  ]
+}

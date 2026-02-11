@@ -1,0 +1,125 @@
+{
+  "eventName": "Open Qualifier CDF 2026 - Résultats",
+  "date": "8 Février 2026",
+  "playerCount": 70,
+  "externalLinks": {
+    "mtgtop8": "https://mtgtop8.com/event?e=80101&f=EDH",
+    "melee": "https://melee.gg/Tournament/View/403210"
+  },
+  "top8": [
+    {
+      "rank": 1,
+      "name": "Julien Rouar",
+      "commander": "Spider-Man 2099",
+      "colors": ["U", "R"],
+      "colorIdentity": "Izzet"
+    },
+    {
+      "rank": 2,
+      "name": "Eliott_dragon",
+      "commander": "Lumra, Bellow of the Woods",
+      "colors": ["G"],
+      "colorIdentity": "Mono-G"
+    },
+    {
+      "rank": 3,
+      "name": "Amaury Thomas",
+      "commander": "Spider-Man 2099",
+      "colors": ["U", "R"],
+      "colorIdentity": "Izzet"
+    },
+    {
+      "rank": 4,
+      "name": "Theurblaireau",
+      "commander": "Terra, Herald of Hope",
+      "colors": ["W", "B", "R"],
+      "colorIdentity": "Mardu"
+    },
+    {
+      "rank": 5,
+      "name": "Mikaelfullalove",
+      "commander": "Aragorn, King of Gondor",
+      "colors": ["W", "U", "R"],
+      "colorIdentity": "Jeskai"
+    },
+    {
+      "rank": 6,
+      "name": "Bgarciaesi",
+      "commander": "Spider-Man 2099",
+      "colors": ["U", "R"],
+      "colorIdentity": "Izzet"
+    },
+    {
+      "rank": 7,
+      "name": "Thomasfaulmann",
+      "commander": "Lumra, Bellow of the Woods",
+      "colors": ["G"],
+      "colorIdentity": "Mono-G"
+    },
+    {
+      "rank": 8,
+      "name": "Damiengic",
+      "commander": "Tivit, Seller of Secrets",
+      "colors": ["W", "U", "B"],
+      "colorIdentity": "Esper"
+    }
+  ],
+  "top16": [
+    {
+      "rank": 9,
+      "name": "Olaia Darricau",
+      "commander": "Flamewar, Brash Veteran",
+      "colors": ["U", "B", "R"],
+      "colorIdentity": "Grixis"
+    },
+    {
+      "rank": 10,
+      "name": "Titouan Le Berre",
+      "commander": "Grist, the Hunger Tide",
+      "colors": ["B", "G"],
+      "colorIdentity": "Golgari"
+    },
+    {
+      "rank": 11,
+      "name": "Garrug",
+      "commander": "Lumra, Bellow of the Woods",
+      "colors": ["G"],
+      "colorIdentity": "Mono-G"
+    },
+    {
+      "rank": 12,
+      "name": "Thirouard Renaud",
+      "commander": "Marath, Will of the Wild",
+      "colors": ["W", "R", "G"],
+      "colorIdentity": "Naya"
+    },
+    {
+      "rank": 13,
+      "name": "Paulma",
+      "commander": "Phelia, Exuberant Shepherd",
+      "colors": ["W"],
+      "colorIdentity": "Mono-W"
+    },
+    {
+      "rank": 14,
+      "name": "Alexandre47",
+      "commander": "Phelia, Exuberant Shepherd",
+      "colors": ["W"],
+      "colorIdentity": "Mono-W"
+    },
+    {
+      "rank": 15,
+      "name": "Anthony_ruer",
+      "commander": "The Gitrog Monster",
+      "colors": ["B", "G"],
+      "colorIdentity": "Golgari"
+    },
+    {
+      "rank": 16,
+      "name": "Frp",
+      "commander": "Zurgo Bellstriker",
+      "colors": ["R"],
+      "colorIdentity": "Mono-R"
+    }
+  ]
+}
