@@ -1,8 +1,86 @@
 [
     {
-        "api_url": "https://unityleague.gg/api/events/37026/",
+        "api_url": "https://unityleague.gg/api/events/37024/",
+        "name": "Draft FF",
+        "date": "2026-07-15",
+        "start_time": "19:15:00",
+        "end_time": null,
+        "format": "LIMITED",
+        "category": "REGULAR",
+        "url": null,
+        "description": "",
+        "organizer": "https://unityleague.gg/api/organizers/355/",
+        "results": [
+            {
+                "player": "Lucas Pauzies",
+                "single_elimination_result": null,
+                "ranking": 1,
+                "win_count": 3,
+                "loss_count": 0,
+                "draw_count": 0
+            },
+            {
+                "player": "Burelout Nicolas",
+                "single_elimination_result": null,
+                "ranking": 2,
+                "win_count": 2,
+                "loss_count": 1,
+                "draw_count": 0
+            },
+            {
+                "player": "Sylvain Sensebe",
+                "single_elimination_result": null,
+                "ranking": 3,
+                "win_count": 1,
+                "loss_count": 1,
+                "draw_count": 1
+            },
+            {
+                "player": "Alexandre M.",
+                "single_elimination_result": null,
+                "ranking": 4,
+                "win_count": 1,
+                "loss_count": 1,
+                "draw_count": 1
+            },
+            {
+                "player": "Patrick B.",
+                "single_elimination_result": null,
+                "ranking": 5,
+                "win_count": 1,
+                "loss_count": 1,
+                "draw_count": 1
+            },
+            {
+                "player": "Emeline d. A.",
+                "single_elimination_result": null,
+                "ranking": 6,
+                "win_count": 1,
+                "loss_count": 1,
+                "draw_count": 1
+            },
+            {
+                "player": "Andr\u00e9 M.",
+                "single_elimination_result": null,
+                "ranking": 7,
+                "win_count": 0,
+                "loss_count": 2,
+                "draw_count": 1
+            },
+            {
+                "player": "Pierre L.",
+                "single_elimination_result": null,
+                "ranking": 8,
+                "win_count": 0,
+                "loss_count": 2,
+                "draw_count": 1
+            }
+        ]
+    },
+    {
+        "api_url": "https://unityleague.gg/api/events/37022/",
         "name": "DC",
-        "date": "2026-07-29",
+        "date": "2026-07-01",
         "start_time": "20:00:00",
         "end_time": null,
         "format": "DC",
@@ -10,12 +88,281 @@
         "url": null,
         "description": "",
         "organizer": "https://unityleague.gg/api/organizers/355/",
-        "results": []
+        "results": [
+            {
+                "player": "Yoann Scordia",
+                "single_elimination_result": null,
+                "ranking": 1,
+                "win_count": 4,
+                "loss_count": 0,
+                "draw_count": 0
+            },
+            {
+                "player": "Cl\u00e9ment Achard",
+                "single_elimination_result": null,
+                "ranking": 2,
+                "win_count": 3,
+                "loss_count": 1,
+                "draw_count": 0
+            },
+            {
+                "player": "Lucas Pauzies",
+                "single_elimination_result": null,
+                "ranking": 3,
+                "win_count": 2,
+                "loss_count": 0,
+                "draw_count": 2
+            },
+            {
+                "player": "Damien Garcia",
+                "single_elimination_result": null,
+                "ranking": 4,
+                "win_count": 2,
+                "loss_count": 1,
+                "draw_count": 1
+            },
+            {
+                "player": "Nathan M.",
+                "single_elimination_result": null,
+                "ranking": 5,
+                "win_count": 2,
+                "loss_count": 2,
+                "draw_count": 0
+            },
+            {
+                "player": "Nicolas M.",
+                "single_elimination_result": null,
+                "ranking": 6,
+                "win_count": 2,
+                "loss_count": 2,
+                "draw_count": 0
+            },
+            {
+                "player": "Tristan Grosset-Bourbange",
+                "single_elimination_result": null,
+                "ranking": 7,
+                "win_count": 2,
+                "loss_count": 2,
+                "draw_count": 0
+            },
+            {
+                "player": "Fr\u00e9d\u00e9ric P.",
+                "single_elimination_result": null,
+                "ranking": 8,
+                "win_count": 2,
+                "loss_count": 2,
+                "draw_count": 0
+            },
+            {
+                "player": "Burelout Nicolas",
+                "single_elimination_result": null,
+                "ranking": 9,
+                "win_count": 1,
+                "loss_count": 2,
+                "draw_count": 1
+            },
+            {
+                "player": "Philippe B.",
+                "single_elimination_result": null,
+                "ranking": 10,
+                "win_count": 1,
+                "loss_count": 3,
+                "draw_count": 0
+            },
+            {
+                "player": "Thibault Maigrat",
+                "single_elimination_result": null,
+                "ranking": 11,
+                "win_count": 1,
+                "loss_count": 3,
+                "draw_count": 0
+            }
+        ]
     },
     {
-        "api_url": "https://unityleague.gg/api/events/37025/",
+        "api_url": "https://unityleague.gg/api/events/36042/",
+        "name": "Chaos draft",
+        "date": "2026-06-24",
+        "start_time": "19:15:00",
+        "end_time": null,
+        "format": "LIMITED",
+        "category": "REGULAR",
+        "url": null,
+        "description": "",
+        "organizer": "https://unityleague.gg/api/organizers/355/",
+        "results": [
+            {
+                "player": "Nico C.-A.",
+                "single_elimination_result": null,
+                "ranking": 1,
+                "win_count": 3,
+                "loss_count": 0,
+                "draw_count": 0
+            },
+            {
+                "player": "Guillaume T.",
+                "single_elimination_result": null,
+                "ranking": 2,
+                "win_count": 2,
+                "loss_count": 1,
+                "draw_count": 0
+            },
+            {
+                "player": "Yohan S.",
+                "single_elimination_result": null,
+                "ranking": 3,
+                "win_count": 2,
+                "loss_count": 1,
+                "draw_count": 0
+            },
+            {
+                "player": "Xavier M.",
+                "single_elimination_result": null,
+                "ranking": 4,
+                "win_count": 2,
+                "loss_count": 1,
+                "draw_count": 0
+            },
+            {
+                "player": "Sylvain Sensebe",
+                "single_elimination_result": null,
+                "ranking": 5,
+                "win_count": 1,
+                "loss_count": 2,
+                "draw_count": 0
+            },
+            {
+                "player": "Burelout Nicolas",
+                "single_elimination_result": null,
+                "ranking": 6,
+                "win_count": 1,
+                "loss_count": 2,
+                "draw_count": 0
+            },
+            {
+                "player": "Alexandre M.",
+                "single_elimination_result": null,
+                "ranking": 7,
+                "win_count": 1,
+                "loss_count": 2,
+                "draw_count": 0
+            },
+            {
+                "player": "Thibault Maigrat",
+                "single_elimination_result": null,
+                "ranking": 8,
+                "win_count": 0,
+                "loss_count": 3,
+                "draw_count": 0
+            }
+        ]
+    },
+    {
+        "api_url": "https://unityleague.gg/api/events/36041/",
+        "name": "DC",
+        "date": "2026-06-17",
+        "start_time": "20:00:00",
+        "end_time": null,
+        "format": "DC",
+        "category": "REGULAR",
+        "url": null,
+        "description": "",
+        "organizer": "https://unityleague.gg/api/organizers/355/",
+        "results": [
+            {
+                "player": "Tristan Grosset-Bourbange",
+                "single_elimination_result": null,
+                "ranking": 1,
+                "win_count": 3,
+                "loss_count": 1,
+                "draw_count": 0
+            },
+            {
+                "player": "Yoann Scordia",
+                "single_elimination_result": null,
+                "ranking": 2,
+                "win_count": 3,
+                "loss_count": 1,
+                "draw_count": 0
+            },
+            {
+                "player": "Lucas Pauzies",
+                "single_elimination_result": null,
+                "ranking": 3,
+                "win_count": 3,
+                "loss_count": 1,
+                "draw_count": 0
+            },
+            {
+                "player": "Nathan M.",
+                "single_elimination_result": null,
+                "ranking": 4,
+                "win_count": 3,
+                "loss_count": 1,
+                "draw_count": 0
+            },
+            {
+                "player": "Morque J.",
+                "single_elimination_result": null,
+                "ranking": 5,
+                "win_count": 2,
+                "loss_count": 2,
+                "draw_count": 0
+            },
+            {
+                "player": "Romain G.",
+                "single_elimination_result": null,
+                "ranking": 6,
+                "win_count": 2,
+                "loss_count": 2,
+                "draw_count": 0
+            },
+            {
+                "player": "Burelout Nicolas",
+                "single_elimination_result": null,
+                "ranking": 7,
+                "win_count": 1,
+                "loss_count": 1,
+                "draw_count": 1
+            },
+            {
+                "player": "Xavier M.",
+                "single_elimination_result": null,
+                "ranking": 8,
+                "win_count": 1,
+                "loss_count": 2,
+                "draw_count": 1
+            },
+            {
+                "player": "Nicolas M.",
+                "single_elimination_result": null,
+                "ranking": 9,
+                "win_count": 1,
+                "loss_count": 3,
+                "draw_count": 0
+            },
+            {
+                "player": "Thibault Maigrat",
+                "single_elimination_result": null,
+                "ranking": 10,
+                "win_count": 1,
+                "loss_count": 3,
+                "draw_count": 0
+            },
+            {
+                "player": "Antoine Grimaldi",
+                "single_elimination_result": null,
+                "ranking": 11,
+                "win_count": 0,
+                "loss_count": 0,
+                "draw_count": 2
+            }
+        ]
+    },
+    {
+        "api_url": "https://unityleague.gg/api/events/36040/",
         "name": "Pauper",
-        "date": "2026-07-22",
+        "date": "2026-06-10",
         "start_time": "20:00:00",
         "end_time": null,
         "format": "PAUPER",
@@ -23,6 +370,3941 @@
         "url": null,
         "description": "",
         "organizer": "https://unityleague.gg/api/organizers/355/",
-        "results": []
+        "results": [
+            {
+                "player": "Tristan Grosset-Bourbange",
+                "single_elimination_result": null,
+                "ranking": 1,
+                "win_count": 3,
+                "loss_count": 0,
+                "draw_count": 0
+            },
+            {
+                "player": "Yoann Scordia",
+                "single_elimination_result": null,
+                "ranking": 2,
+                "win_count": 2,
+                "loss_count": 1,
+                "draw_count": 0
+            },
+            {
+                "player": "Burelout Nicolas",
+                "single_elimination_result": null,
+                "ranking": 3,
+                "win_count": 2,
+                "loss_count": 1,
+                "draw_count": 0
+            },
+            {
+                "player": "Xavier M.",
+                "single_elimination_result": null,
+                "ranking": 4,
+                "win_count": 1,
+                "loss_count": 2,
+                "draw_count": 0
+            },
+            {
+                "player": "Sylvain Sensebe",
+                "single_elimination_result": null,
+                "ranking": 5,
+                "win_count": 1,
+                "loss_count": 2,
+                "draw_count": 0
+            },
+            {
+                "player": "Nicolas M.",
+                "single_elimination_result": null,
+                "ranking": 6,
+                "win_count": 0,
+                "loss_count": 3,
+                "draw_count": 0
+            }
+        ]
+    },
+    {
+        "api_url": "https://unityleague.gg/api/events/36039/",
+        "name": "DC",
+        "date": "2026-06-05",
+        "start_time": "20:00:00",
+        "end_time": null,
+        "format": "DC",
+        "category": "REGULAR",
+        "url": null,
+        "description": "",
+        "organizer": "https://unityleague.gg/api/organizers/355/",
+        "results": [
+            {
+                "player": "Yoann Scordia",
+                "single_elimination_result": null,
+                "ranking": 1,
+                "win_count": 3,
+                "loss_count": 0,
+                "draw_count": 0
+            },
+            {
+                "player": "Damien Garcia",
+                "single_elimination_result": null,
+                "ranking": 2,
+                "win_count": 2,
+                "loss_count": 1,
+                "draw_count": 0
+            },
+            {
+                "player": "Cl\u00e9ment Achard",
+                "single_elimination_result": null,
+                "ranking": 3,
+                "win_count": 2,
+                "loss_count": 1,
+                "draw_count": 0
+            },
+            {
+                "player": "L\u00e9o Vayrac",
+                "single_elimination_result": null,
+                "ranking": 4,
+                "win_count": 2,
+                "loss_count": 1,
+                "draw_count": 0
+            },
+            {
+                "player": "Nicolas M.",
+                "single_elimination_result": null,
+                "ranking": 5,
+                "win_count": 1,
+                "loss_count": 2,
+                "draw_count": 0
+            },
+            {
+                "player": "Olivier M.",
+                "single_elimination_result": null,
+                "ranking": 6,
+                "win_count": 1,
+                "loss_count": 2,
+                "draw_count": 0
+            },
+            {
+                "player": "Noa I.",
+                "single_elimination_result": null,
+                "ranking": 7,
+                "win_count": 1,
+                "loss_count": 2,
+                "draw_count": 0
+            },
+            {
+                "player": "Thibault Maigrat",
+                "single_elimination_result": null,
+                "ranking": 8,
+                "win_count": 0,
+                "loss_count": 3,
+                "draw_count": 0
+            }
+        ]
+    },
+    {
+        "api_url": "https://unityleague.gg/api/events/36038/",
+        "name": "Modern",
+        "date": "2026-06-03",
+        "start_time": "20:00:00",
+        "end_time": null,
+        "format": "MODERN",
+        "category": "REGULAR",
+        "url": null,
+        "description": "",
+        "organizer": "https://unityleague.gg/api/organizers/355/",
+        "results": [
+            {
+                "player": "Sylvain Sensebe",
+                "single_elimination_result": null,
+                "ranking": 1,
+                "win_count": 3,
+                "loss_count": 1,
+                "draw_count": 0
+            },
+            {
+                "player": "Aur\u00e9lien L.",
+                "single_elimination_result": null,
+                "ranking": 2,
+                "win_count": 3,
+                "loss_count": 1,
+                "draw_count": 0
+            },
+            {
+                "player": "Bastien L.",
+                "single_elimination_result": null,
+                "ranking": 3,
+                "win_count": 3,
+                "loss_count": 1,
+                "draw_count": 0
+            },
+            {
+                "player": "Lucas Pauzies",
+                "single_elimination_result": null,
+                "ranking": 4,
+                "win_count": 2,
+                "loss_count": 2,
+                "draw_count": 0
+            },
+            {
+                "player": "Julien H.",
+                "single_elimination_result": null,
+                "ranking": 5,
+                "win_count": 2,
+                "loss_count": 2,
+                "draw_count": 0
+            },
+            {
+                "player": "Morque J.",
+                "single_elimination_result": null,
+                "ranking": 6,
+                "win_count": 2,
+                "loss_count": 2,
+                "draw_count": 0
+            },
+            {
+                "player": "Fr\u00e9d\u00e9ric P.",
+                "single_elimination_result": null,
+                "ranking": 7,
+                "win_count": 1,
+                "loss_count": 3,
+                "draw_count": 0
+            },
+            {
+                "player": "Nicolas M.",
+                "single_elimination_result": null,
+                "ranking": 8,
+                "win_count": 1,
+                "loss_count": 0,
+                "draw_count": 0
+            },
+            {
+                "player": "Philippe B.",
+                "single_elimination_result": null,
+                "ranking": 9,
+                "win_count": 0,
+                "loss_count": 4,
+                "draw_count": 0
+            }
+        ]
+    },
+    {
+        "api_url": "https://unityleague.gg/api/events/34118/",
+        "name": "Chaos draft",
+        "date": "2026-05-27",
+        "start_time": "07:00:00",
+        "end_time": null,
+        "format": "LIMITED",
+        "category": "REGULAR",
+        "url": null,
+        "description": "",
+        "organizer": "https://unityleague.gg/api/organizers/355/",
+        "results": [
+            {
+                "player": "Lucas Pauzies",
+                "single_elimination_result": null,
+                "ranking": 1,
+                "win_count": 3,
+                "loss_count": 0,
+                "draw_count": 0
+            },
+            {
+                "player": "Sylvain Sensebe",
+                "single_elimination_result": null,
+                "ranking": 2,
+                "win_count": 2,
+                "loss_count": 1,
+                "draw_count": 0
+            },
+            {
+                "player": "Nico C.-A.",
+                "single_elimination_result": null,
+                "ranking": 3,
+                "win_count": 2,
+                "loss_count": 1,
+                "draw_count": 0
+            },
+            {
+                "player": "Lucas M.",
+                "single_elimination_result": null,
+                "ranking": 4,
+                "win_count": 2,
+                "loss_count": 1,
+                "draw_count": 0
+            },
+            {
+                "player": "Guillaume T.",
+                "single_elimination_result": null,
+                "ranking": 5,
+                "win_count": 1,
+                "loss_count": 2,
+                "draw_count": 0
+            },
+            {
+                "player": "Brice C.",
+                "single_elimination_result": null,
+                "ranking": 6,
+                "win_count": 1,
+                "loss_count": 2,
+                "draw_count": 0
+            },
+            {
+                "player": "Yoann Scordia",
+                "single_elimination_result": null,
+                "ranking": 7,
+                "win_count": 0,
+                "loss_count": 2,
+                "draw_count": 1
+            },
+            {
+                "player": "Ludo E.",
+                "single_elimination_result": null,
+                "ranking": 8,
+                "win_count": 0,
+                "loss_count": 2,
+                "draw_count": 1
+            }
+        ]
+    },
+    {
+        "api_url": "https://unityleague.gg/api/events/34117/",
+        "name": "DC",
+        "date": "2026-05-22",
+        "start_time": "08:00:00",
+        "end_time": null,
+        "format": "DC",
+        "category": "REGULAR",
+        "url": null,
+        "description": "",
+        "organizer": "https://unityleague.gg/api/organizers/355/",
+        "results": [
+            {
+                "player": "Cl\u00e9ment Achard",
+                "single_elimination_result": null,
+                "ranking": 1,
+                "win_count": 4,
+                "loss_count": 0,
+                "draw_count": 0
+            },
+            {
+                "player": "Damien Garcia",
+                "single_elimination_result": null,
+                "ranking": 2,
+                "win_count": 3,
+                "loss_count": 1,
+                "draw_count": 0
+            },
+            {
+                "player": "Yoann Scordia",
+                "single_elimination_result": null,
+                "ranking": 3,
+                "win_count": 2,
+                "loss_count": 1,
+                "draw_count": 1
+            },
+            {
+                "player": "L\u00e9o Vayrac",
+                "single_elimination_result": null,
+                "ranking": 4,
+                "win_count": 2,
+                "loss_count": 1,
+                "draw_count": 1
+            },
+            {
+                "player": "Lucas Pauzies",
+                "single_elimination_result": null,
+                "ranking": 5,
+                "win_count": 2,
+                "loss_count": 1,
+                "draw_count": 1
+            },
+            {
+                "player": "Nathan M.",
+                "single_elimination_result": null,
+                "ranking": 6,
+                "win_count": 2,
+                "loss_count": 2,
+                "draw_count": 0
+            },
+            {
+                "player": "Anthony R.",
+                "single_elimination_result": null,
+                "ranking": 7,
+                "win_count": 1,
+                "loss_count": 0,
+                "draw_count": 3
+            },
+            {
+                "player": "Antoine Grimaldi",
+                "single_elimination_result": null,
+                "ranking": 8,
+                "win_count": 1,
+                "loss_count": 1,
+                "draw_count": 0
+            },
+            {
+                "player": "Nicolas M.",
+                "single_elimination_result": null,
+                "ranking": 9,
+                "win_count": 1,
+                "loss_count": 3,
+                "draw_count": 0
+            },
+            {
+                "player": "Olivier M.",
+                "single_elimination_result": null,
+                "ranking": 10,
+                "win_count": 1,
+                "loss_count": 3,
+                "draw_count": 0
+            },
+            {
+                "player": "Thibault Maigrat",
+                "single_elimination_result": null,
+                "ranking": 11,
+                "win_count": 0,
+                "loss_count": 4,
+                "draw_count": 0
+            }
+        ]
+    },
+    {
+        "api_url": "https://unityleague.gg/api/events/34116/",
+        "name": "Modern",
+        "date": "2026-05-20",
+        "start_time": "08:00:00",
+        "end_time": null,
+        "format": "MODERN",
+        "category": "REGULAR",
+        "url": null,
+        "description": "",
+        "organizer": "https://unityleague.gg/api/organizers/355/",
+        "results": [
+            {
+                "player": "Aur\u00e9lien L.",
+                "single_elimination_result": null,
+                "ranking": 1,
+                "win_count": 3,
+                "loss_count": 0,
+                "draw_count": 0
+            },
+            {
+                "player": "Lucas Pauzies",
+                "single_elimination_result": null,
+                "ranking": 2,
+                "win_count": 2,
+                "loss_count": 1,
+                "draw_count": 0
+            },
+            {
+                "player": "Nicolas M.",
+                "single_elimination_result": null,
+                "ranking": 3,
+                "win_count": 1,
+                "loss_count": 2,
+                "draw_count": 0
+            },
+            {
+                "player": "Bastien L.",
+                "single_elimination_result": null,
+                "ranking": 4,
+                "win_count": 1,
+                "loss_count": 2,
+                "draw_count": 0
+            },
+            {
+                "player": "Julien H.",
+                "single_elimination_result": null,
+                "ranking": 5,
+                "win_count": 1,
+                "loss_count": 2,
+                "draw_count": 0
+            },
+            {
+                "player": "Sylvain Sensebe",
+                "single_elimination_result": null,
+                "ranking": 6,
+                "win_count": 1,
+                "loss_count": 2,
+                "draw_count": 0
+            }
+        ]
+    },
+    {
+        "api_url": "https://unityleague.gg/api/events/34115/",
+        "name": "DC",
+        "date": "2026-05-13",
+        "start_time": "08:00:00",
+        "end_time": null,
+        "format": "DC",
+        "category": "REGULAR",
+        "url": null,
+        "description": "",
+        "organizer": "https://unityleague.gg/api/organizers/355/",
+        "results": [
+            {
+                "player": "Cl\u00e9ment Achard",
+                "single_elimination_result": null,
+                "ranking": 1,
+                "win_count": 4,
+                "loss_count": 0,
+                "draw_count": 0
+            },
+            {
+                "player": "Yoann Scordia",
+                "single_elimination_result": null,
+                "ranking": 2,
+                "win_count": 3,
+                "loss_count": 1,
+                "draw_count": 0
+            },
+            {
+                "player": "Anthony R.",
+                "single_elimination_result": null,
+                "ranking": 3,
+                "win_count": 3,
+                "loss_count": 1,
+                "draw_count": 0
+            },
+            {
+                "player": "Nicolas M.",
+                "single_elimination_result": null,
+                "ranking": 4,
+                "win_count": 3,
+                "loss_count": 1,
+                "draw_count": 0
+            },
+            {
+                "player": "Burelout Nicolas",
+                "single_elimination_result": null,
+                "ranking": 5,
+                "win_count": 2,
+                "loss_count": 0,
+                "draw_count": 2
+            },
+            {
+                "player": "Fr\u00e9d\u00e9ric P.",
+                "single_elimination_result": null,
+                "ranking": 6,
+                "win_count": 2,
+                "loss_count": 2,
+                "draw_count": 0
+            },
+            {
+                "player": "Lucas Pauzies",
+                "single_elimination_result": null,
+                "ranking": 7,
+                "win_count": 2,
+                "loss_count": 2,
+                "draw_count": 0
+            },
+            {
+                "player": "L\u00e9o Vayrac",
+                "single_elimination_result": null,
+                "ranking": 8,
+                "win_count": 2,
+                "loss_count": 2,
+                "draw_count": 0
+            },
+            {
+                "player": "Morque J.",
+                "single_elimination_result": null,
+                "ranking": 9,
+                "win_count": 2,
+                "loss_count": 2,
+                "draw_count": 0
+            },
+            {
+                "player": "Thibault Maigrat",
+                "single_elimination_result": null,
+                "ranking": 10,
+                "win_count": 2,
+                "loss_count": 2,
+                "draw_count": 0
+            },
+            {
+                "player": "Antoine Grimaldi",
+                "single_elimination_result": null,
+                "ranking": 11,
+                "win_count": 1,
+                "loss_count": 2,
+                "draw_count": 1
+            },
+            {
+                "player": "Tristan Grosset-Bourbange",
+                "single_elimination_result": null,
+                "ranking": 12,
+                "win_count": 1,
+                "loss_count": 2,
+                "draw_count": 1
+            },
+            {
+                "player": "Philippe B.",
+                "single_elimination_result": null,
+                "ranking": 13,
+                "win_count": 1,
+                "loss_count": 3,
+                "draw_count": 0
+            },
+            {
+                "player": "Olivier M.",
+                "single_elimination_result": null,
+                "ranking": 14,
+                "win_count": 1,
+                "loss_count": 3,
+                "draw_count": 0
+            },
+            {
+                "player": "Tom T.",
+                "single_elimination_result": null,
+                "ranking": 15,
+                "win_count": 1,
+                "loss_count": 3,
+                "draw_count": 0
+            },
+            {
+                "player": "Damien Garcia",
+                "single_elimination_result": null,
+                "ranking": 16,
+                "win_count": 0,
+                "loss_count": 2,
+                "draw_count": 0
+            }
+        ]
+    },
+    {
+        "api_url": "https://unityleague.gg/api/events/34114/",
+        "name": "Pauper",
+        "date": "2026-05-06",
+        "start_time": "08:00:00",
+        "end_time": null,
+        "format": "PAUPER",
+        "category": "REGULAR",
+        "url": null,
+        "description": "",
+        "organizer": "https://unityleague.gg/api/organizers/355/",
+        "results": [
+            {
+                "player": "Yoann Scordia",
+                "single_elimination_result": null,
+                "ranking": 1,
+                "win_count": 3,
+                "loss_count": 0,
+                "draw_count": 1
+            },
+            {
+                "player": "David G.",
+                "single_elimination_result": null,
+                "ranking": 2,
+                "win_count": 3,
+                "loss_count": 1,
+                "draw_count": 0
+            },
+            {
+                "player": "Nicolas M.",
+                "single_elimination_result": null,
+                "ranking": 3,
+                "win_count": 2,
+                "loss_count": 1,
+                "draw_count": 1
+            },
+            {
+                "player": "Sylvain Sensebe",
+                "single_elimination_result": null,
+                "ranking": 4,
+                "win_count": 2,
+                "loss_count": 1,
+                "draw_count": 1
+            },
+            {
+                "player": "Tristan Grosset-Bourbange",
+                "single_elimination_result": null,
+                "ranking": 5,
+                "win_count": 2,
+                "loss_count": 1,
+                "draw_count": 1
+            },
+            {
+                "player": "Lucas Pauzies",
+                "single_elimination_result": null,
+                "ranking": 6,
+                "win_count": 2,
+                "loss_count": 2,
+                "draw_count": 0
+            },
+            {
+                "player": "Burelout Nicolas",
+                "single_elimination_result": null,
+                "ranking": 7,
+                "win_count": 2,
+                "loss_count": 2,
+                "draw_count": 0
+            },
+            {
+                "player": "Xavier M.",
+                "single_elimination_result": null,
+                "ranking": 8,
+                "win_count": 1,
+                "loss_count": 3,
+                "draw_count": 0
+            },
+            {
+                "player": "Dan A.",
+                "single_elimination_result": null,
+                "ranking": 9,
+                "win_count": 1,
+                "loss_count": 3,
+                "draw_count": 0
+            }
+        ]
+    },
+    {
+        "api_url": "https://unityleague.gg/api/events/32142/",
+        "name": "Draft Strixhaven",
+        "date": "2026-04-29",
+        "start_time": "19:15:00",
+        "end_time": null,
+        "format": "LIMITED",
+        "category": "REGULAR",
+        "url": null,
+        "description": "",
+        "organizer": "https://unityleague.gg/api/organizers/355/",
+        "results": [
+            {
+                "player": "Sylvain Sensebe",
+                "single_elimination_result": null,
+                "ranking": 1,
+                "win_count": 3,
+                "loss_count": 0,
+                "draw_count": 0
+            },
+            {
+                "player": "Nico C.-A.",
+                "single_elimination_result": null,
+                "ranking": 2,
+                "win_count": 2,
+                "loss_count": 1,
+                "draw_count": 0
+            },
+            {
+                "player": "Guillaume T.",
+                "single_elimination_result": null,
+                "ranking": 3,
+                "win_count": 2,
+                "loss_count": 1,
+                "draw_count": 0
+            },
+            {
+                "player": "Lucas Pauzies",
+                "single_elimination_result": null,
+                "ranking": 4,
+                "win_count": 2,
+                "loss_count": 1,
+                "draw_count": 0
+            },
+            {
+                "player": "Yoann Scordia",
+                "single_elimination_result": null,
+                "ranking": 5,
+                "win_count": 1,
+                "loss_count": 1,
+                "draw_count": 1
+            },
+            {
+                "player": "Thibault Maigrat",
+                "single_elimination_result": null,
+                "ranking": 6,
+                "win_count": 1,
+                "loss_count": 2,
+                "draw_count": 0
+            },
+            {
+                "player": "Burelout Nicolas",
+                "single_elimination_result": null,
+                "ranking": 7,
+                "win_count": 0,
+                "loss_count": 2,
+                "draw_count": 1
+            },
+            {
+                "player": "Elise T.",
+                "single_elimination_result": null,
+                "ranking": 8,
+                "win_count": 0,
+                "loss_count": 3,
+                "draw_count": 0
+            }
+        ]
+    },
+    {
+        "api_url": "https://unityleague.gg/api/events/32141/",
+        "name": "Pauper",
+        "date": "2026-04-26",
+        "start_time": "14:00:00",
+        "end_time": null,
+        "format": "PAUPER",
+        "category": "REGULAR",
+        "url": null,
+        "description": "",
+        "organizer": "https://unityleague.gg/api/organizers/355/",
+        "results": [
+            {
+                "player": "Lucas Pauzies",
+                "single_elimination_result": null,
+                "ranking": 1,
+                "win_count": 3,
+                "loss_count": 0,
+                "draw_count": 0
+            },
+            {
+                "player": "Tristan G.",
+                "single_elimination_result": null,
+                "ranking": 2,
+                "win_count": 2,
+                "loss_count": 1,
+                "draw_count": 0
+            },
+            {
+                "player": "Sylvain Sensebe",
+                "single_elimination_result": null,
+                "ranking": 3,
+                "win_count": 2,
+                "loss_count": 1,
+                "draw_count": 0
+            },
+            {
+                "player": "Thibault Maigrat",
+                "single_elimination_result": null,
+                "ranking": 4,
+                "win_count": 1,
+                "loss_count": 2,
+                "draw_count": 0
+            },
+            {
+                "player": "Guillaume T.",
+                "single_elimination_result": null,
+                "ranking": 5,
+                "win_count": 1,
+                "loss_count": 2,
+                "draw_count": 0
+            }
+        ]
+    },
+    {
+        "api_url": "https://unityleague.gg/api/events/32140/",
+        "name": "DC",
+        "date": "2026-04-25",
+        "start_time": "14:00:00",
+        "end_time": null,
+        "format": "DC",
+        "category": "REGULAR",
+        "url": null,
+        "description": "",
+        "organizer": "https://unityleague.gg/api/organizers/355/",
+        "results": [
+            {
+                "player": "Yoann Scordia",
+                "single_elimination_result": null,
+                "ranking": 1,
+                "win_count": 3,
+                "loss_count": 0,
+                "draw_count": 0
+            },
+            {
+                "player": "Fayolle V.",
+                "single_elimination_result": null,
+                "ranking": 2,
+                "win_count": 2,
+                "loss_count": 1,
+                "draw_count": 0
+            },
+            {
+                "player": "L\u00e9o Vayrac",
+                "single_elimination_result": null,
+                "ranking": 3,
+                "win_count": 2,
+                "loss_count": 1,
+                "draw_count": 0
+            },
+            {
+                "player": "Antoine Grimaldi",
+                "single_elimination_result": null,
+                "ranking": 4,
+                "win_count": 2,
+                "loss_count": 1,
+                "draw_count": 0
+            },
+            {
+                "player": "Thibault Maigrat",
+                "single_elimination_result": null,
+                "ranking": 5,
+                "win_count": 1,
+                "loss_count": 2,
+                "draw_count": 0
+            },
+            {
+                "player": "Lucas Pauzies",
+                "single_elimination_result": null,
+                "ranking": 6,
+                "win_count": 1,
+                "loss_count": 2,
+                "draw_count": 0
+            },
+            {
+                "player": "Nicolas M.",
+                "single_elimination_result": null,
+                "ranking": 7,
+                "win_count": 1,
+                "loss_count": 2,
+                "draw_count": 0
+            }
+        ]
+    },
+    {
+        "api_url": "https://unityleague.gg/api/events/32137/",
+        "name": "DC",
+        "date": "2026-04-17",
+        "start_time": "20:00:00",
+        "end_time": null,
+        "format": "DC",
+        "category": "REGULAR",
+        "url": null,
+        "description": "",
+        "organizer": "https://unityleague.gg/api/organizers/355/",
+        "results": [
+            {
+                "player": "Nicolas M.",
+                "single_elimination_result": null,
+                "ranking": 1,
+                "win_count": 2,
+                "loss_count": 0,
+                "draw_count": 1
+            },
+            {
+                "player": "Lucas Pauzies",
+                "single_elimination_result": null,
+                "ranking": 2,
+                "win_count": 2,
+                "loss_count": 0,
+                "draw_count": 1
+            },
+            {
+                "player": "L\u00e9o Vayrac",
+                "single_elimination_result": null,
+                "ranking": 3,
+                "win_count": 2,
+                "loss_count": 1,
+                "draw_count": 0
+            },
+            {
+                "player": "Yoann Scordia",
+                "single_elimination_result": null,
+                "ranking": 4,
+                "win_count": 2,
+                "loss_count": 1,
+                "draw_count": 0
+            },
+            {
+                "player": "Jean C.",
+                "single_elimination_result": null,
+                "ranking": 5,
+                "win_count": 1,
+                "loss_count": 2,
+                "draw_count": 0
+            },
+            {
+                "player": "Thibault Maigrat",
+                "single_elimination_result": null,
+                "ranking": 6,
+                "win_count": 1,
+                "loss_count": 2,
+                "draw_count": 0
+            },
+            {
+                "player": "Baptiste M.",
+                "single_elimination_result": null,
+                "ranking": 7,
+                "win_count": 1,
+                "loss_count": 2,
+                "draw_count": 0
+            }
+        ]
+    },
+    {
+        "api_url": "https://unityleague.gg/api/events/32136/",
+        "name": "Pauper",
+        "date": "2026-04-15",
+        "start_time": "20:00:00",
+        "end_time": "23:00:00",
+        "format": "PAUPER",
+        "category": "REGULAR",
+        "url": null,
+        "description": "",
+        "organizer": "https://unityleague.gg/api/organizers/355/",
+        "results": [
+            {
+                "player": "Dan A.",
+                "single_elimination_result": null,
+                "ranking": 1,
+                "win_count": 3,
+                "loss_count": 0,
+                "draw_count": 0
+            },
+            {
+                "player": "Lucas Pauzies",
+                "single_elimination_result": null,
+                "ranking": 2,
+                "win_count": 2,
+                "loss_count": 1,
+                "draw_count": 0
+            },
+            {
+                "player": "Tristan Grosset-Bourbange",
+                "single_elimination_result": null,
+                "ranking": 3,
+                "win_count": 2,
+                "loss_count": 1,
+                "draw_count": 0
+            },
+            {
+                "player": "Yoann Scordia",
+                "single_elimination_result": null,
+                "ranking": 4,
+                "win_count": 2,
+                "loss_count": 1,
+                "draw_count": 0
+            },
+            {
+                "player": "Sylvain Sensebe",
+                "single_elimination_result": null,
+                "ranking": 5,
+                "win_count": 1,
+                "loss_count": 2,
+                "draw_count": 0
+            },
+            {
+                "player": "Thibault Maigrat",
+                "single_elimination_result": null,
+                "ranking": 6,
+                "win_count": 1,
+                "loss_count": 2,
+                "draw_count": 0
+            },
+            {
+                "player": "Guillaume T.",
+                "single_elimination_result": null,
+                "ranking": 7,
+                "win_count": 1,
+                "loss_count": 2,
+                "draw_count": 0
+            }
+        ]
+    },
+    {
+        "api_url": "https://unityleague.gg/api/events/32135/",
+        "name": "Modern",
+        "date": "2026-04-08",
+        "start_time": "20:00:00",
+        "end_time": "23:00:00",
+        "format": "MODERN",
+        "category": "REGULAR",
+        "url": null,
+        "description": "",
+        "organizer": "https://unityleague.gg/api/organizers/355/",
+        "results": [
+            {
+                "player": "Sylvain Sensebe",
+                "single_elimination_result": null,
+                "ranking": 1,
+                "win_count": 4,
+                "loss_count": 0,
+                "draw_count": 0
+            },
+            {
+                "player": "Aur\u00e9lien L.",
+                "single_elimination_result": null,
+                "ranking": 2,
+                "win_count": 3,
+                "loss_count": 1,
+                "draw_count": 0
+            },
+            {
+                "player": "Damien Garcia",
+                "single_elimination_result": null,
+                "ranking": 3,
+                "win_count": 3,
+                "loss_count": 1,
+                "draw_count": 0
+            },
+            {
+                "player": "Bastien Lanneluc",
+                "single_elimination_result": null,
+                "ranking": 4,
+                "win_count": 2,
+                "loss_count": 2,
+                "draw_count": 0
+            },
+            {
+                "player": "Cl\u00e9ment Achard",
+                "single_elimination_result": null,
+                "ranking": 5,
+                "win_count": 2,
+                "loss_count": 2,
+                "draw_count": 0
+            },
+            {
+                "player": "Nicolas M.",
+                "single_elimination_result": null,
+                "ranking": 6,
+                "win_count": 2,
+                "loss_count": 2,
+                "draw_count": 0
+            },
+            {
+                "player": "Yoann Scordia",
+                "single_elimination_result": null,
+                "ranking": 7,
+                "win_count": 2,
+                "loss_count": 2,
+                "draw_count": 0
+            },
+            {
+                "player": "Burelout Nicolas",
+                "single_elimination_result": null,
+                "ranking": 8,
+                "win_count": 1,
+                "loss_count": 3,
+                "draw_count": 0
+            },
+            {
+                "player": "Lucas Pauzies",
+                "single_elimination_result": null,
+                "ranking": 9,
+                "win_count": 1,
+                "loss_count": 3,
+                "draw_count": 0
+            },
+            {
+                "player": "Patrick B.",
+                "single_elimination_result": null,
+                "ranking": 10,
+                "win_count": 0,
+                "loss_count": 4,
+                "draw_count": 0
+            }
+        ]
+    },
+    {
+        "api_url": "https://unityleague.gg/api/events/30208/",
+        "name": "DC",
+        "date": "2026-04-01",
+        "start_time": "20:00:00",
+        "end_time": null,
+        "format": "DC",
+        "category": "REGULAR",
+        "url": null,
+        "description": "",
+        "organizer": "https://unityleague.gg/api/organizers/355/",
+        "results": [
+            {
+                "player": "Nicolas M.",
+                "single_elimination_result": null,
+                "ranking": 1,
+                "win_count": 4,
+                "loss_count": 0,
+                "draw_count": 0
+            },
+            {
+                "player": "L\u00e9o Vayrac",
+                "single_elimination_result": null,
+                "ranking": 2,
+                "win_count": 3,
+                "loss_count": 1,
+                "draw_count": 0
+            },
+            {
+                "player": "Damien Garcia",
+                "single_elimination_result": null,
+                "ranking": 3,
+                "win_count": 3,
+                "loss_count": 1,
+                "draw_count": 0
+            },
+            {
+                "player": "Nicolas Honnorat",
+                "single_elimination_result": null,
+                "ranking": 4,
+                "win_count": 2,
+                "loss_count": 1,
+                "draw_count": 1
+            },
+            {
+                "player": "Yoann Scordia",
+                "single_elimination_result": null,
+                "ranking": 5,
+                "win_count": 2,
+                "loss_count": 2,
+                "draw_count": 0
+            },
+            {
+                "player": "Burelout Nicolas",
+                "single_elimination_result": null,
+                "ranking": 6,
+                "win_count": 2,
+                "loss_count": 2,
+                "draw_count": 0
+            },
+            {
+                "player": "Florian F.",
+                "single_elimination_result": null,
+                "ranking": 7,
+                "win_count": 2,
+                "loss_count": 2,
+                "draw_count": 0
+            },
+            {
+                "player": "Julien H.",
+                "single_elimination_result": null,
+                "ranking": 8,
+                "win_count": 1,
+                "loss_count": 2,
+                "draw_count": 1
+            },
+            {
+                "player": "Lucas Pauzies",
+                "single_elimination_result": null,
+                "ranking": 9,
+                "win_count": 1,
+                "loss_count": 2,
+                "draw_count": 1
+            },
+            {
+                "player": "Xavier S.",
+                "single_elimination_result": null,
+                "ranking": 10,
+                "win_count": 1,
+                "loss_count": 2,
+                "draw_count": 1
+            },
+            {
+                "player": "Gregori M.",
+                "single_elimination_result": null,
+                "ranking": 11,
+                "win_count": 1,
+                "loss_count": 3,
+                "draw_count": 0
+            },
+            {
+                "player": "Dan A.",
+                "single_elimination_result": null,
+                "ranking": 12,
+                "win_count": 0,
+                "loss_count": 4,
+                "draw_count": 0
+            }
+        ]
+    },
+    {
+        "api_url": "https://unityleague.gg/api/events/30207/",
+        "name": "Chaos Draft",
+        "date": "2026-03-25",
+        "start_time": "19:00:00",
+        "end_time": null,
+        "format": "LIMITED",
+        "category": "REGULAR",
+        "url": null,
+        "description": "",
+        "organizer": "https://unityleague.gg/api/organizers/355/",
+        "results": [
+            {
+                "player": "Guillaume T.",
+                "single_elimination_result": null,
+                "ranking": 1,
+                "win_count": 3,
+                "loss_count": 0,
+                "draw_count": 0
+            },
+            {
+                "player": "A.lexandre A.",
+                "single_elimination_result": null,
+                "ranking": 2,
+                "win_count": 2,
+                "loss_count": 1,
+                "draw_count": 0
+            },
+            {
+                "player": "Lucas Pauzies",
+                "single_elimination_result": null,
+                "ranking": 3,
+                "win_count": 1,
+                "loss_count": 0,
+                "draw_count": 2
+            },
+            {
+                "player": "Sylvain Sensebe",
+                "single_elimination_result": null,
+                "ranking": 4,
+                "win_count": 1,
+                "loss_count": 1,
+                "draw_count": 1
+            },
+            {
+                "player": "E. E.",
+                "single_elimination_result": null,
+                "ranking": 5,
+                "win_count": 1,
+                "loss_count": 1,
+                "draw_count": 1
+            },
+            {
+                "player": "Burelout Nicolas",
+                "single_elimination_result": null,
+                "ranking": 6,
+                "win_count": 1,
+                "loss_count": 2,
+                "draw_count": 0
+            },
+            {
+                "player": "Thibault Maigrat",
+                "single_elimination_result": null,
+                "ranking": 7,
+                "win_count": 1,
+                "loss_count": 2,
+                "draw_count": 0
+            },
+            {
+                "player": "P.atrick P.",
+                "single_elimination_result": null,
+                "ranking": 8,
+                "win_count": 0,
+                "loss_count": 3,
+                "draw_count": 0
+            }
+        ]
+    },
+    {
+        "api_url": "https://unityleague.gg/api/events/30206/",
+        "name": "Modern",
+        "date": "2026-03-18",
+        "start_time": "20:00:00",
+        "end_time": null,
+        "format": "MODERN",
+        "category": "REGULAR",
+        "url": null,
+        "description": "",
+        "organizer": "https://unityleague.gg/api/organizers/355/",
+        "results": [
+            {
+                "player": "Damien Garcia",
+                "single_elimination_result": null,
+                "ranking": 1,
+                "win_count": 4,
+                "loss_count": 0,
+                "draw_count": 0
+            },
+            {
+                "player": "Julien H.",
+                "single_elimination_result": null,
+                "ranking": 2,
+                "win_count": 3,
+                "loss_count": 1,
+                "draw_count": 0
+            },
+            {
+                "player": "Aur\u00e9lien L.",
+                "single_elimination_result": null,
+                "ranking": 3,
+                "win_count": 3,
+                "loss_count": 1,
+                "draw_count": 0
+            },
+            {
+                "player": "Bastien L.",
+                "single_elimination_result": null,
+                "ranking": 4,
+                "win_count": 3,
+                "loss_count": 1,
+                "draw_count": 0
+            },
+            {
+                "player": "Sylvain Sensebe",
+                "single_elimination_result": null,
+                "ranking": 5,
+                "win_count": 2,
+                "loss_count": 2,
+                "draw_count": 0
+            },
+            {
+                "player": "Burelout Nicolas",
+                "single_elimination_result": null,
+                "ranking": 6,
+                "win_count": 2,
+                "loss_count": 2,
+                "draw_count": 0
+            },
+            {
+                "player": "Nicolas Honnorat",
+                "single_elimination_result": null,
+                "ranking": 7,
+                "win_count": 2,
+                "loss_count": 2,
+                "draw_count": 0
+            },
+            {
+                "player": "Lucas Pauzies",
+                "single_elimination_result": null,
+                "ranking": 8,
+                "win_count": 1,
+                "loss_count": 2,
+                "draw_count": 1
+            },
+            {
+                "player": "Yoann Scordia",
+                "single_elimination_result": null,
+                "ranking": 9,
+                "win_count": 1,
+                "loss_count": 2,
+                "draw_count": 1
+            },
+            {
+                "player": "Cl\u00e9ment Achard",
+                "single_elimination_result": null,
+                "ranking": 10,
+                "win_count": 1,
+                "loss_count": 2,
+                "draw_count": 0
+            },
+            {
+                "player": "Nicolas M.",
+                "single_elimination_result": null,
+                "ranking": 11,
+                "win_count": 1,
+                "loss_count": 3,
+                "draw_count": 0
+            },
+            {
+                "player": "Xavier M.",
+                "single_elimination_result": null,
+                "ranking": 12,
+                "win_count": 0,
+                "loss_count": 4,
+                "draw_count": 0
+            }
+        ]
+    },
+    {
+        "api_url": "https://unityleague.gg/api/events/30205/",
+        "name": "DC",
+        "date": "2026-03-13",
+        "start_time": "20:00:00",
+        "end_time": null,
+        "format": "DC",
+        "category": "REGULAR",
+        "url": null,
+        "description": "",
+        "organizer": "https://unityleague.gg/api/organizers/355/",
+        "results": [
+            {
+                "player": "L\u00e9o Vayrac",
+                "single_elimination_result": null,
+                "ranking": 1,
+                "win_count": 3,
+                "loss_count": 0,
+                "draw_count": 1
+            },
+            {
+                "player": "Cyril D.",
+                "single_elimination_result": null,
+                "ranking": 2,
+                "win_count": 3,
+                "loss_count": 1,
+                "draw_count": 0
+            },
+            {
+                "player": "Yoann Scordia",
+                "single_elimination_result": null,
+                "ranking": 3,
+                "win_count": 2,
+                "loss_count": 0,
+                "draw_count": 2
+            },
+            {
+                "player": "Lucas Pauzies",
+                "single_elimination_result": null,
+                "ranking": 4,
+                "win_count": 2,
+                "loss_count": 0,
+                "draw_count": 2
+            },
+            {
+                "player": "Nicolas M.",
+                "single_elimination_result": null,
+                "ranking": 5,
+                "win_count": 2,
+                "loss_count": 1,
+                "draw_count": 1
+            },
+            {
+                "player": "Anthony R.",
+                "single_elimination_result": null,
+                "ranking": 6,
+                "win_count": 2,
+                "loss_count": 1,
+                "draw_count": 1
+            },
+            {
+                "player": "Nathan M.",
+                "single_elimination_result": null,
+                "ranking": 7,
+                "win_count": 1,
+                "loss_count": 2,
+                "draw_count": 1
+            },
+            {
+                "player": "Florian F.",
+                "single_elimination_result": null,
+                "ranking": 8,
+                "win_count": 1,
+                "loss_count": 2,
+                "draw_count": 1
+            },
+            {
+                "player": "Jean C.",
+                "single_elimination_result": null,
+                "ranking": 9,
+                "win_count": 1,
+                "loss_count": 2,
+                "draw_count": 1
+            },
+            {
+                "player": "Kilian C.",
+                "single_elimination_result": null,
+                "ranking": 10,
+                "win_count": 1,
+                "loss_count": 3,
+                "draw_count": 0
+            },
+            {
+                "player": "Thibault Maigrat",
+                "single_elimination_result": null,
+                "ranking": 11,
+                "win_count": 1,
+                "loss_count": 3,
+                "draw_count": 0
+            }
+        ]
+    },
+    {
+        "api_url": "https://unityleague.gg/api/events/30204/",
+        "name": "Pauper",
+        "date": "2026-03-04",
+        "start_time": "20:00:00",
+        "end_time": null,
+        "format": "PAUPER",
+        "category": "REGULAR",
+        "url": null,
+        "description": "",
+        "organizer": "https://unityleague.gg/api/organizers/355/",
+        "results": [
+            {
+                "player": "Tristan Grosset-Bourbange",
+                "single_elimination_result": null,
+                "ranking": 1,
+                "win_count": 4,
+                "loss_count": 0,
+                "draw_count": 0
+            },
+            {
+                "player": "Aur\u00e9lien L.",
+                "single_elimination_result": null,
+                "ranking": 2,
+                "win_count": 3,
+                "loss_count": 1,
+                "draw_count": 0
+            },
+            {
+                "player": "Bastien L.",
+                "single_elimination_result": null,
+                "ranking": 3,
+                "win_count": 3,
+                "loss_count": 1,
+                "draw_count": 0
+            },
+            {
+                "player": "Florian F.",
+                "single_elimination_result": null,
+                "ranking": 4,
+                "win_count": 2,
+                "loss_count": 1,
+                "draw_count": 1
+            },
+            {
+                "player": "Yoann Scordia",
+                "single_elimination_result": null,
+                "ranking": 5,
+                "win_count": 2,
+                "loss_count": 1,
+                "draw_count": 1
+            },
+            {
+                "player": "Burelout Nicolas",
+                "single_elimination_result": null,
+                "ranking": 6,
+                "win_count": 2,
+                "loss_count": 1,
+                "draw_count": 1
+            },
+            {
+                "player": "Thibault Maigrat",
+                "single_elimination_result": null,
+                "ranking": 7,
+                "win_count": 2,
+                "loss_count": 2,
+                "draw_count": 0
+            },
+            {
+                "player": "Lucas Pauzies",
+                "single_elimination_result": null,
+                "ranking": 8,
+                "win_count": 2,
+                "loss_count": 2,
+                "draw_count": 0
+            },
+            {
+                "player": "Cyril D.",
+                "single_elimination_result": null,
+                "ranking": 9,
+                "win_count": 2,
+                "loss_count": 2,
+                "draw_count": 0
+            },
+            {
+                "player": "Sylvain Sensebe",
+                "single_elimination_result": null,
+                "ranking": 10,
+                "win_count": 1,
+                "loss_count": 2,
+                "draw_count": 1
+            },
+            {
+                "player": "Julien H.",
+                "single_elimination_result": null,
+                "ranking": 11,
+                "win_count": 1,
+                "loss_count": 3,
+                "draw_count": 0
+            },
+            {
+                "player": "Guillaume T.",
+                "single_elimination_result": null,
+                "ranking": 12,
+                "win_count": 1,
+                "loss_count": 3,
+                "draw_count": 0
+            },
+            {
+                "player": "Xavier M.",
+                "single_elimination_result": null,
+                "ranking": 13,
+                "win_count": 1,
+                "loss_count": 3,
+                "draw_count": 0
+            }
+        ]
+    },
+    {
+        "api_url": "https://unityleague.gg/api/events/29335/",
+        "name": "Draft Lorwyn",
+        "date": "2026-02-25",
+        "start_time": "19:00:00",
+        "end_time": "23:00:00",
+        "format": "OTHER",
+        "category": "REGULAR",
+        "url": null,
+        "description": "",
+        "organizer": "https://unityleague.gg/api/organizers/355/",
+        "results": [
+            {
+                "player": "Sylvain Sensebe",
+                "single_elimination_result": null,
+                "ranking": 1,
+                "win_count": 2,
+                "loss_count": 0,
+                "draw_count": 1
+            },
+            {
+                "player": "Tristan Grosset-Bourbange",
+                "single_elimination_result": null,
+                "ranking": 2,
+                "win_count": 2,
+                "loss_count": 0,
+                "draw_count": 1
+            },
+            {
+                "player": "Burelout Nicolas",
+                "single_elimination_result": null,
+                "ranking": 3,
+                "win_count": 2,
+                "loss_count": 1,
+                "draw_count": 0
+            },
+            {
+                "player": "Zakary B.",
+                "single_elimination_result": null,
+                "ranking": 4,
+                "win_count": 1,
+                "loss_count": 1,
+                "draw_count": 1
+            },
+            {
+                "player": "Guillaume T.",
+                "single_elimination_result": null,
+                "ranking": 5,
+                "win_count": 1,
+                "loss_count": 2,
+                "draw_count": 0
+            },
+            {
+                "player": "Mali F.",
+                "single_elimination_result": null,
+                "ranking": 6,
+                "win_count": 1,
+                "loss_count": 2,
+                "draw_count": 0
+            },
+            {
+                "player": "Nico C.-A.",
+                "single_elimination_result": null,
+                "ranking": 7,
+                "win_count": 1,
+                "loss_count": 2,
+                "draw_count": 0
+            },
+            {
+                "player": "Eliott F.",
+                "single_elimination_result": null,
+                "ranking": 8,
+                "win_count": 0,
+                "loss_count": 2,
+                "draw_count": 1
+            }
+        ]
+    },
+    {
+        "api_url": "https://unityleague.gg/api/events/29334/",
+        "name": "DC",
+        "date": "2026-02-18",
+        "start_time": "20:00:00",
+        "end_time": "23:00:00",
+        "format": "DC",
+        "category": "REGULAR",
+        "url": null,
+        "description": "",
+        "organizer": "https://unityleague.gg/api/organizers/355/",
+        "results": [
+            {
+                "player": "Yoann Scordia",
+                "single_elimination_result": null,
+                "ranking": 1,
+                "win_count": 3,
+                "loss_count": 0,
+                "draw_count": 1
+            },
+            {
+                "player": "Cl\u00e9ment Achard",
+                "single_elimination_result": null,
+                "ranking": 2,
+                "win_count": 3,
+                "loss_count": 1,
+                "draw_count": 0
+            },
+            {
+                "player": "Fr\u00e9d\u00e9ric P.",
+                "single_elimination_result": null,
+                "ranking": 3,
+                "win_count": 3,
+                "loss_count": 1,
+                "draw_count": 0
+            },
+            {
+                "player": "Fayolle V.",
+                "single_elimination_result": null,
+                "ranking": 4,
+                "win_count": 2,
+                "loss_count": 1,
+                "draw_count": 1
+            },
+            {
+                "player": "L\u00e9o Vayrac",
+                "single_elimination_result": null,
+                "ranking": 5,
+                "win_count": 1,
+                "loss_count": 0,
+                "draw_count": 3
+            },
+            {
+                "player": "Nathan M.",
+                "single_elimination_result": null,
+                "ranking": 6,
+                "win_count": 2,
+                "loss_count": 2,
+                "draw_count": 0
+            },
+            {
+                "player": "Thibault Maigrat",
+                "single_elimination_result": null,
+                "ranking": 7,
+                "win_count": 2,
+                "loss_count": 2,
+                "draw_count": 0
+            },
+            {
+                "player": "Burelout Nicolas",
+                "single_elimination_result": null,
+                "ranking": 8,
+                "win_count": 1,
+                "loss_count": 1,
+                "draw_count": 2
+            },
+            {
+                "player": "Tristan Grosset-Bourbange",
+                "single_elimination_result": null,
+                "ranking": 9,
+                "win_count": 1,
+                "loss_count": 1,
+                "draw_count": 2
+            },
+            {
+                "player": "Philippe B.",
+                "single_elimination_result": null,
+                "ranking": 10,
+                "win_count": 1,
+                "loss_count": 2,
+                "draw_count": 1
+            },
+            {
+                "player": "Tom T.",
+                "single_elimination_result": null,
+                "ranking": 11,
+                "win_count": 1,
+                "loss_count": 3,
+                "draw_count": 0
+            },
+            {
+                "player": "Damien Garcia",
+                "single_elimination_result": null,
+                "ranking": 12,
+                "win_count": 0,
+                "loss_count": 1,
+                "draw_count": 0
+            },
+            {
+                "player": "Xavier M.",
+                "single_elimination_result": null,
+                "ranking": 13,
+                "win_count": 0,
+                "loss_count": 4,
+                "draw_count": 0
+            }
+        ]
+    },
+    {
+        "api_url": "https://unityleague.gg/api/events/29333/",
+        "name": "MODERN",
+        "date": "2026-02-11",
+        "start_time": "20:00:00",
+        "end_time": "23:00:00",
+        "format": "MODERN",
+        "category": "REGULAR",
+        "url": null,
+        "description": "",
+        "organizer": "https://unityleague.gg/api/organizers/355/",
+        "results": [
+            {
+                "player": "Sylvain Sensebe",
+                "single_elimination_result": null,
+                "ranking": 1,
+                "win_count": 3,
+                "loss_count": 0,
+                "draw_count": 1
+            },
+            {
+                "player": "Lucas Pauzies",
+                "single_elimination_result": null,
+                "ranking": 2,
+                "win_count": 3,
+                "loss_count": 1,
+                "draw_count": 0
+            },
+            {
+                "player": "Julien H.",
+                "single_elimination_result": null,
+                "ranking": 3,
+                "win_count": 3,
+                "loss_count": 1,
+                "draw_count": 0
+            },
+            {
+                "player": "Aur\u00e9lien L.",
+                "single_elimination_result": null,
+                "ranking": 4,
+                "win_count": 3,
+                "loss_count": 1,
+                "draw_count": 0
+            },
+            {
+                "player": "Xavier N.",
+                "single_elimination_result": null,
+                "ranking": 5,
+                "win_count": 2,
+                "loss_count": 2,
+                "draw_count": 0
+            },
+            {
+                "player": "Bastien L.",
+                "single_elimination_result": null,
+                "ranking": 6,
+                "win_count": 1,
+                "loss_count": 2,
+                "draw_count": 1
+            },
+            {
+                "player": "Tristan Grosset-Bourbange",
+                "single_elimination_result": null,
+                "ranking": 7,
+                "win_count": 1,
+                "loss_count": 2,
+                "draw_count": 1
+            },
+            {
+                "player": "Nicolas A.",
+                "single_elimination_result": null,
+                "ranking": 8,
+                "win_count": 1,
+                "loss_count": 2,
+                "draw_count": 1
+            },
+            {
+                "player": "Thibaut M.",
+                "single_elimination_result": null,
+                "ranking": 9,
+                "win_count": 1,
+                "loss_count": 3,
+                "draw_count": 0
+            }
+        ]
+    },
+    {
+        "api_url": "https://unityleague.gg/api/events/29015/",
+        "name": "Draft Lorwyn",
+        "date": "2026-02-07",
+        "start_time": "14:30:00",
+        "end_time": "19:00:00",
+        "format": "LIMITED",
+        "category": "REGULAR",
+        "url": null,
+        "description": "",
+        "organizer": "https://unityleague.gg/api/organizers/355/",
+        "results": [
+            {
+                "player": "Lucas M.",
+                "single_elimination_result": null,
+                "ranking": 1,
+                "win_count": 3,
+                "loss_count": 0,
+                "draw_count": 0
+            },
+            {
+                "player": "Elise T.",
+                "single_elimination_result": null,
+                "ranking": 2,
+                "win_count": 2,
+                "loss_count": 1,
+                "draw_count": 0
+            },
+            {
+                "player": "Johnny M.",
+                "single_elimination_result": null,
+                "ranking": 3,
+                "win_count": 2,
+                "loss_count": 1,
+                "draw_count": 0
+            },
+            {
+                "player": "Brice C.",
+                "single_elimination_result": null,
+                "ranking": 4,
+                "win_count": 1,
+                "loss_count": 1,
+                "draw_count": 1
+            },
+            {
+                "player": "Nico C.-A.",
+                "single_elimination_result": null,
+                "ranking": 5,
+                "win_count": 1,
+                "loss_count": 1,
+                "draw_count": 1
+            },
+            {
+                "player": "Guillaume T.",
+                "single_elimination_result": null,
+                "ranking": 6,
+                "win_count": 1,
+                "loss_count": 1,
+                "draw_count": 1
+            },
+            {
+                "player": "Val\u00e9rian D.",
+                "single_elimination_result": null,
+                "ranking": 7,
+                "win_count": 0,
+                "loss_count": 2,
+                "draw_count": 1
+            },
+            {
+                "player": "Flo D.",
+                "single_elimination_result": null,
+                "ranking": 8,
+                "win_count": 0,
+                "loss_count": 3,
+                "draw_count": 0
+            }
+        ]
+    },
+    {
+        "api_url": "https://unityleague.gg/api/events/28183/",
+        "name": "DC",
+        "date": "2026-02-04",
+        "start_time": "20:00:00",
+        "end_time": "00:00:00",
+        "format": "DC",
+        "category": "REGULAR",
+        "url": null,
+        "description": "Created through Judge MTG Pau 64 Discord bot",
+        "organizer": "https://unityleague.gg/api/organizers/355/",
+        "results": [
+            {
+                "player": "Cl\u00e9ment Achard",
+                "single_elimination_result": null,
+                "ranking": 1,
+                "win_count": 3,
+                "loss_count": 0,
+                "draw_count": 1
+            },
+            {
+                "player": "L\u00e9o Vayrac",
+                "single_elimination_result": null,
+                "ranking": 2,
+                "win_count": 3,
+                "loss_count": 1,
+                "draw_count": 0
+            },
+            {
+                "player": "Yoann Scordia",
+                "single_elimination_result": null,
+                "ranking": 3,
+                "win_count": 3,
+                "loss_count": 1,
+                "draw_count": 0
+            },
+            {
+                "player": "Damien Garcia",
+                "single_elimination_result": null,
+                "ranking": 4,
+                "win_count": 3,
+                "loss_count": 1,
+                "draw_count": 0
+            },
+            {
+                "player": "Nicolas Honnorat",
+                "single_elimination_result": null,
+                "ranking": 5,
+                "win_count": 2,
+                "loss_count": 1,
+                "draw_count": 1
+            },
+            {
+                "player": "Nathan M.",
+                "single_elimination_result": null,
+                "ranking": 6,
+                "win_count": 2,
+                "loss_count": 2,
+                "draw_count": 0
+            },
+            {
+                "player": "Tristan Grosset-Bourbange",
+                "single_elimination_result": null,
+                "ranking": 7,
+                "win_count": 2,
+                "loss_count": 2,
+                "draw_count": 0
+            },
+            {
+                "player": "Nicolas M.",
+                "single_elimination_result": null,
+                "ranking": 8,
+                "win_count": 2,
+                "loss_count": 2,
+                "draw_count": 0
+            },
+            {
+                "player": "Lucas Pauzies",
+                "single_elimination_result": null,
+                "ranking": 9,
+                "win_count": 1,
+                "loss_count": 1,
+                "draw_count": 2
+            },
+            {
+                "player": "Anthony R.",
+                "single_elimination_result": null,
+                "ranking": 10,
+                "win_count": 1,
+                "loss_count": 2,
+                "draw_count": 1
+            },
+            {
+                "player": "Burelout Nicolas",
+                "single_elimination_result": null,
+                "ranking": 11,
+                "win_count": 1,
+                "loss_count": 2,
+                "draw_count": 1
+            },
+            {
+                "player": "Antoine Grimaldi",
+                "single_elimination_result": null,
+                "ranking": 12,
+                "win_count": 1,
+                "loss_count": 2,
+                "draw_count": 1
+            },
+            {
+                "player": "Thibault Maigrat",
+                "single_elimination_result": null,
+                "ranking": 13,
+                "win_count": 0,
+                "loss_count": 3,
+                "draw_count": 1
+            }
+        ]
+    },
+    {
+        "api_url": "https://unityleague.gg/api/events/21363/",
+        "name": "Pauper",
+        "date": "2026-01-28",
+        "start_time": "20:00:00",
+        "end_time": null,
+        "format": "PAUPER",
+        "category": "REGULAR",
+        "url": null,
+        "description": "",
+        "organizer": "https://unityleague.gg/api/organizers/355/",
+        "results": [
+            {
+                "player": "Lucas Pauzies",
+                "single_elimination_result": null,
+                "ranking": 1,
+                "win_count": 4,
+                "loss_count": 0,
+                "draw_count": 0
+            },
+            {
+                "player": "Dan A.",
+                "single_elimination_result": null,
+                "ranking": 2,
+                "win_count": 3,
+                "loss_count": 1,
+                "draw_count": 0
+            },
+            {
+                "player": "Tristan Grosset-Bourbange",
+                "single_elimination_result": null,
+                "ranking": 3,
+                "win_count": 3,
+                "loss_count": 1,
+                "draw_count": 0
+            },
+            {
+                "player": "Sylvain Sensebe",
+                "single_elimination_result": null,
+                "ranking": 4,
+                "win_count": 2,
+                "loss_count": 2,
+                "draw_count": 0
+            },
+            {
+                "player": "David J.",
+                "single_elimination_result": null,
+                "ranking": 5,
+                "win_count": 2,
+                "loss_count": 2,
+                "draw_count": 0
+            },
+            {
+                "player": "Yoann Scordia",
+                "single_elimination_result": null,
+                "ranking": 6,
+                "win_count": 2,
+                "loss_count": 2,
+                "draw_count": 0
+            },
+            {
+                "player": "Burelout Nicolas",
+                "single_elimination_result": null,
+                "ranking": 7,
+                "win_count": 2,
+                "loss_count": 2,
+                "draw_count": 0
+            },
+            {
+                "player": "Thibault Maigrat",
+                "single_elimination_result": null,
+                "ranking": 8,
+                "win_count": 1,
+                "loss_count": 3,
+                "draw_count": 0
+            },
+            {
+                "player": "Antoine Grimaldi",
+                "single_elimination_result": null,
+                "ranking": 9,
+                "win_count": 1,
+                "loss_count": 3,
+                "draw_count": 0
+            },
+            {
+                "player": "Guillaume T.",
+                "single_elimination_result": null,
+                "ranking": 10,
+                "win_count": 0,
+                "loss_count": 4,
+                "draw_count": 0
+            }
+        ]
+    },
+    {
+        "api_url": "https://unityleague.gg/api/events/21362/",
+        "name": "DC",
+        "date": "2026-01-14",
+        "start_time": "20:00:00",
+        "end_time": null,
+        "format": "DC",
+        "category": "REGULAR",
+        "url": null,
+        "description": "",
+        "organizer": "https://unityleague.gg/api/organizers/355/",
+        "results": [
+            {
+                "player": "L\u00e9o Vayrac",
+                "single_elimination_result": null,
+                "ranking": 1,
+                "win_count": 3,
+                "loss_count": 0,
+                "draw_count": 0
+            },
+            {
+                "player": "Tom T.",
+                "single_elimination_result": null,
+                "ranking": 2,
+                "win_count": 2,
+                "loss_count": 1,
+                "draw_count": 0
+            },
+            {
+                "player": "Nicolas M.",
+                "single_elimination_result": null,
+                "ranking": 3,
+                "win_count": 2,
+                "loss_count": 1,
+                "draw_count": 0
+            },
+            {
+                "player": "Tristan Grosset-Bourbange",
+                "single_elimination_result": null,
+                "ranking": 4,
+                "win_count": 2,
+                "loss_count": 1,
+                "draw_count": 0
+            },
+            {
+                "player": "Antoine Grimaldi",
+                "single_elimination_result": null,
+                "ranking": 5,
+                "win_count": 1,
+                "loss_count": 2,
+                "draw_count": 0
+            },
+            {
+                "player": "Lucas Pauzies",
+                "single_elimination_result": null,
+                "ranking": 6,
+                "win_count": 1,
+                "loss_count": 2,
+                "draw_count": 0
+            },
+            {
+                "player": "Yoann Scordia",
+                "single_elimination_result": null,
+                "ranking": 7,
+                "win_count": 1,
+                "loss_count": 2,
+                "draw_count": 0
+            },
+            {
+                "player": "Thibault Maigrat",
+                "single_elimination_result": null,
+                "ranking": 8,
+                "win_count": 0,
+                "loss_count": 3,
+                "draw_count": 0
+            }
+        ]
+    },
+    {
+        "api_url": "https://unityleague.gg/api/events/21361/",
+        "name": "Modern",
+        "date": "2026-01-07",
+        "start_time": "20:00:00",
+        "end_time": null,
+        "format": "MODERN",
+        "category": "REGULAR",
+        "url": null,
+        "description": "",
+        "organizer": "https://unityleague.gg/api/organizers/355/",
+        "results": [
+            {
+                "player": "Julien H.",
+                "single_elimination_result": null,
+                "ranking": 1,
+                "win_count": 3,
+                "loss_count": 0,
+                "draw_count": 0
+            },
+            {
+                "player": "Nicolas Honnorat",
+                "single_elimination_result": null,
+                "ranking": 2,
+                "win_count": 2,
+                "loss_count": 0,
+                "draw_count": 1
+            },
+            {
+                "player": "Sylvain Sensebe",
+                "single_elimination_result": null,
+                "ranking": 3,
+                "win_count": 2,
+                "loss_count": 1,
+                "draw_count": 0
+            },
+            {
+                "player": "Yoann S.",
+                "single_elimination_result": null,
+                "ranking": 4,
+                "win_count": 2,
+                "loss_count": 1,
+                "draw_count": 0
+            },
+            {
+                "player": "Burelout Nicolas",
+                "single_elimination_result": null,
+                "ranking": 5,
+                "win_count": 1,
+                "loss_count": 2,
+                "draw_count": 0
+            },
+            {
+                "player": "Thibault Maigrat",
+                "single_elimination_result": null,
+                "ranking": 6,
+                "win_count": 1,
+                "loss_count": 2,
+                "draw_count": 0
+            },
+            {
+                "player": "Nicolas M.",
+                "single_elimination_result": null,
+                "ranking": 7,
+                "win_count": 0,
+                "loss_count": 2,
+                "draw_count": 1
+            },
+            {
+                "player": "J D.",
+                "single_elimination_result": null,
+                "ranking": 8,
+                "win_count": 0,
+                "loss_count": 3,
+                "draw_count": 0
+            }
+        ]
+    },
+    {
+        "api_url": "https://unityleague.gg/api/events/19680/",
+        "name": "DC",
+        "date": "2025-12-17",
+        "start_time": "20:00:00",
+        "end_time": null,
+        "format": "DC",
+        "category": "REGULAR",
+        "url": null,
+        "description": "",
+        "organizer": "https://unityleague.gg/api/organizers/355/",
+        "results": [
+            {
+                "player": "Leo V.",
+                "single_elimination_result": null,
+                "ranking": 1,
+                "win_count": 4,
+                "loss_count": 0,
+                "draw_count": 0
+            },
+            {
+                "player": "Damien Garcia",
+                "single_elimination_result": null,
+                "ranking": 2,
+                "win_count": 3,
+                "loss_count": 1,
+                "draw_count": 0
+            },
+            {
+                "player": "Cl\u00e9ment Achard",
+                "single_elimination_result": null,
+                "ranking": 3,
+                "win_count": 3,
+                "loss_count": 1,
+                "draw_count": 0
+            },
+            {
+                "player": "Antoine Grimaldi",
+                "single_elimination_result": null,
+                "ranking": 4,
+                "win_count": 2,
+                "loss_count": 1,
+                "draw_count": 1
+            },
+            {
+                "player": "Yoann Scordia",
+                "single_elimination_result": null,
+                "ranking": 5,
+                "win_count": 2,
+                "loss_count": 1,
+                "draw_count": 1
+            },
+            {
+                "player": "Tristan Grosset-Bourbange",
+                "single_elimination_result": null,
+                "ranking": 6,
+                "win_count": 2,
+                "loss_count": 2,
+                "draw_count": 0
+            },
+            {
+                "player": "Nicolas M.",
+                "single_elimination_result": null,
+                "ranking": 7,
+                "win_count": 2,
+                "loss_count": 2,
+                "draw_count": 0
+            },
+            {
+                "player": "Fayolle V.",
+                "single_elimination_result": null,
+                "ranking": 8,
+                "win_count": 2,
+                "loss_count": 2,
+                "draw_count": 0
+            },
+            {
+                "player": "Lucas Pauzies",
+                "single_elimination_result": null,
+                "ranking": 9,
+                "win_count": 2,
+                "loss_count": 2,
+                "draw_count": 0
+            },
+            {
+                "player": "Tom T.",
+                "single_elimination_result": null,
+                "ranking": 10,
+                "win_count": 1,
+                "loss_count": 2,
+                "draw_count": 1
+            },
+            {
+                "player": "Anthony R.",
+                "single_elimination_result": null,
+                "ranking": 11,
+                "win_count": 1,
+                "loss_count": 2,
+                "draw_count": 1
+            },
+            {
+                "player": "Hugo W.",
+                "single_elimination_result": null,
+                "ranking": 12,
+                "win_count": 1,
+                "loss_count": 3,
+                "draw_count": 0
+            },
+            {
+                "player": "Nathan M.",
+                "single_elimination_result": null,
+                "ranking": 13,
+                "win_count": 1,
+                "loss_count": 3,
+                "draw_count": 0
+            },
+            {
+                "player": "Damien Garcia",
+                "single_elimination_result": null,
+                "ranking": 14,
+                "win_count": 0,
+                "loss_count": 1,
+                "draw_count": 0
+            }
+        ]
+    },
+    {
+        "api_url": "https://unityleague.gg/api/events/19679/",
+        "name": "Draft",
+        "date": "2025-12-10",
+        "start_time": "19:00:00",
+        "end_time": null,
+        "format": "LIMITED",
+        "category": "REGULAR",
+        "url": null,
+        "description": "",
+        "organizer": "https://unityleague.gg/api/organizers/355/",
+        "results": [
+            {
+                "player": "Burelout Nicolas",
+                "single_elimination_result": null,
+                "ranking": 1,
+                "win_count": 2,
+                "loss_count": 0,
+                "draw_count": 1
+            },
+            {
+                "player": "Sylvain Sensebe",
+                "single_elimination_result": null,
+                "ranking": 2,
+                "win_count": 2,
+                "loss_count": 1,
+                "draw_count": 0
+            },
+            {
+                "player": "Nico C.-A.",
+                "single_elimination_result": null,
+                "ranking": 3,
+                "win_count": 2,
+                "loss_count": 1,
+                "draw_count": 0
+            },
+            {
+                "player": "Zakary B.",
+                "single_elimination_result": null,
+                "ranking": 4,
+                "win_count": 1,
+                "loss_count": 2,
+                "draw_count": 0
+            },
+            {
+                "player": "Mali F.",
+                "single_elimination_result": null,
+                "ranking": 5,
+                "win_count": 0,
+                "loss_count": 0,
+                "draw_count": 3
+            },
+            {
+                "player": "J D.",
+                "single_elimination_result": null,
+                "ranking": 6,
+                "win_count": 0,
+                "loss_count": 0,
+                "draw_count": 3
+            },
+            {
+                "player": "Guillaume T.",
+                "single_elimination_result": null,
+                "ranking": 7,
+                "win_count": 0,
+                "loss_count": 1,
+                "draw_count": 2
+            },
+            {
+                "player": "Sandra E.",
+                "single_elimination_result": null,
+                "ranking": 8,
+                "win_count": 0,
+                "loss_count": 2,
+                "draw_count": 1
+            }
+        ]
+    },
+    {
+        "api_url": "https://unityleague.gg/api/events/19678/",
+        "name": "DC",
+        "date": "2025-12-06",
+        "start_time": "14:30:00",
+        "end_time": null,
+        "format": "DC",
+        "category": "REGULAR",
+        "url": null,
+        "description": "<p>Au garage</p>",
+        "organizer": "https://unityleague.gg/api/organizers/355/",
+        "results": [
+            {
+                "player": "Tristan Grosset-Bourbange",
+                "single_elimination_result": null,
+                "ranking": 1,
+                "win_count": 4,
+                "loss_count": 0,
+                "draw_count": 0
+            },
+            {
+                "player": "Burelout Nicolas",
+                "single_elimination_result": null,
+                "ranking": 2,
+                "win_count": 3,
+                "loss_count": 1,
+                "draw_count": 0
+            },
+            {
+                "player": "Cl\u00e9ment Achard",
+                "single_elimination_result": null,
+                "ranking": 3,
+                "win_count": 3,
+                "loss_count": 1,
+                "draw_count": 0
+            },
+            {
+                "player": "L\u00e9o Vayrac",
+                "single_elimination_result": null,
+                "ranking": 4,
+                "win_count": 3,
+                "loss_count": 1,
+                "draw_count": 0
+            },
+            {
+                "player": "Thibault Maigrat",
+                "single_elimination_result": null,
+                "ranking": 5,
+                "win_count": 2,
+                "loss_count": 1,
+                "draw_count": 1
+            },
+            {
+                "player": "Fayolle V.",
+                "single_elimination_result": null,
+                "ranking": 6,
+                "win_count": 2,
+                "loss_count": 2,
+                "draw_count": 0
+            },
+            {
+                "player": "Nicolas M.",
+                "single_elimination_result": null,
+                "ranking": 7,
+                "win_count": 2,
+                "loss_count": 2,
+                "draw_count": 0
+            },
+            {
+                "player": "Florian F.",
+                "single_elimination_result": null,
+                "ranking": 8,
+                "win_count": 2,
+                "loss_count": 2,
+                "draw_count": 0
+            },
+            {
+                "player": "Lucas Pauzies",
+                "single_elimination_result": null,
+                "ranking": 9,
+                "win_count": 1,
+                "loss_count": 2,
+                "draw_count": 1
+            },
+            {
+                "player": "Bapstise G.",
+                "single_elimination_result": null,
+                "ranking": 10,
+                "win_count": 1,
+                "loss_count": 2,
+                "draw_count": 1
+            },
+            {
+                "player": "Rapha\u00ebl G.",
+                "single_elimination_result": null,
+                "ranking": 11,
+                "win_count": 1,
+                "loss_count": 3,
+                "draw_count": 0
+            },
+            {
+                "player": "Lucas S.",
+                "single_elimination_result": null,
+                "ranking": 12,
+                "win_count": 1,
+                "loss_count": 3,
+                "draw_count": 0
+            },
+            {
+                "player": "Zac G.",
+                "single_elimination_result": null,
+                "ranking": 13,
+                "win_count": 0,
+                "loss_count": 2,
+                "draw_count": 1
+            }
+        ]
+    },
+    {
+        "api_url": "https://unityleague.gg/api/events/17896/",
+        "name": "DC8",
+        "date": "2025-10-29",
+        "start_time": "08:00:00",
+        "end_time": null,
+        "format": "DC",
+        "category": "REGULAR",
+        "url": null,
+        "description": "",
+        "organizer": "https://unityleague.gg/api/organizers/355/",
+        "results": [
+            {
+                "player": "Yoann Scordia",
+                "single_elimination_result": null,
+                "ranking": 1,
+                "win_count": 3,
+                "loss_count": 0,
+                "draw_count": 0
+            },
+            {
+                "player": "Lucas Pauzies",
+                "single_elimination_result": null,
+                "ranking": 2,
+                "win_count": 2,
+                "loss_count": 1,
+                "draw_count": 0
+            },
+            {
+                "player": "Fayolle V.",
+                "single_elimination_result": null,
+                "ranking": 3,
+                "win_count": 2,
+                "loss_count": 1,
+                "draw_count": 0
+            },
+            {
+                "player": "Antoine Grimaldi",
+                "single_elimination_result": null,
+                "ranking": 4,
+                "win_count": 2,
+                "loss_count": 1,
+                "draw_count": 0
+            },
+            {
+                "player": "Cl\u00e9ment Achard",
+                "single_elimination_result": null,
+                "ranking": 5,
+                "win_count": 1,
+                "loss_count": 2,
+                "draw_count": 0
+            },
+            {
+                "player": "Olivier M.",
+                "single_elimination_result": null,
+                "ranking": 6,
+                "win_count": 1,
+                "loss_count": 2,
+                "draw_count": 0
+            },
+            {
+                "player": "Nicolas Honnorat",
+                "single_elimination_result": null,
+                "ranking": 7,
+                "win_count": 1,
+                "loss_count": 2,
+                "draw_count": 0
+            },
+            {
+                "player": "Thibault Maigrat",
+                "single_elimination_result": null,
+                "ranking": 8,
+                "win_count": 0,
+                "loss_count": 3,
+                "draw_count": 0
+            }
+        ]
+    },
+    {
+        "api_url": "https://unityleague.gg/api/events/17424/",
+        "name": "Draft",
+        "date": "2025-11-26",
+        "start_time": null,
+        "end_time": null,
+        "format": "LIMITED",
+        "category": "REGULAR",
+        "url": null,
+        "description": "",
+        "organizer": "https://unityleague.gg/api/organizers/355/",
+        "results": [
+            {
+                "player": "Sylvain Sensebe",
+                "single_elimination_result": null,
+                "ranking": 1,
+                "win_count": 3,
+                "loss_count": 0,
+                "draw_count": 0
+            },
+            {
+                "player": "Lucas Pauzies",
+                "single_elimination_result": null,
+                "ranking": 2,
+                "win_count": 2,
+                "loss_count": 1,
+                "draw_count": 0
+            },
+            {
+                "player": "Nico C.-A.",
+                "single_elimination_result": null,
+                "ranking": 3,
+                "win_count": 2,
+                "loss_count": 1,
+                "draw_count": 0
+            },
+            {
+                "player": "Julien H.",
+                "single_elimination_result": null,
+                "ranking": 4,
+                "win_count": 2,
+                "loss_count": 1,
+                "draw_count": 0
+            },
+            {
+                "player": "Yoann Scordia",
+                "single_elimination_result": null,
+                "ranking": 5,
+                "win_count": 1,
+                "loss_count": 2,
+                "draw_count": 0
+            },
+            {
+                "player": "Burelout Nicolas",
+                "single_elimination_result": null,
+                "ranking": 6,
+                "win_count": 1,
+                "loss_count": 2,
+                "draw_count": 0
+            },
+            {
+                "player": "Raph G.",
+                "single_elimination_result": null,
+                "ranking": 7,
+                "win_count": 0,
+                "loss_count": 2,
+                "draw_count": 1
+            },
+            {
+                "player": "Guillaume T.",
+                "single_elimination_result": null,
+                "ranking": 8,
+                "win_count": 0,
+                "loss_count": 2,
+                "draw_count": 1
+            }
+        ]
+    },
+    {
+        "api_url": "https://unityleague.gg/api/events/17423/",
+        "name": "Pauper",
+        "date": "2025-11-26",
+        "start_time": null,
+        "end_time": null,
+        "format": "PAUPER",
+        "category": "REGULAR",
+        "url": null,
+        "description": "",
+        "organizer": "https://unityleague.gg/api/organizers/355/",
+        "results": [
+            {
+                "player": "Tristan Grosset-Bourbange",
+                "single_elimination_result": null,
+                "ranking": 1,
+                "win_count": 3,
+                "loss_count": 1,
+                "draw_count": 0
+            },
+            {
+                "player": "Olivier M.",
+                "single_elimination_result": null,
+                "ranking": 2,
+                "win_count": 3,
+                "loss_count": 1,
+                "draw_count": 0
+            },
+            {
+                "player": "Dan A.",
+                "single_elimination_result": null,
+                "ranking": 3,
+                "win_count": 3,
+                "loss_count": 1,
+                "draw_count": 0
+            },
+            {
+                "player": "Yoann Scordia",
+                "single_elimination_result": null,
+                "ranking": 4,
+                "win_count": 3,
+                "loss_count": 1,
+                "draw_count": 0
+            },
+            {
+                "player": "Lucas Pauzies",
+                "single_elimination_result": null,
+                "ranking": 5,
+                "win_count": 2,
+                "loss_count": 2,
+                "draw_count": 0
+            },
+            {
+                "player": "Thibault Maigrat",
+                "single_elimination_result": null,
+                "ranking": 6,
+                "win_count": 2,
+                "loss_count": 2,
+                "draw_count": 0
+            },
+            {
+                "player": "Nicolas M.",
+                "single_elimination_result": null,
+                "ranking": 7,
+                "win_count": 2,
+                "loss_count": 2,
+                "draw_count": 0
+            },
+            {
+                "player": "Sylvain Sensebe",
+                "single_elimination_result": null,
+                "ranking": 8,
+                "win_count": 1,
+                "loss_count": 3,
+                "draw_count": 0
+            },
+            {
+                "player": "Sandra E.",
+                "single_elimination_result": null,
+                "ranking": 9,
+                "win_count": 1,
+                "loss_count": 3,
+                "draw_count": 0
+            },
+            {
+                "player": "J D.",
+                "single_elimination_result": null,
+                "ranking": 10,
+                "win_count": 0,
+                "loss_count": 4,
+                "draw_count": 0
+            }
+        ]
+    },
+    {
+        "api_url": "https://unityleague.gg/api/events/17422/",
+        "name": "Modern",
+        "date": "2025-11-19",
+        "start_time": null,
+        "end_time": null,
+        "format": "MODERN",
+        "category": "REGULAR",
+        "url": null,
+        "description": "",
+        "organizer": "https://unityleague.gg/api/organizers/355/",
+        "results": [
+            {
+                "player": "Lucas Pauzies",
+                "single_elimination_result": null,
+                "ranking": 1,
+                "win_count": 3,
+                "loss_count": 0,
+                "draw_count": 0
+            },
+            {
+                "player": "Fr\u00e9d\u00e9ric P.",
+                "single_elimination_result": null,
+                "ranking": 2,
+                "win_count": 2,
+                "loss_count": 1,
+                "draw_count": 0
+            },
+            {
+                "player": "Julien H.",
+                "single_elimination_result": null,
+                "ranking": 3,
+                "win_count": 2,
+                "loss_count": 1,
+                "draw_count": 0
+            },
+            {
+                "player": "Yoann Scordia",
+                "single_elimination_result": null,
+                "ranking": 4,
+                "win_count": 2,
+                "loss_count": 1,
+                "draw_count": 0
+            },
+            {
+                "player": "Sylvain Sensebe",
+                "single_elimination_result": null,
+                "ranking": 5,
+                "win_count": 1,
+                "loss_count": 1,
+                "draw_count": 1
+            },
+            {
+                "player": "Burelout Nicolas",
+                "single_elimination_result": null,
+                "ranking": 6,
+                "win_count": 1,
+                "loss_count": 2,
+                "draw_count": 0
+            },
+            {
+                "player": "Aur\u00e9lien L.",
+                "single_elimination_result": null,
+                "ranking": 7,
+                "win_count": 0,
+                "loss_count": 2,
+                "draw_count": 1
+            },
+            {
+                "player": "Philippe B.",
+                "single_elimination_result": null,
+                "ranking": 8,
+                "win_count": 0,
+                "loss_count": 3,
+                "draw_count": 0
+            }
+        ]
+    },
+    {
+        "api_url": "https://unityleague.gg/api/events/17421/",
+        "name": "Draft",
+        "date": "2025-11-12",
+        "start_time": null,
+        "end_time": null,
+        "format": "LIMITED",
+        "category": "REGULAR",
+        "url": null,
+        "description": "",
+        "organizer": "https://unityleague.gg/api/organizers/355/",
+        "results": [
+            {
+                "player": "Burelout Nicolas",
+                "single_elimination_result": null,
+                "ranking": 1,
+                "win_count": 3,
+                "loss_count": 0,
+                "draw_count": 0
+            },
+            {
+                "player": "Sylvain Sensebe",
+                "single_elimination_result": null,
+                "ranking": 2,
+                "win_count": 2,
+                "loss_count": 1,
+                "draw_count": 0
+            },
+            {
+                "player": "Julien H.",
+                "single_elimination_result": null,
+                "ranking": 3,
+                "win_count": 2,
+                "loss_count": 1,
+                "draw_count": 0
+            },
+            {
+                "player": "Lucas Pauzies",
+                "single_elimination_result": null,
+                "ranking": 4,
+                "win_count": 1,
+                "loss_count": 2,
+                "draw_count": 0
+            },
+            {
+                "player": "Guillaume T.",
+                "single_elimination_result": null,
+                "ranking": 5,
+                "win_count": 1,
+                "loss_count": 2,
+                "draw_count": 0
+            },
+            {
+                "player": "Dan A.",
+                "single_elimination_result": null,
+                "ranking": 6,
+                "win_count": 0,
+                "loss_count": 3,
+                "draw_count": 0
+            }
+        ]
+    },
+    {
+        "api_url": "https://unityleague.gg/api/events/17419/",
+        "name": "DC",
+        "date": "2025-11-05",
+        "start_time": null,
+        "end_time": null,
+        "format": "DC",
+        "category": "REGULAR",
+        "url": null,
+        "description": "",
+        "organizer": "https://unityleague.gg/api/organizers/355/",
+        "results": [
+            {
+                "player": "Fr\u00e9d\u00e9ric P.",
+                "single_elimination_result": null,
+                "ranking": 1,
+                "win_count": 3,
+                "loss_count": 0,
+                "draw_count": 0
+            },
+            {
+                "player": "Yoann Scordia",
+                "single_elimination_result": null,
+                "ranking": 2,
+                "win_count": 2,
+                "loss_count": 0,
+                "draw_count": 1
+            },
+            {
+                "player": "Burelout Nicolas",
+                "single_elimination_result": null,
+                "ranking": 3,
+                "win_count": 1,
+                "loss_count": 1,
+                "draw_count": 1
+            },
+            {
+                "player": "Thibault Maigrat",
+                "single_elimination_result": null,
+                "ranking": 4,
+                "win_count": 1,
+                "loss_count": 1,
+                "draw_count": 1
+            },
+            {
+                "player": "Patrick B.",
+                "single_elimination_result": null,
+                "ranking": 5,
+                "win_count": 1,
+                "loss_count": 1,
+                "draw_count": 1
+            },
+            {
+                "player": "L\u00e9o Vayrac",
+                "single_elimination_result": null,
+                "ranking": 6,
+                "win_count": 1,
+                "loss_count": 2,
+                "draw_count": 0
+            },
+            {
+                "player": "Tristan Grosset-Bourbange",
+                "single_elimination_result": null,
+                "ranking": 7,
+                "win_count": 1,
+                "loss_count": 2,
+                "draw_count": 0
+            },
+            {
+                "player": "Philippe B.",
+                "single_elimination_result": null,
+                "ranking": 8,
+                "win_count": 0,
+                "loss_count": 3,
+                "draw_count": 0
+            }
+        ]
+    },
+    {
+        "api_url": "https://unityleague.gg/api/events/17394/",
+        "name": "Draft Spidey 2",
+        "date": "2025-10-15",
+        "start_time": null,
+        "end_time": null,
+        "format": "LIMITED",
+        "category": "REGULAR",
+        "url": null,
+        "description": "",
+        "organizer": "https://unityleague.gg/api/organizers/355/",
+        "results": [
+            {
+                "player": "Pierre B.",
+                "single_elimination_result": null,
+                "ranking": 1,
+                "win_count": 2,
+                "loss_count": 0,
+                "draw_count": 0
+            },
+            {
+                "player": "Guillaume B.",
+                "single_elimination_result": null,
+                "ranking": 2,
+                "win_count": 1,
+                "loss_count": 1,
+                "draw_count": 0
+            },
+            {
+                "player": "Valentin B.",
+                "single_elimination_result": null,
+                "ranking": 3,
+                "win_count": 1,
+                "loss_count": 1,
+                "draw_count": 0
+            },
+            {
+                "player": "Sylvain Sensebe",
+                "single_elimination_result": null,
+                "ranking": 4,
+                "win_count": 0,
+                "loss_count": 2,
+                "draw_count": 0
+            }
+        ]
+    },
+    {
+        "api_url": "https://unityleague.gg/api/events/17099/",
+        "name": "DC",
+        "date": "2025-10-15",
+        "start_time": null,
+        "end_time": null,
+        "format": "DC",
+        "category": "REGULAR",
+        "url": null,
+        "description": "",
+        "organizer": "https://unityleague.gg/api/organizers/355/",
+        "results": [
+            {
+                "player": "Nicolas Honnorat",
+                "single_elimination_result": null,
+                "ranking": 1,
+                "win_count": 3,
+                "loss_count": 0,
+                "draw_count": 0
+            },
+            {
+                "player": "Anthony R.",
+                "single_elimination_result": null,
+                "ranking": 2,
+                "win_count": 2,
+                "loss_count": 1,
+                "draw_count": 0
+            },
+            {
+                "player": "Tristan Grosset-Bourbange",
+                "single_elimination_result": null,
+                "ranking": 3,
+                "win_count": 2,
+                "loss_count": 1,
+                "draw_count": 0
+            },
+            {
+                "player": "L\u00e9o Vayrac",
+                "single_elimination_result": null,
+                "ranking": 4,
+                "win_count": 2,
+                "loss_count": 1,
+                "draw_count": 0
+            },
+            {
+                "player": "Nicolas M.",
+                "single_elimination_result": null,
+                "ranking": 5,
+                "win_count": 1,
+                "loss_count": 2,
+                "draw_count": 0
+            },
+            {
+                "player": "Fayolle V.",
+                "single_elimination_result": null,
+                "ranking": 6,
+                "win_count": 1,
+                "loss_count": 2,
+                "draw_count": 0
+            },
+            {
+                "player": "Antoine Grimaldi",
+                "single_elimination_result": null,
+                "ranking": 7,
+                "win_count": 1,
+                "loss_count": 2,
+                "draw_count": 0
+            },
+            {
+                "player": "Yoann Scordia",
+                "single_elimination_result": null,
+                "ranking": 8,
+                "win_count": 0,
+                "loss_count": 3,
+                "draw_count": 0
+            }
+        ]
+    },
+    {
+        "api_url": "https://unityleague.gg/api/events/15524/",
+        "name": "DC",
+        "date": "2025-10-22",
+        "start_time": null,
+        "end_time": null,
+        "format": "DC",
+        "category": "REGULAR",
+        "url": null,
+        "description": "",
+        "organizer": "https://unityleague.gg/api/organizers/355/",
+        "results": [
+            {
+                "player": "Cl\u00e9ment Achard",
+                "single_elimination_result": null,
+                "ranking": 1,
+                "win_count": 4,
+                "loss_count": 0,
+                "draw_count": 0
+            },
+            {
+                "player": "Nicolas M.",
+                "single_elimination_result": null,
+                "ranking": 2,
+                "win_count": 3,
+                "loss_count": 1,
+                "draw_count": 0
+            },
+            {
+                "player": "Damien Garcia",
+                "single_elimination_result": null,
+                "ranking": 3,
+                "win_count": 3,
+                "loss_count": 1,
+                "draw_count": 0
+            },
+            {
+                "player": "Fayolle V.",
+                "single_elimination_result": null,
+                "ranking": 4,
+                "win_count": 3,
+                "loss_count": 1,
+                "draw_count": 0
+            },
+            {
+                "player": "L\u00e9o Vayrac",
+                "single_elimination_result": null,
+                "ranking": 5,
+                "win_count": 2,
+                "loss_count": 2,
+                "draw_count": 0
+            },
+            {
+                "player": "Antoine Grimaldi",
+                "single_elimination_result": null,
+                "ranking": 6,
+                "win_count": 2,
+                "loss_count": 2,
+                "draw_count": 0
+            },
+            {
+                "player": "Tristan Grosset-Bourbange",
+                "single_elimination_result": null,
+                "ranking": 7,
+                "win_count": 2,
+                "loss_count": 2,
+                "draw_count": 0
+            },
+            {
+                "player": "Lucas Pauzies",
+                "single_elimination_result": null,
+                "ranking": 8,
+                "win_count": 2,
+                "loss_count": 2,
+                "draw_count": 0
+            },
+            {
+                "player": "Nicolas Honnorat",
+                "single_elimination_result": null,
+                "ranking": 9,
+                "win_count": 1,
+                "loss_count": 3,
+                "draw_count": 0
+            },
+            {
+                "player": "Anthony R.",
+                "single_elimination_result": null,
+                "ranking": 10,
+                "win_count": 1,
+                "loss_count": 3,
+                "draw_count": 0
+            },
+            {
+                "player": "Thibault Maigrat",
+                "single_elimination_result": null,
+                "ranking": 11,
+                "win_count": 0,
+                "loss_count": 3,
+                "draw_count": 1
+            },
+            {
+                "player": "Rapha\u00ebl G.",
+                "single_elimination_result": null,
+                "ranking": 12,
+                "win_count": 0,
+                "loss_count": 3,
+                "draw_count": 1
+            }
+        ]
+    },
+    {
+        "api_url": "https://unityleague.gg/api/events/15523/",
+        "name": "Draft Spidey",
+        "date": "2025-10-15",
+        "start_time": null,
+        "end_time": null,
+        "format": "LIMITED",
+        "category": "REGULAR",
+        "url": null,
+        "description": "",
+        "organizer": "https://unityleague.gg/api/organizers/355/",
+        "results": [
+            {
+                "player": "Lucas Pauzies",
+                "single_elimination_result": null,
+                "ranking": 1,
+                "win_count": 3,
+                "loss_count": 0,
+                "draw_count": 0
+            },
+            {
+                "player": "Burelout Nicolas",
+                "single_elimination_result": null,
+                "ranking": 2,
+                "win_count": 2,
+                "loss_count": 1,
+                "draw_count": 0
+            },
+            {
+                "player": "Guillaume T.",
+                "single_elimination_result": null,
+                "ranking": 3,
+                "win_count": 1,
+                "loss_count": 2,
+                "draw_count": 0
+            },
+            {
+                "player": "Paul G.",
+                "single_elimination_result": null,
+                "ranking": 4,
+                "win_count": 0,
+                "loss_count": 3,
+                "draw_count": 0
+            }
+        ]
+    },
+    {
+        "api_url": "https://unityleague.gg/api/events/15522/",
+        "name": "Modern",
+        "date": "2025-10-08",
+        "start_time": null,
+        "end_time": null,
+        "format": "MODERN",
+        "category": "REGULAR",
+        "url": null,
+        "description": "",
+        "organizer": "https://unityleague.gg/api/organizers/355/",
+        "results": [
+            {
+                "player": "Julien H.",
+                "single_elimination_result": null,
+                "ranking": 1,
+                "win_count": 2,
+                "loss_count": 1,
+                "draw_count": 0
+            },
+            {
+                "player": "Burelout Nicolas",
+                "single_elimination_result": null,
+                "ranking": 2,
+                "win_count": 2,
+                "loss_count": 1,
+                "draw_count": 0
+            },
+            {
+                "player": "Fr\u00e9d\u00e9ric P.",
+                "single_elimination_result": null,
+                "ranking": 3,
+                "win_count": 2,
+                "loss_count": 1,
+                "draw_count": 0
+            },
+            {
+                "player": "Lucas Pauzies",
+                "single_elimination_result": null,
+                "ranking": 4,
+                "win_count": 2,
+                "loss_count": 1,
+                "draw_count": 0
+            },
+            {
+                "player": "Thibault Maigrat",
+                "single_elimination_result": null,
+                "ranking": 5,
+                "win_count": 1,
+                "loss_count": 2,
+                "draw_count": 0
+            },
+            {
+                "player": "Philippe B.",
+                "single_elimination_result": null,
+                "ranking": 6,
+                "win_count": 0,
+                "loss_count": 3,
+                "draw_count": 0
+            }
+        ]
+    },
+    {
+        "api_url": "https://unityleague.gg/api/events/15521/",
+        "name": "DC",
+        "date": "2025-10-01",
+        "start_time": null,
+        "end_time": null,
+        "format": "DC",
+        "category": "REGULAR",
+        "url": null,
+        "description": "",
+        "organizer": "https://unityleague.gg/api/organizers/355/",
+        "results": [
+            {
+                "player": "Sylvain C.",
+                "single_elimination_result": null,
+                "ranking": 1,
+                "win_count": 4,
+                "loss_count": 0,
+                "draw_count": 0
+            },
+            {
+                "player": "Anthony R.",
+                "single_elimination_result": null,
+                "ranking": 2,
+                "win_count": 3,
+                "loss_count": 1,
+                "draw_count": 0
+            },
+            {
+                "player": "Yoann Scordia",
+                "single_elimination_result": null,
+                "ranking": 3,
+                "win_count": 3,
+                "loss_count": 1,
+                "draw_count": 0
+            },
+            {
+                "player": "Burelout Nicolas",
+                "single_elimination_result": null,
+                "ranking": 4,
+                "win_count": 2,
+                "loss_count": 0,
+                "draw_count": 2
+            },
+            {
+                "player": "Nathan M.",
+                "single_elimination_result": null,
+                "ranking": 5,
+                "win_count": 2,
+                "loss_count": 1,
+                "draw_count": 1
+            },
+            {
+                "player": "L\u00e9o Vayrac",
+                "single_elimination_result": null,
+                "ranking": 6,
+                "win_count": 2,
+                "loss_count": 2,
+                "draw_count": 0
+            },
+            {
+                "player": "Lucas Pauzies",
+                "single_elimination_result": null,
+                "ranking": 7,
+                "win_count": 2,
+                "loss_count": 2,
+                "draw_count": 0
+            },
+            {
+                "player": "Fr\u00e9d\u00e9ric P.",
+                "single_elimination_result": null,
+                "ranking": 8,
+                "win_count": 2,
+                "loss_count": 2,
+                "draw_count": 0
+            },
+            {
+                "player": "Olivier M.",
+                "single_elimination_result": null,
+                "ranking": 9,
+                "win_count": 2,
+                "loss_count": 2,
+                "draw_count": 0
+            },
+            {
+                "player": "Tristan Grosset-Bourbange",
+                "single_elimination_result": null,
+                "ranking": 10,
+                "win_count": 2,
+                "loss_count": 2,
+                "draw_count": 0
+            },
+            {
+                "player": "Thibault Maigrat",
+                "single_elimination_result": null,
+                "ranking": 11,
+                "win_count": 1,
+                "loss_count": 3,
+                "draw_count": 0
+            },
+            {
+                "player": "Nicolas M.",
+                "single_elimination_result": null,
+                "ranking": 12,
+                "win_count": 1,
+                "loss_count": 3,
+                "draw_count": 0
+            },
+            {
+                "player": "Antoine Grimaldi",
+                "single_elimination_result": null,
+                "ranking": 13,
+                "win_count": 0,
+                "loss_count": 3,
+                "draw_count": 1
+            },
+            {
+                "player": "Patrick B.",
+                "single_elimination_result": null,
+                "ranking": 14,
+                "win_count": 0,
+                "loss_count": 4,
+                "draw_count": 0
+            }
+        ]
+    },
+    {
+        "api_url": "https://unityleague.gg/api/events/15519/",
+        "name": "Modern 10-09",
+        "date": "2025-09-10",
+        "start_time": null,
+        "end_time": null,
+        "format": "MODERN",
+        "category": "REGULAR",
+        "url": null,
+        "description": "",
+        "organizer": "https://unityleague.gg/api/organizers/355/",
+        "results": [
+            {
+                "player": "Burelout Nicolas",
+                "single_elimination_result": null,
+                "ranking": 1,
+                "win_count": 3,
+                "loss_count": 0,
+                "draw_count": 0
+            },
+            {
+                "player": "Bastien Lanneluc",
+                "single_elimination_result": null,
+                "ranking": 2,
+                "win_count": 2,
+                "loss_count": 1,
+                "draw_count": 0
+            },
+            {
+                "player": "Lucas Pauzies",
+                "single_elimination_result": null,
+                "ranking": 3,
+                "win_count": 2,
+                "loss_count": 1,
+                "draw_count": 0
+            },
+            {
+                "player": "Julien H.",
+                "single_elimination_result": null,
+                "ranking": 4,
+                "win_count": 1,
+                "loss_count": 2,
+                "draw_count": 0
+            },
+            {
+                "player": "Sylvain Sensebe",
+                "single_elimination_result": null,
+                "ranking": 5,
+                "win_count": 1,
+                "loss_count": 2,
+                "draw_count": 0
+            },
+            {
+                "player": "Aur\u00e9lien L.",
+                "single_elimination_result": null,
+                "ranking": 6,
+                "win_count": 0,
+                "loss_count": 3,
+                "draw_count": 0
+            }
+        ]
+    },
+    {
+        "api_url": "https://unityleague.gg/api/events/15518/",
+        "name": "Modern",
+        "date": "2025-09-11",
+        "start_time": null,
+        "end_time": null,
+        "format": "MODERN",
+        "category": "REGULAR",
+        "url": null,
+        "description": "<p>Modern</p>",
+        "organizer": "https://unityleague.gg/api/organizers/355/",
+        "results": [
+            {
+                "player": "Burelout Nicolas",
+                "single_elimination_result": null,
+                "ranking": 1,
+                "win_count": 3,
+                "loss_count": 0,
+                "draw_count": 0
+            },
+            {
+                "player": "Bastien Lanneluc",
+                "single_elimination_result": null,
+                "ranking": 2,
+                "win_count": 2,
+                "loss_count": 1,
+                "draw_count": 0
+            },
+            {
+                "player": "Lucas Pauzies",
+                "single_elimination_result": null,
+                "ranking": 3,
+                "win_count": 2,
+                "loss_count": 1,
+                "draw_count": 0
+            },
+            {
+                "player": "Julien H.",
+                "single_elimination_result": null,
+                "ranking": 4,
+                "win_count": 1,
+                "loss_count": 2,
+                "draw_count": 0
+            },
+            {
+                "player": "Sylvain Sensebe",
+                "single_elimination_result": null,
+                "ranking": 5,
+                "win_count": 1,
+                "loss_count": 2,
+                "draw_count": 0
+            },
+            {
+                "player": "Aur\u00e9lien L.",
+                "single_elimination_result": null,
+                "ranking": 6,
+                "win_count": 0,
+                "loss_count": 3,
+                "draw_count": 0
+            }
+        ]
+    },
+    {
+        "api_url": "https://unityleague.gg/api/events/15517/",
+        "name": "Draft Edge",
+        "date": "2025-09-24",
+        "start_time": null,
+        "end_time": null,
+        "format": "LIMITED",
+        "category": "REGULAR",
+        "url": null,
+        "description": "<p>Draft</p>",
+        "organizer": "https://unityleague.gg/api/organizers/355/",
+        "results": [
+            {
+                "player": "Burelout Nicolas",
+                "single_elimination_result": null,
+                "ranking": 1,
+                "win_count": 2,
+                "loss_count": 0,
+                "draw_count": 1
+            },
+            {
+                "player": "Lucas Pauzies",
+                "single_elimination_result": null,
+                "ranking": 2,
+                "win_count": 2,
+                "loss_count": 0,
+                "draw_count": 1
+            },
+            {
+                "player": "Lucas M.",
+                "single_elimination_result": null,
+                "ranking": 3,
+                "win_count": 2,
+                "loss_count": 1,
+                "draw_count": 0
+            },
+            {
+                "player": "Yo A.",
+                "single_elimination_result": null,
+                "ranking": 4,
+                "win_count": 2,
+                "loss_count": 1,
+                "draw_count": 0
+            },
+            {
+                "player": "Sylvain Sensebe",
+                "single_elimination_result": null,
+                "ranking": 5,
+                "win_count": 1,
+                "loss_count": 2,
+                "draw_count": 0
+            },
+            {
+                "player": "Brice C.",
+                "single_elimination_result": null,
+                "ranking": 6,
+                "win_count": 1,
+                "loss_count": 2,
+                "draw_count": 0
+            },
+            {
+                "player": "Paul G.",
+                "single_elimination_result": null,
+                "ranking": 7,
+                "win_count": 1,
+                "loss_count": 2,
+                "draw_count": 0
+            },
+            {
+                "player": "Thibault Maigrat",
+                "single_elimination_result": null,
+                "ranking": 8,
+                "win_count": 0,
+                "loss_count": 3,
+                "draw_count": 0
+            }
+        ]
+    },
+    {
+        "api_url": "https://unityleague.gg/api/events/15440/",
+        "name": "DC septembre",
+        "date": "2025-09-17",
+        "start_time": null,
+        "end_time": null,
+        "format": "DC",
+        "category": "REGULAR",
+        "url": null,
+        "description": "",
+        "organizer": "https://unityleague.gg/api/organizers/355/",
+        "results": [
+            {
+                "player": "Cl\u00e9ment Achard",
+                "single_elimination_result": null,
+                "ranking": 1,
+                "win_count": 3,
+                "loss_count": 0,
+                "draw_count": 1
+            },
+            {
+                "player": "Fr\u00e9d\u00e9ric P.",
+                "single_elimination_result": null,
+                "ranking": 2,
+                "win_count": 3,
+                "loss_count": 1,
+                "draw_count": 0
+            },
+            {
+                "player": "Yoann Scordia",
+                "single_elimination_result": null,
+                "ranking": 3,
+                "win_count": 2,
+                "loss_count": 0,
+                "draw_count": 2
+            },
+            {
+                "player": "Sylvain C.",
+                "single_elimination_result": null,
+                "ranking": 4,
+                "win_count": 2,
+                "loss_count": 0,
+                "draw_count": 2
+            },
+            {
+                "player": "Antoine Grimaldi",
+                "single_elimination_result": null,
+                "ranking": 5,
+                "win_count": 2,
+                "loss_count": 1,
+                "draw_count": 1
+            },
+            {
+                "player": "Nicolas Honnorat",
+                "single_elimination_result": null,
+                "ranking": 6,
+                "win_count": 2,
+                "loss_count": 2,
+                "draw_count": 0
+            },
+            {
+                "player": "Damien Garcia",
+                "single_elimination_result": null,
+                "ranking": 7,
+                "win_count": 2,
+                "loss_count": 2,
+                "draw_count": 0
+            },
+            {
+                "player": "Nicolas M.",
+                "single_elimination_result": null,
+                "ranking": 8,
+                "win_count": 1,
+                "loss_count": 2,
+                "draw_count": 1
+            },
+            {
+                "player": "Tristan Grosset-Bourbange",
+                "single_elimination_result": null,
+                "ranking": 9,
+                "win_count": 1,
+                "loss_count": 2,
+                "draw_count": 1
+            },
+            {
+                "player": "Burelout Nicolas",
+                "single_elimination_result": null,
+                "ranking": 10,
+                "win_count": 0,
+                "loss_count": 2,
+                "draw_count": 2
+            },
+            {
+                "player": "Anto N.",
+                "single_elimination_result": null,
+                "ranking": 11,
+                "win_count": 0,
+                "loss_count": 3,
+                "draw_count": 1
+            },
+            {
+                "player": "Philippe B.",
+                "single_elimination_result": null,
+                "ranking": 12,
+                "win_count": 0,
+                "loss_count": 3,
+                "draw_count": 1
+            }
+        ]
     }
 ]
