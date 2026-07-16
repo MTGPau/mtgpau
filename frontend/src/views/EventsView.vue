@@ -13,21 +13,12 @@
           <p>{{ intro }}</p>
         </div>
 
+        <SectionHeading anchor="events-list">Nos tournois du mois</SectionHeading>
         <div id="events-list" class="events-grid">
-          <div v-for="event in eventsList" :key="event.id" class="event-card">
-            <h3 class="event-title">{{ event.title }}</h3>
-            <p class="event-date">{{ formatDateWithDay(event.date) }}</p>
-            <p class="event-format">Format : {{ event.format }}</p>
-            <a
-              :href="event.registration"
-              target="_blank"
-              rel="noopener noreferrer"
-              class="event-registration-btn"
-            >
-              S'inscrire sur Discord
-            </a>
-          </div>
+          <EventCard v-for="event in eventsList" :key="event.url" :event="event" />
         </div>
+
+        <PastEventsSection :events="passedEvents" />
 
         <div id="unity-league" class="unity-league-section">
           <div class="unity-league-card">
@@ -89,12 +80,17 @@ import dataService from '@/services/dataService'
 import { useSeo } from '@/composables/useSeo'
 import { useEventsSchema } from '@/composables/useStructuredData'
 import SectionHeading from '@/components/SectionHeading.vue'
+import EventCard from '@/components/EventCard.vue'
+import PastEventsSection from '@/components/PastEventsSection.vue'
 import eventsData from '@/data/events.json'
+import passedEventsData from '@/data/passed_events.json'
 import type { Hero, Event, CTA, UnityLeague } from '@/types/data'
+import { parseEventDate } from '@/utils/dateFormatting'
 
 const hero = dataService.get('events.hero', { title: '', subtitle: '' }) as Hero
 const intro = dataService.get('events.intro', '') as string
 const rawEventsList = eventsData as Event[]
+const rawPassedEvents = passedEventsData as Event[]
 const cta = dataService.get('events.cta', { title: '', description: '' }) as CTA
 const unityLeague = dataService.get('events.unityLeague', {
   title: '',
@@ -110,63 +106,19 @@ const unityLeague = dataService.get('events.unityLeague', {
 useSeo('events')
 useEventsSchema()
 
-// Parse date format: DD/MM/YYYY HH:MM
-const parseDate = (dateStr: string) => {
-  const [datePart = '', timePart = ''] = dateStr.split(' ')
-  const [day = '1', month = '1', year = '2025'] = datePart.split('/')
-  const [hours = '0', minutes = '0'] = timePart.split(':')
-  return new Date(
-    parseInt(year),
-    parseInt(month) - 1,
-    parseInt(day),
-    parseInt(hours),
-    parseInt(minutes),
-  )
-}
-
-// Get French day name
-const getFrenchDayName = (date: Date) => {
-  const days = ['Dimanche', 'Lundi', 'Mardi', 'Mercredi', 'Jeudi', 'Vendredi', 'Samedi']
-  return days[date.getDay()]
-}
-
-// Get French month name
-const getFrenchMonthName = (monthIndex: number) => {
-  const months = [
-    'janvier',
-    'février',
-    'mars',
-    'avril',
-    'mai',
-    'juin',
-    'juillet',
-    'août',
-    'septembre',
-    'octobre',
-    'novembre',
-    'décembre',
-  ]
-  return months[monthIndex]
-}
-
-// Format date with French day and month names
-const formatDateWithDay = (dateStr: string) => {
-  const date = parseDate(dateStr)
-  const dayName = getFrenchDayName(date)
-  const day = date.getDate()
-  const monthName = getFrenchMonthName(date.getMonth())
-  const year = date.getFullYear()
-  const hours = String(date.getHours()).padStart(2, '0')
-  const minutes = String(date.getMinutes()).padStart(2, '0')
-
-  return `${dayName} ${day} ${monthName} ${year} - ${hours}:${minutes}`
-}
-
 const eventsList = computed(() => {
   return [...rawEventsList].sort((a: Event, b: Event) => {
-    const dateA = parseDate(a.date)
-    const dateB = parseDate(b.date)
+    const dateA = parseEventDate(a)
+    const dateB = parseEventDate(b)
     return dateA.getTime() - dateB.getTime() // Ascending order
+  })
+})
+
+const passedEvents = computed(() => {
+  return [...rawPassedEvents].sort((a: Event, b: Event) => {
+    const dateA = parseEventDate(a)
+    const dateB = parseEventDate(b)
+    return dateB.getTime() - dateA.getTime() // Descending order (newest first)
   })
 })
 </script>
@@ -239,66 +191,20 @@ const eventsList = computed(() => {
   line-height: 1.8;
 }
 
+.container > :deep(.section-heading) {
+  display: flex;
+  justify-content: center;
+  font-size: 2rem;
+  font-weight: 700;
+  color: var(--color-text);
+  margin-bottom: 2rem;
+}
+
 .events-grid {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
   gap: 2rem;
   margin-bottom: 4rem;
-}
-
-.event-card {
-  background-color: var(--color-white);
-  border-radius: 1rem;
-  padding: 2rem;
-  box-shadow: var(--shadow-md);
-  transition: all var(--transition-base);
-  position: relative;
-  display: flex;
-  flex-direction: column;
-}
-
-.event-card:hover {
-  transform: translateY(-4px);
-  box-shadow: var(--shadow-xl);
-}
-
-.event-title {
-  font-size: 1.5rem;
-  font-weight: 700;
-  color: var(--color-text);
-  margin-bottom: 0.5rem;
-}
-
-.event-date {
-  font-size: 0.9375rem;
-  color: var(--color-primary);
-  font-weight: 600;
-  margin-bottom: 1rem;
-}
-
-.event-format {
-  color: var(--color-text-soft);
-  font-size: 0.9375rem;
-  margin-bottom: 1.5rem;
-}
-
-.event-registration-btn {
-  display: inline-block;
-  padding: 0.75rem 1.5rem;
-  background-color: var(--color-primary);
-  color: var(--color-white);
-  text-decoration: none;
-  border-radius: 0.5rem;
-  font-weight: 600;
-  font-size: 0.9375rem;
-  text-align: center;
-  transition: all var(--transition-base);
-}
-
-.event-registration-btn:hover {
-  background-color: var(--color-primary-dark);
-  transform: translateY(-2px);
-  box-shadow: var(--shadow-md);
 }
 
 .unity-league-section {

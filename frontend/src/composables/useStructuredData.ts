@@ -52,12 +52,9 @@ export function useEventsSchema() {
     const contact = dataService.get('contact', {}) as Partial<Contact>
 
     const eventSchemas = events.map((event: Event) => {
-      // Parse date format: DD/MM/YYYY HH:MM
-      const [datePart = '', timePart = ''] = event?.date?.split(' ') || ['', '']
-      const [day = '1', month = '1', year = '2025'] = datePart
-        .split('/')
-        .map((v: string) => v || '0')
-      const [hours = '0', minutes = '0'] = timePart.split(':').map((v: string) => v || '0')
+      // Parse ISO date (YYYY-MM-DD) + time (HH:MM:SS)
+      const [year = '2026', month = '01', day = '01'] = event.date.split('-')
+      const [hours = '0', minutes = '0'] = (event.start_time || '00:00:00').split(':')
       const startDate = new Date(
         parseInt(year),
         parseInt(month) - 1,
@@ -69,7 +66,7 @@ export function useEventsSchema() {
       return {
         '@context': 'https://schema.org',
         '@type': 'SportsEvent',
-        name: event?.title || '',
+        name: event?.name || '',
         startDate: startDate.toISOString(),
         location: {
           '@type': 'Place',
@@ -87,8 +84,8 @@ export function useEventsSchema() {
         },
         eventStatus: 'https://schema.org/EventScheduled',
         eventAttendanceMode: 'https://schema.org/OfflineEventAttendanceMode',
-        description: `${event?.format || ''} - ${event?.title || ''}`,
-        url: event?.registration || '',
+        description: `${event?.format || ''} - ${event?.name || ''}`,
+        url: event?.url || '',
       }
     })
 

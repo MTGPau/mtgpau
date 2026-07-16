@@ -15,12 +15,27 @@ export interface Format {
   description: string
 }
 
+export interface PlayerResult {
+  player: string
+  single_elimination_result: string | null
+  ranking: number
+  win_count: number
+  loss_count: number
+  draw_count: number
+}
+
 export interface Event {
-  id: string
-  title: string
+  api_url: string
+  name: string
   date: string
+  start_time: string
+  end_time: string | null
   format: string
-  registration: string
+  category: string
+  url: string
+  description: string
+  organizer: string
+  results: PlayerResult[]
 }
 
 export interface UnityLeague {
