@@ -1,23 +1,28 @@
 [
-  {
-    "id": "modern-0000",
-    "title": "Tournoi Modern",
-    "date": "07/01/2026 20:00",
-    "format": "Modern",
-    "registration": "https://discord.gg/2a6ysrqwMD"
-  },
-  {
-    "id": "dc-0000",
-    "title": "Tournoi Duel Commander",
-    "date": "14/01/2026 20:00",
-    "format": "Duel Commander",
-    "registration": "https://discord.gg/2a6ysrqwMD"
-  },
-  {
-    "id": "pauper-0000",
-    "title": "Tournoi Pauper",
-    "date": "28/01/2026 20:00",
-    "format": "Pauper",
-    "registration": "https://discord.gg/2a6ysrqwMD"
-  }
+    {
+        "api_url": "https://unityleague.gg/api/events/37026/",
+        "name": "DC",
+        "date": "2026-07-29",
+        "start_time": "20:00:00",
+        "end_time": null,
+        "format": "DC",
+        "category": "REGULAR",
+        "url": null,
+        "description": "",
+        "organizer": "https://unityleague.gg/api/organizers/355/",
+        "results": []
+    },
+    {
+        "api_url": "https://unityleague.gg/api/events/37025/",
+        "name": "Pauper",
+        "date": "2026-07-22",
+        "start_time": "20:00:00",
+        "end_time": null,
+        "format": "PAUPER",
+        "category": "REGULAR",
+        "url": null,
+        "description": "",
+        "organizer": "https://unityleague.gg/api/organizers/355/",
+        "results": []
+    }
 ]
