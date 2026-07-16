@@ -1,5 +1,6 @@
 import { onMounted, onUnmounted } from 'vue'
 import dataService from '@/services/dataService'
+import eventsData from '@/data/events.json'
 import type { General, Contact, Event } from '@/types/data'
 
 export function useOrganizationSchema() {
@@ -46,7 +47,7 @@ export function useEventsSchema() {
   let script: HTMLScriptElement | null = null
 
   const addSchema = () => {
-    const events = dataService.get('events.list', []) as Event[]
+    const events = eventsData as Event[]
     const general = dataService.get('general', {}) as Partial<General>
     const contact = dataService.get('contact', {}) as Partial<Contact>
 

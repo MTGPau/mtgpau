@@ -89,11 +89,12 @@ import dataService from '@/services/dataService'
 import { useSeo } from '@/composables/useSeo'
 import { useEventsSchema } from '@/composables/useStructuredData'
 import SectionHeading from '@/components/SectionHeading.vue'
+import eventsData from '@/data/events.json'
 import type { Hero, Event, CTA, UnityLeague } from '@/types/data'
 
 const hero = dataService.get('events.hero', { title: '', subtitle: '' }) as Hero
 const intro = dataService.get('events.intro', '') as string
-const rawEventsList = dataService.get('events.list', []) as Event[]
+const rawEventsList = eventsData as Event[]
 const cta = dataService.get('events.cta', { title: '', description: '' }) as CTA
 const unityLeague = dataService.get('events.unityLeague', {
   title: '',

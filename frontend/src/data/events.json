@@ -1,0 +1,23 @@
+[
+  {
+    "id": "modern-0000",
+    "title": "Tournoi Modern",
+    "date": "07/01/2026 20:00",
+    "format": "Modern",
+    "registration": "https://discord.gg/2a6ysrqwMD"
+  },
+  {
+    "id": "dc-0000",
+    "title": "Tournoi Duel Commander",
+    "date": "14/01/2026 20:00",
+    "format": "Duel Commander",
+    "registration": "https://discord.gg/2a6ysrqwMD"
+  },
+  {
+    "id": "pauper-0000",
+    "title": "Tournoi Pauper",
+    "date": "28/01/2026 20:00",
+    "format": "Pauper",
+    "registration": "https://discord.gg/2a6ysrqwMD"
+  }
+]

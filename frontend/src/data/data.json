@@ -169,29 +169,6 @@
       "subtitle": "Découvrez tous les évènements organisés par MTG Pau"
     },
     "intro": "MTG Pau organise régulièrement des évènements pour tous les niveaux et tous les formats. Que vous soyez débutant ou joueur confirmé, vous trouverez des évènements adaptés à vos envies et à votre niveau.",
-    "list": [
-      {
-        "id": "modern-0000",
-        "title": "Tournoi Modern",
-        "date": "07/01/2026 20:00",
-        "format": "Modern",
-        "registration": "https://discord.gg/2a6ysrqwMD"
-      },
-      {
-        "id": "dc-0000",
-        "title": "Tournoi Duel Commander",
-        "date": "14/01/2026 20:00",
-        "format": "Duel Commander",
-        "registration": "https://discord.gg/2a6ysrqwMD"
-      },
-      {
-        "id": "pauper-0000",
-        "title": "Tournoi Pauper",
-        "date": "28/01/2026 20:00",
-        "format": "Pauper",
-        "registration": "https://discord.gg/2a6ysrqwMD"
-      }
-    ],
     "cta": {
       "title": "Intéressé par nos évènements ?",
       "description": "Pour plus d'informations sur nos évènements ou pour vous inscrire, n'hésitez pas à nous contacter."
