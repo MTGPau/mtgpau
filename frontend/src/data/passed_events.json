@@ -97,6 +97,103 @@
         ]
     },
     {
+        "api_url": "https://unityleague.gg/api/events/41054/",
+        "name": "DC",
+        "date": "2026-09-02",
+        "start_time": "20:00:00",
+        "end_time": null,
+        "format": "DC",
+        "category": "REGULAR",
+        "entry_fee": null,
+        "entry_fee_currency": "EUR",
+        "url": "https://unityleague.gg/events/41054/",
+        "description": "",
+        "image": null,
+        "organizer": "https://unityleague.gg/api/organizers/355/",
+        "results": [
+            {
+                "player": "L\u00e9o Vayrac",
+                "single_elimination_result": null,
+                "ranking": 1,
+                "win_count": 4,
+                "loss_count": 0,
+                "draw_count": 0
+            },
+            {
+                "player": "Tristan Grosset-Bourbange",
+                "single_elimination_result": null,
+                "ranking": 2,
+                "win_count": 3,
+                "loss_count": 1,
+                "draw_count": 0
+            },
+            {
+                "player": "Fr\u00e9d\u00e9ric P.",
+                "single_elimination_result": null,
+                "ranking": 3,
+                "win_count": 3,
+                "loss_count": 1,
+                "draw_count": 0
+            },
+            {
+                "player": "Nicolas Mondoloni",
+                "single_elimination_result": null,
+                "ranking": 4,
+                "win_count": 2,
+                "loss_count": 1,
+                "draw_count": 1
+            },
+            {
+                "player": "Olivier M.",
+                "single_elimination_result": null,
+                "ranking": 5,
+                "win_count": 2,
+                "loss_count": 2,
+                "draw_count": 0
+            },
+            {
+                "player": "Yoann Scordia",
+                "single_elimination_result": null,
+                "ranking": 6,
+                "win_count": 2,
+                "loss_count": 2,
+                "draw_count": 0
+            },
+            {
+                "player": "Alf From Melmac",
+                "single_elimination_result": null,
+                "ranking": 7,
+                "win_count": 1,
+                "loss_count": 2,
+                "draw_count": 1
+            },
+            {
+                "player": "Lucas Pauzies",
+                "single_elimination_result": null,
+                "ranking": 8,
+                "win_count": 1,
+                "loss_count": 3,
+                "draw_count": 0
+            },
+            {
+                "player": "Thibault Maigrat",
+                "single_elimination_result": null,
+                "ranking": 9,
+                "win_count": 1,
+                "loss_count": 3,
+                "draw_count": 0
+            },
+            {
+                "player": "Philippe B.",
+                "single_elimination_result": null,
+                "ranking": 10,
+                "win_count": 0,
+                "loss_count": 4,
+                "draw_count": 0
+            }
+        ]
+    },
+    {
         "api_url": "https://unityleague.gg/api/events/37026/",
         "name": "DC",
         "date": "2026-07-29",
