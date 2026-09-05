@@ -1,5 +1,37 @@
 [
     {
+        "api_url": "https://unityleague.gg/api/events/42374/",
+        "name": "AP",
+        "date": "2026-10-02",
+        "start_time": "19:30:00",
+        "end_time": "00:00:00",
+        "format": "LIMITED",
+        "category": "REGULAR",
+        "entry_fee": null,
+        "entry_fee_currency": "EUR",
+        "url": "https://unityleague.gg/events/42374/",
+        "description": "",
+        "image": null,
+        "organizer": "https://unityleague.gg/api/organizers/355/",
+        "results": []
+    },
+    {
+        "api_url": "https://unityleague.gg/api/events/42373/",
+        "name": "AP",
+        "date": "2026-09-25",
+        "start_time": "19:30:00",
+        "end_time": "00:00:00",
+        "format": "LIMITED",
+        "category": "REGULAR",
+        "entry_fee": null,
+        "entry_fee_currency": "EUR",
+        "url": "https://unityleague.gg/events/42373/",
+        "description": "",
+        "image": null,
+        "organizer": "https://unityleague.gg/api/organizers/355/",
+        "results": []
+    },
+    {
         "api_url": "https://unityleague.gg/api/events/41058/",
         "name": "DC",
         "date": "2026-09-30",
