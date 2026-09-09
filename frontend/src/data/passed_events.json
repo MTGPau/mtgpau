@@ -97,6 +97,87 @@
         ]
     },
     {
+        "api_url": "https://unityleague.gg/api/events/41055/",
+        "name": "Draft Hobbit",
+        "date": "2026-09-09",
+        "start_time": "19:15:00",
+        "end_time": null,
+        "format": "LIMITED",
+        "category": "REGULAR",
+        "entry_fee": null,
+        "entry_fee_currency": "EUR",
+        "url": "https://unityleague.gg/events/41055/",
+        "description": "",
+        "image": null,
+        "organizer": "https://unityleague.gg/api/organizers/355/",
+        "results": [
+            {
+                "player": "Lucas Pauzies",
+                "single_elimination_result": null,
+                "ranking": 1,
+                "win_count": 3,
+                "loss_count": 0,
+                "draw_count": 0
+            },
+            {
+                "player": "Ludovic E.",
+                "single_elimination_result": null,
+                "ranking": 2,
+                "win_count": 2,
+                "loss_count": 1,
+                "draw_count": 0
+            },
+            {
+                "player": "Burelout Nicolas",
+                "single_elimination_result": null,
+                "ranking": 3,
+                "win_count": 2,
+                "loss_count": 1,
+                "draw_count": 0
+            },
+            {
+                "player": "Nico C.-A.",
+                "single_elimination_result": null,
+                "ranking": 4,
+                "win_count": 2,
+                "loss_count": 1,
+                "draw_count": 0
+            },
+            {
+                "player": "Andr\u00e9 M.",
+                "single_elimination_result": null,
+                "ranking": 5,
+                "win_count": 1,
+                "loss_count": 2,
+                "draw_count": 0
+            },
+            {
+                "player": "Sylvain Sensebe",
+                "single_elimination_result": null,
+                "ranking": 6,
+                "win_count": 1,
+                "loss_count": 2,
+                "draw_count": 0
+            },
+            {
+                "player": "Alexandre M.",
+                "single_elimination_result": null,
+                "ranking": 7,
+                "win_count": 1,
+                "loss_count": 2,
+                "draw_count": 0
+            },
+            {
+                "player": "Guillaume T.",
+                "single_elimination_result": null,
+                "ranking": 8,
+                "win_count": 0,
+                "loss_count": 3,
+                "draw_count": 0
+            }
+        ]
+    },
+    {
         "api_url": "https://unityleague.gg/api/events/41054/",
         "name": "DC",
         "date": "2026-09-02",
