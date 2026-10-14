@@ -30,21 +30,5 @@
         "image": null,
         "organizer": "https://unityleague.gg/api/organizers/355/",
         "results": []
-    },
-    {
-        "api_url": "https://unityleague.gg/api/events/44006/",
-        "name": "Chaos Draft",
-        "date": "2026-10-14",
-        "start_time": "19:15:00",
-        "end_time": null,
-        "format": "LIMITED",
-        "category": "REGULAR",
-        "entry_fee": null,
-        "entry_fee_currency": "EUR",
-        "url": "https://unityleague.gg/events/44006/",
-        "description": "",
-        "image": null,
-        "organizer": "https://unityleague.gg/api/organizers/355/",
-        "results": []
     }
 ]
