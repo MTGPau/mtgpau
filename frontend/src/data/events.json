@@ -1,1 +1,66 @@
-[]
+[
+    {
+        "api_url": "https://unityleague.gg/api/events/51293/",
+        "name": "DC",
+        "date": "2026-11-25",
+        "start_time": "20:00:00",
+        "end_time": null,
+        "format": "DC",
+        "category": "REGULAR",
+        "entry_fee": null,
+        "entry_fee_currency": "EUR",
+        "url": "https://unityleague.gg/events/51293/",
+        "description": "",
+        "image": null,
+        "organizer": "https://unityleague.gg/api/organizers/355/",
+        "results": []
+    },
+    {
+        "api_url": "https://unityleague.gg/api/events/51292/",
+        "name": "Pauper S1J4",
+        "date": "2026-11-18",
+        "start_time": "20:00:00",
+        "end_time": null,
+        "format": "PAUPER",
+        "category": "REGULAR",
+        "entry_fee": null,
+        "entry_fee_currency": "EUR",
+        "url": "https://unityleague.gg/events/51292/",
+        "description": "",
+        "image": null,
+        "organizer": "https://unityleague.gg/api/organizers/355/",
+        "results": []
+    },
+    {
+        "api_url": "https://unityleague.gg/api/events/51291/",
+        "name": "Chaos Draft",
+        "date": "2026-11-11",
+        "start_time": "19:00:00",
+        "end_time": null,
+        "format": "LIMITED",
+        "category": "REGULAR",
+        "entry_fee": null,
+        "entry_fee_currency": "EUR",
+        "url": "https://unityleague.gg/events/51291/",
+        "description": "",
+        "image": null,
+        "organizer": "https://unityleague.gg/api/organizers/355/",
+        "results": []
+    },
+    {
+        "api_url": "https://unityleague.gg/api/events/51290/",
+        "name": "Modern",
+        "date": "2026-11-04",
+        "start_time": "20:00:00",
+        "end_time": null,
+        "format": "MODERN",
+        "category": "REGULAR",
+        "entry_fee": null,
+        "entry_fee_currency": "EUR",
+        "url": "https://unityleague.gg/events/51290/",
+        "description": "",
+        "image": null,
+        "organizer": "https://unityleague.gg/api/organizers/355/",
+        "results": []
+    }
+]
